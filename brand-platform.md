@@ -1,9 +1,9 @@
 ---
 title: Agency State — Brand Platform
-version: 1.0
+version: 1.1
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-05-28
+last_updated: 2026-05-30
 supersedes: agency-state-practice/archive/brand-book-v2.1-2026-05-28.md
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
@@ -24,7 +24,9 @@ Led by Greg Appler.
 
 ## 2. What Agency State delivers
 
-The substance of the work is **AI Enablement**, which is grounded in six competencies:
+**Operating frameworks** — the workflows, integrations, documentation, and processes the marketing team will run and own. Built with the team.
+
+These frameworks are built on a foundation of six competencies to ensure they're complete, fit the team's context, and can be evolved by the team:
 
 - **Governance** — rules and review checkpoints that decide what AI-assisted work ships and who signs off.
 - **Knowledge bases** — reference material the model draws on, so its output reflects brand and organizational standards.
@@ -107,10 +109,10 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 **Terms with fixed meaning:**
 
-- **AI Enablement** — the brand-level descriptor for what Agency State delivers: six competencies (governance, knowledge bases, content engineering, planning, measurement, change management) brought to AI work for marketing functions. Not separately purchasable services. Capitalize throughout — it names a discipline.
+- **AI Enablement** — building a marketing function's AI capacity on a foundation of six competencies: governance, knowledge bases, content engineering, planning, measurement, change management. Not separately purchasable services. Capitalize throughout — it names a discipline.
 - **AI-fluent marketer** — a marketer who works competently with AI tools as part of their practice. Describes capability and skill; applies to people, not organizations.
 - **Human/AI team** — a marketing team where people and AI agents work together on the same work. The state the practice helps clients reach. Lowercase in prose.
-- **Operating frameworks** — the structured outcome of the work: the six competencies plus the artifacts that support them. Describe what the frameworks hold when specificity is needed. Never *operating layer*.
+- **Operating frameworks** — the artifacts and processes the team owns and runs, built on a foundation of six competencies to ensure completeness and quality. Never *operating layer*.
 - **Artifacts** — the reusable units that come out of an engagement: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
 - **Workflow** — the process itself; what the client's team actually runs. Active vocabulary for what gets built.
 - **Pipeline** — the structured artifact that documents a workflow's phases, gates, criteria, and automation points. A pipeline documents a workflow; a workflow doesn't have to have a pipeline yet.
