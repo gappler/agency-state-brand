@@ -1,6 +1,6 @@
 ---
 title: Agency State — Brand Platform
-version: 1.1
+version: 1.2
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-05-30
@@ -16,7 +16,7 @@ This is the machine-readable brand intelligence for Agency State. Each section b
 
 ## 1. Identity
 
-Agency State brings AI Enablement to marketing functions — building human/AI teams.
+Agency State enables human/AI marketing teams.
 
 Led by Greg Appler.
 
