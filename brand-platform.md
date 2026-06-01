@@ -1,9 +1,9 @@
 ---
 title: Agency State — Brand Platform
-version: 1.2
+version: 1.3
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 supersedes: agency-state-practice/archive/brand-book-v2.1-2026-05-28.md
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
@@ -142,7 +142,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 ## 8. Proof
 
-**Founder: Greg Appler.** Two decades in agency and brand-side marketing, most recently a decade leading the team at the American Institute of Architects (2014–2023) — 95,000 members, $65M annual revenue. Built the marketing function from three designers to twelve professionals. Was business owner of a brand and marketing transformation: brand platform and architecture refresh (Pentagram on visual identity, adopted across 260 chapters); Salesforce Marketing Cloud, paid media ($1M+/year), and an enterprise analytics platform measuring across all programs. Led the definition and technical PM work on AIAU, the organization's first on-demand continuing education platform. Notable outcomes: consistent visual identity and brand standards across the chapter network; audience segmentation, personalized messaging, and marketing automation; expanded brand reach to unowned audiences; and record levels of membership and conference attendance. Earlier: Y&R, Designory, and Grafik, on brands including Lincoln, Nissan/Infiniti, and Bacardi Global Brands.
+**Founder: Greg Appler.** Two decades in agency and brand-side marketing, most recently a decade leading the team at the American Institute of Architects (2014–2023) — 100,000 members, $65M annual revenue. Built the marketing function from three designers to twelve professionals. Was business owner of a brand and marketing transformation: brand platform and architecture refresh (Pentagram on visual identity, adopted across 250 chapters); Salesforce Marketing Cloud, paid media ($1M+/year), and an enterprise analytics platform measuring across all programs. Led the definition and technical PM work on AIAU, the organization's first on-demand continuing education platform. Notable outcomes: consistent visual identity and brand standards across the chapter network; audience segmentation, personalized messaging, and marketing automation; expanded brand reach to unowned audiences; and record levels of membership and conference attendance. Earlier: Y&R, Designory, and Grafik, on brands including Lincoln, Nissan/Infiniti, and Bacardi Global Brands.
 
 ---
 
