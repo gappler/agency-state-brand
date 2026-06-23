@@ -1,9 +1,9 @@
 ---
 title: Agency State — Brand Platform
-version: 1.3
+version: 1.4
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-05-31
+last_updated: 2026-06-22
 supersedes: agency-state-practice/archive/brand-book-v2.1-2026-05-28.md
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
@@ -39,7 +39,7 @@ These frameworks are built on a foundation of six competencies to ensure they're
 
 ## 3. Positioning
 
-Agency State enables human/AI teams that produce marketing work at a scale and quality a team couldn't reach on its own. The work is held to the team's standard, running on the team's context. The engagement builds an AI-fluent team that owns and runs the work going forward.
+Agency State enables human/AI teams that produce marketing work at a scale and quality a team couldn't reach on its own. The work is held to the team's standard, running on the team's context. The engagement builds an AI-fluent team that owns and runs the work going forward. The work is built primarily in Claude Code, a deliberate choice for its depth as an agent platform; the frameworks carry across models like Codex too.
 
 ---
 
@@ -149,7 +149,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 ## 9. What Agency State is not
 
 - **Not enterprise consulting.** The work fits a single marketing function with a clear owner — not multi-thousand-person transformation with dedicated AI teams and complex procurement.
-- **Not a Claude Code tutorial.** The work uses Claude Code, but the frameworks apply across models — Codex and others work too.
+- **Not a tutorial or course.** The work builds operating frameworks the team owns and runs, not lessons in a tool. Claude Code is the primary tool and a deliberate choice; the frameworks carry across models like Codex too.
 - **Not a productized course or cohort.** Engagements take the shape of the work they serve.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist for a reason; he isn't one of them.
 - **Not a vendor of AI tools or technology.** The frameworks and artifacts that get built belong to the client.
