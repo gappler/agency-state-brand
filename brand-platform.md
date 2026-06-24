@@ -3,8 +3,7 @@ title: Agency State — Brand Platform
 version: 1.4
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-06-22
-supersedes: agency-state-practice/archive/brand-book-v2.1-2026-05-28.md
+last_updated: 2026-06-23
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -161,7 +160,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 *Human reference only — not served via MCP.*
 
 - Single AI-facing document; supersedes brand-book.md v2.1. No separate human-readable brand book (solo practice; the human who needs the brand already holds it).
-- Offers, pricing, format, and engagement-shape content live in `agency-state-practice/strategy/working-notes.md` — operational, changes faster than this platform should.
+- Offers, pricing, format, and engagement-shape content are operational — they change faster than this platform should and live outside this doc, not in it.
 - The staged-journey process steps (awareness → first wins → … → self-sufficiency) stay cut as internal-process detail. The team-ownership outcome — the engagement builds an AI-fluent team that owns and runs the work — lives in positioning as a differentiator. The *context + conversation* framing remains cut.
 - Substack content deliberately excluded — it is a separate project with its own voice and audience.
 - Visual identity stays in `brand-guidelines.md`.
