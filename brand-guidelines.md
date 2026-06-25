@@ -1,7 +1,7 @@
 ---
 title: Agency State — Brand Guidelines
-date: 2026-06-23
-version: 3.1
+date: 2026-06-25
+version: 3.2
 status: active
 ---
 
@@ -14,7 +14,7 @@ This is the system of truth for Agency State's visual language. When you build a
 
 Novel variations live in a page's own CSS. Don't elevate a pattern to this guide just because it appeared twice — repetition alone isn't evidence it belongs in the system. The default answer to "should we add this to the guide?" is **no**. When the temptation arises, push back: surface the question, name the tradeoff, and only update if explicit agreement is reached. Codifying a mistake or a one-off is worse than leaving it out.
 
-This guide was reduced to the brand foundation in v3.0 — logo, type, color, spacing, motion — plus the single page type currently in use (the personal-statement homepage). The page-type catalog and conversion components from earlier versions were removed when the cohort/sales offers were retired. New page patterns (e.g., a lead-magnet page) get documented here *after* they're built, per the rule above — not prescribed in advance.
+This guide was reduced to the brand foundation in v3.0 — logo, type, color, spacing, motion — plus the one page type documented here (the personal-statement homepage). The page-type catalog and conversion components from earlier versions were removed when the cohort/sales offers were retired. New page patterns get documented here *after* they're built, per the rule above — not prescribed in advance. Buildable page recipes (e.g., the lead-magnet page) live in their own skill and reference this foundation rather than duplicating it.
 
 For voice, copy, and positioning decisions, see `brand-platform.md`.
 
@@ -33,10 +33,10 @@ For voice, copy, and positioning decisions, see `brand-platform.md`.
 ### Monogram icon
 
 - A **white star on a sharp (non-rounded) black square** — the star (representing *state*) positioned toward the right edge and slightly rotated, exiting the square. The visual statement: *state* (the second word) acts on its own *agency* (the first word's secondary meaning, the capacity to act). The buyer sees themselves in the mark — a marketing builder exiting the institutional frame to do their best work.
-- **No corner radius — the square is sharp.** This is the favicon.
-- The black mark is the default. A **white-star-on-orange** variant (square in `--accent` `#D4602A`) exists in the brand `assets/` for future use.
-- Production assets in the brand repo `assets/`: `agency-state-mark-black.png` (default), `agency-state-mark-orange.svg` / `.png` (future use).
-- Use as favicon, social avatar, and app icon only — not combined with the wordmark into a lockup in production.
+- **No corner radius — the square is sharp.** Used as the favicon.
+- The black mark is the default and the site-wide favicon. A **white-star-on-orange** variant (square in `--accent` `#D4602A`) is in production on the lead-magnet page type — as that page's favicon and as its cover mark. Black remains the default everywhere else.
+- Production assets in the brand repo `assets/`: `agency-state-mark-black.svg` / `.png` (default), `agency-state-mark-orange.svg` / `.png` (lead-magnet page).
+- Use as favicon, social avatar, and app icon. Not combined with the wordmark into a lockup in production — with one carve-out: **lead-magnet / document covers** may pair the wordmark with the orange mark (see Logo usage › Acceptable configurations).
 - Replaces the *as* monogram (lowercase a/s on a rounded square), retired in v2.8 — the lowercase letterforms didn't read at small sizes.
 
 ### Full logo (reserved)
@@ -130,7 +130,7 @@ All eight variables must be declared in every page's `:root`. Don't hardcode hex
 
 - The logo is monochromatic. It works in any single dark color on a light background, or light color on a dark background.
 - No gradients, no shadows, no glow effects on the logo.
-- The monogram is a **white star on a black square** (the favicon). A white-star-on-orange variant exists in the brand assets for future use.
+- The monogram is a **white star on a sharp square** — black by default (site-wide favicon), orange (`--accent`) on the lead-magnet page type (favicon + cover mark).
 - The accent orange is used sparingly — CTAs, links, highlighted inline metadata, and gate or indicator states only. Never for body copy, plain headings, or large surfaces. The typography carries the identity, not the color.
 - **Emphasis exception.** Accent orange may be used for emphasis markup (`<em>`) within headlines and for complete standalone pull quotes. In these contexts orange marks the conceptual payload — the one word or phrase that carries the idea. The reader learns the grammar: orange = the point.
 
@@ -148,11 +148,14 @@ Maintain clear space around the full logo equal to the height of the monogram ic
 - Wordmark only (no icon, no tagline): minimum width 200px / 1.75 inches
 - Monogram icon only: minimum 32px / 0.3 inches
 
+These minimums govern standalone and print placement. Responsive site chrome is exempt — the fixed nav renders the wordmark at 180px (146px mobile) by design.
+
 ### Acceptable configurations
 
 1. **Wordmark only (primary):** `agencystate` outlined — the default use across site navigation, footer, documents, decks, headers, email signatures. Rendered from the outlined SVG, not font-dependent.
-2. **Monogram only:** Square mark (white star on black) — favicon, social avatars, app icons, small-format contexts. Not combined into a lockup with the wordmark in production.
+2. **Monogram only:** Square mark (white star on black) — favicon, social avatars, app icons, small-format contexts. Not combined into a lockup with the wordmark in production, except on lead-magnet / document covers (config 4).
 3. **Full logo (reserved):** Icon + wordmark + tagline — reserved for brand-introduction contexts where full positioning is useful (press kits, slide title pages). Not used in-product or in body documents.
+4. **Cover lockup (lead-magnet / document covers):** wordmark + orange monogram stacked on a document cover — the one production context where the wordmark and mark appear together outside the reserved full logo. The mark reads as an accent, not a fixed lockup; spacing is set by the cover layout.
 
 ### Do not
 
@@ -241,7 +244,7 @@ Fixed top, backdrop-blur, border-bottom transitions to visible when scrolled pas
 **Spec:**
 - `height: 64px` (desktop), `56px` (mobile ≤ 600px)
 - `background: rgba(250, 249, 247, 0.9)` with `backdrop-filter: blur(16px)`
-- Wordmark left (`width: 160px` desktop, `130px` mobile), no CTA
+- Wordmark left (`width: 180px` desktop, `146px` mobile), no CTA
 
 **Script dependency:** scroll listener toggles `.scrolled` class at scrollY > 16px.
 
@@ -305,13 +308,13 @@ Stagger delays (applied via `.d1`–`.d4`):
 | Container horizontal padding | 2rem | 1.25rem |
 | Hero top padding | 8.5rem | 6rem |
 | Nav height | 64px | 56px |
-| Nav wordmark width | 160px | 130px |
+| Nav wordmark width | 180px | 146px |
 
 ---
 
 ## Page type
 
-One page type is currently in use. New page types get documented here after they're built, not before.
+Two page types are in use. The umbrella / personal-statement homepage is documented below. The **lead-magnet / conversion page** (two-column sticky-panel capture page, e.g. `agencystate.ai/claude-code-for-marketing/`) is a buildable recipe — its layout, CTA button, and capture/delivery wiring live in the **leadgen-page skill**, not here, since those are build-time concerns rather than brand foundation. Both page types share the foundation above (logo, type, color, spacing, motion). New page types get documented (or skill-ified) after they're built, not before.
 
 ### Umbrella / personal statement (e.g., `agencystate.ai/`)
 
@@ -345,4 +348,4 @@ These items need attention but aren't blocking current work. Resolve when the re
 
 - **Hero `display: flex`.** A prior `.hero` rule had `display: flex; align-items: center` which caused an indent issue; both properties were removed. If it's ever added back to a page, verify it doesn't reintroduce the indent before committing.
 
-- **New page patterns.** When the next page type is built (e.g., a marketing-AI-primer lead-magnet page), document whatever patterns it lands on here — after it ships, per the philosophy at the top of this doc.
+- **New page patterns.** The lead-magnet page type shipped (2026-06-25); per the philosophy above, its build recipe lives in the leadgen-page skill rather than this guide. Promote a pattern up to this foundation only if a second, non-lead-gen page adopts it — repetition inside one page type isn't evidence it belongs here.
