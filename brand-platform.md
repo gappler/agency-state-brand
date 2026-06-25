@@ -1,9 +1,9 @@
 ---
 title: Agency State — Brand Platform
-version: 1.4
+version: 1.5
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-06-23
+last_updated: 2026-06-25
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -18,6 +18,11 @@ This is the machine-readable brand intelligence for Agency State. Each section b
 Agency State enables human/AI marketing teams.
 
 Led by Greg Appler.
+
+**Lines:**
+
+- **Tagline (formal):** "Enabling human/AI marketing teams." — for the logo lockup, decks, and formal contexts. Carries the *human/AI team* concept.
+- **Positioning line (plain-language):** "Helping marketing teams put AI to work." — the honest, transparent lead/hero line. Use where you open with what the work actually is. Canonical alongside the tagline; they do different jobs.
 
 ---
 
@@ -136,6 +141,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **Generic "AI strategy" as a deliverable** — too abstract. Name what is actually being built.
 - **"Capability transfer" / "teaches you to build" as promises** — overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it doesn't transfer capability in a single handoff.
 - **Comparisons to other vendors or categories** — "Most AI courses…," "Unlike enterprise consulting…" Lead with what Agency State does, not what others don't.
+- **Mechanical-repetition framing** — "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment and adaptation. Describe what the AI actually does, including handling novel situations — not just running a fixed routine. (*Recurring work / workload* stays fine — "recurring" means happens regularly, not "done identically.")
 
 ---
 
@@ -164,3 +170,5 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - The staged-journey process steps (awareness → first wins → … → self-sufficiency) stay cut as internal-process detail. The team-ownership outcome — the engagement builds an AI-fluent team that owns and runs the work — lives in positioning as a differentiator. The *context + conversation* framing remains cut.
 - Substack content deliberately excluded — it is a separate project with its own voice and audience.
 - Visual identity stays in `brand-guidelines.md`.
+- Tagline vs. positioning line (2026-06-25): "Enabling human/AI marketing teams" stays the formal tagline (lockup/decks); "Helping marketing teams put AI to work" added as the plain-language positioning/hero line — chosen as the more honest, transparent lead. Both canonical, different jobs.
+- Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment and adaptation — it describes a script, not a collaborator. Surfaced from a primer landing-page copy edit.
