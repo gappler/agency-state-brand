@@ -51,14 +51,9 @@ For a brand marketing team, the team's standard is the brand itself. The Brand O
 
 ## 4. Audience
 
-Agency State is AI Enablement for brand marketing teams at mid-to-large B2B and B2C organizations, and their agencies. The buyer owns the work and has the authority to direct it, whatever the company size, structure, or title.
+Agency State is AI Enablement for brand marketing teams at mid-to-large B2B and B2C organizations, and their agencies. The team is tech-forward, AI-familiar and committed to going deeper.
 
-**Fit criteria:**
-
-1. **Clear owner.** Can authorize and direct the work within their function without coordinating across the organization.
-2. **Tech-forward.** The team has AI familiarity and a commitment to going deeper.
-
-**Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but they do not own the work.
+**Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but the marketing team owns the work.
 
 ---
 
