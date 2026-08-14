@@ -19,7 +19,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 **Lines:**
 
-- **Tagline (formal).** "Enabling brand marketing teams." For the logo lockup, decks, and formal contexts.
+- **Tagline (formal).** "AI Enablement for Brand Marketing." For the logo lockup, decks, and formal contexts.
 - **Positioning line (plain).** "Helping brand marketing teams put AI to work." The honest hero line, for opening with what the work actually is. Canonical with the tagline; they do different jobs.
 
 ---
