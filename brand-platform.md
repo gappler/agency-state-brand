@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Platform
-version: 2.0
+version: 2.1
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-08-13
+last_updated: 2026-08-18
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, n8n, and AI workflows.
 ---
 
@@ -142,6 +142,7 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - **"Capability transfer" or "teaches you to build" as promises.** Overstates what an engagement delivers. The work hands over artifacts and documentation and shifts ownership over time; it does not transfer capability in a single handoff.
 - **Comparisons to other vendors or categories.** "Most AI courses...," "Unlike enterprise consulting..." Lead with what Agency State does, not what others do not.
 - **Mechanical-repetition framing.** "repeatable," "does the same thing every time," "the same way every time." Frames the AI as a deterministic script and undersells its judgment. Describe what the AI actually does, including how it handles novel situations. ("Recurring work" stays fine; "recurring" means happens regularly, not done identically.)
+- **Announced honesty.** "honestly," "to be honest," "I'll be honest," "truthfully." The straight-talk voice proves candor by being direct, so announcing it signals the opposite and reads as a filler tic. Say the honest thing plainly. ("I'll tell you straight" or "I'll tell you whether it's a fit" carries the candor without the word.)
 
 ---
 
@@ -173,5 +174,6 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - Substack content deliberately excluded. It is a separate project with its own voice and audience.
 - Visual identity stays in brand-guidelines.md.
 - Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment. It describes a script, not a collaborator.
+- Announced-honesty framing added to never-say (2026-08-18): "honestly / to be honest" is a filler tic that undercuts the straight-talk voice by announcing what directness should just show. Requested after a review panel found "I'll tell you honestly" recurring across pages.
 - v2.0 rewrite (2026-08-13): audience sharpened to brand marketing teams at mid-to-large B2B and B2C organizations and their agencies. Identity restated as AI Enablement, not an agency for hire, with the name's "agency" read as capacity to act; "not a marketing agency for hire" added to §9, "not a productized course or cohort" cut as residual. Brand OS added as the signature artifact, woven through identity, delivery, and positioning. Dropped the "human/AI team" framing entirely (tagline, positioning, vocabulary) as a concession no longer wanted. Positioning leaned into autonomy: AI carries the execution, people move on and then out of the loops as the team sets the pace, framed as the owner's leverage; a §7 note keeps honest automation-talk from being read as fear framing. Formal tagline changed to "Enabling brand marketing teams," hero line to "Helping brand marketing teams put AI to work." Language rules applied across the doc (no em dashes, plain words over coined terms, redundancy cut), with the plain-words and no-em-dash rules written into §5.
 - Review panel (2026-08-13): ran a six-lens pre-publish panel. Applied its findings: Brand OS definition sharpened to differentiate it from a generic knowledge base; the §3 autonomy hedge cut and replaced with "the team sets the pace"; §2 change-management reworded so it does not contradict the autonomy stance; §8 proof corrected (dropped an inconsistent year range and an unverifiable chapter count, "transformation" changed to "overhaul"); §4 fit criterion scoped to the function; "alongside" fixed to "with"; and several economy and consistency fixes. Promoted to canonical 2026-08-13.
