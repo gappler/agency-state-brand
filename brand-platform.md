@@ -97,6 +97,8 @@ Agency State voice is one practitioner talking to another about real work. Plain
 
 - **No em dashes.** Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
 
+- **"X, not Y" antithesis is off by default.** The comma-pivot reversal ("a repo you own, not a tool you rent," "encoded, not carried in memory") is a tic once it recurs. State the point positively instead. Allowed only where the contrast itself is the point and earns its place; if there's no clear cause, cut the "not Y" half.
+
 ---
 
 ## 6. Vocabulary
@@ -175,5 +177,6 @@ Agency State voice is one practitioner talking to another about real work. Plain
 - Visual identity stays in brand-guidelines.md.
 - Mechanical-repetition framing added to never-say (2026-06-25): "repeatable / same way every time" undersells AI judgment. It describes a script, not a collaborator.
 - Announced-honesty framing added to never-say (2026-08-18): "honestly / to be honest" is a filler tic that undercuts the straight-talk voice by announcing what directness should just show. Requested after a review panel found "I'll tell you honestly" recurring across pages.
+- "X, not Y" antithesis rule added to §5 (2026-08-18): the comma-pivot reversal is off by default, allowed only with clear cause. The review panel found it the dominant sentence shape (~9x) across the website copy.
 - v2.0 rewrite (2026-08-13): audience sharpened to brand marketing teams at mid-to-large B2B and B2C organizations and their agencies. Identity restated as AI Enablement, not an agency for hire, with the name's "agency" read as capacity to act; "not a marketing agency for hire" added to §9, "not a productized course or cohort" cut as residual. Brand OS added as the signature artifact, woven through identity, delivery, and positioning. Dropped the "human/AI team" framing entirely (tagline, positioning, vocabulary) as a concession no longer wanted. Positioning leaned into autonomy: AI carries the execution, people move on and then out of the loops as the team sets the pace, framed as the owner's leverage; a §7 note keeps honest automation-talk from being read as fear framing. Formal tagline changed to "Enabling brand marketing teams," hero line to "Helping brand marketing teams put AI to work." Language rules applied across the doc (no em dashes, plain words over coined terms, redundancy cut), with the plain-words and no-em-dash rules written into §5.
 - Review panel (2026-08-13): ran a six-lens pre-publish panel. Applied its findings: Brand OS definition sharpened to differentiate it from a generic knowledge base; the §3 autonomy hedge cut and replaced with "the team sets the pace"; §2 change-management reworded so it does not contradict the autonomy stance; §8 proof corrected (dropped an inconsistent year range and an unverifiable chapter count, "transformation" changed to "overhaul"); §4 fit criterion scoped to the function; "alongside" fixed to "with"; and several economy and consistency fixes. Promoted to canonical 2026-08-13.
