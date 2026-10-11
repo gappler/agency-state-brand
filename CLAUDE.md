@@ -2,7 +2,7 @@
 title: Claude Code guidance for agency-state-brand
 description: Working instructions for Claude Code sessions operating in the canonical Agency State brand repo
 version: 0.2.0
-last_updated: 2026-08-27
+last_updated: 2026-10-11
 ---
 
 This repo is the **canonical source of truth** for how Agency State presents itself. It holds approved brand truth only — no drafts, no how-tos, no actors. It feeds the Agency State brand MCP, so anything served from here must be the approved answer, never a half-formed one.
@@ -22,4 +22,8 @@ When a document carries version metadata (`version`, `last_updated`), preserve a
 
 ## What does not belong here
 
-Drafts, work-in-progress, offers/pricing/engagement-shape detail, open questions, how-to skills, and agents. Strategic-in-flight material lives in `agency-state-practice/strategy/working-notes.md`. The moment work-in-progress creeps in, this stops being a clean source of truth and the MCP starts serving drafts.
+Drafts, work-in-progress, offers/pricing/engagement-shape detail, open questions,
+how-to skills, and agents. Strategic-in-flight material belongs in
+`agency-state-practice`, usually under a relevant `projects/`, `plans/`, or `refs/`
+folder. The moment work-in-progress creeps in, this stops being a clean source of
+truth and the MCP starts serving drafts.
