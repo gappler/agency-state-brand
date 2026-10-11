@@ -1,8 +1,8 @@
 ---
 title: Agency State Brand Guidelines
-version: 4.0
+version: 4.1
 date: 2026-08-28
-last_updated: 2026-08-28
+last_updated: 2026-10-11
 status: Current. The surface-independent brand layer only; visual implementation lives in the design system (see the closing section).
 version_note: >
   v4.0 re-derives the document against the current draft pages and shared stylesheet (AGE-30).
@@ -50,7 +50,7 @@ The default answer to "should we add this to the guide?" is **no**. This documen
 
 - A **white star on a sharp (non-rounded) square**, the square in near-black (`#111111`). The star (representing *state*) sits toward the right edge and is slightly rotated, exiting the square. The statement: *state* acts on its own *agency* (the capacity to act). The buyer sees themselves in the mark, a marketing builder stepping out of the institutional frame to do their best work.
 - **No corner radius. The square is sharp.**
-- The **black mark is the default** and the site-wide favicon. A **white-star-on-orange** variant (the square in the accent orange) is reserved for the lead-magnet page type, as that page's favicon and cover mark. Black everywhere else.
+- The **black mark is the default** and the site-wide favicon. A **white-star-on-orange** variant (the square in the accent orange) is reserved for lead-magnet page types and branded social preview cards, where it works as an accent beside the wordmark. Black everywhere else.
 - Used as favicon, social avatar, and app icon.
 - Replaces the *as* monogram (lowercase a/s on a rounded square), retired in v2.8 because the lowercase letterforms did not read at small sizes.
 
@@ -91,6 +91,7 @@ These minimums govern standalone and print placement. Responsive site chrome is 
 3. **Header lockup:** in site chrome, the mark sits immediately left of the wordmark. This is the one in-product context where mark and wordmark appear together. They are set side by side at the header's own scale; this is not the reserved full logo and carries no tagline.
 4. **Full logo (reserved):** mark + wordmark + tagline. Brand-introduction contexts only (press kits, slide title pages). Not used in-product or in body documents.
 5. **Cover lockup (lead-magnet / document covers):** wordmark plus the orange mark on a document cover. The mark reads as an accent; spacing is set by the cover layout.
+6. **Social preview card:** wordmark plus the orange mark and the social preview line, "On brand, at the speed of AI." Used for OG/social cards only. The mark reads as an accent, not a general-purpose logo lockup.
 
 ### Do not
 
