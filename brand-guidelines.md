@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.0
+version: 5.1
 status: Canonical
 date: 2026-10-25
 last_updated: 2026-10-25
@@ -101,13 +101,13 @@ Each visual form has one job. Use the form that matches what the content is.
 - **Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
 - **Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.
 - **Spec panels** (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system's own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration.
-- **Inline code:** tool and file names inside a sentence use DM Mono.
+- **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.
 - **Stack rows:** the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool's brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged.
 
 ## Motion
 
 - Motion is small and functional: content may fade or slide in slightly as it scrolls into view, and links and cards change color on hover.
-- No bounce or overshoot, no loops, no pulses, no parallax.
+- No exaggerated bounce, loops, pulses, or parallax. A slight settle at the end of a slide-in is fine (the stack rows on the homepage).
 - Respect reduced motion: with `prefers-reduced-motion`, content appears without animation and nothing stays hidden.
 
 ## Assets
@@ -115,10 +115,6 @@ Each visual form has one job. Use the form that matches what the content is.
 - Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.
 - Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).
 - Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.
-
-## Known site fixes
-
-The site currently breaks these rules: the stack rows overshoot before settling, and with reduced motion switched on after load the stack rows can stay hidden. Inline code currently falls back to the browser's default monospace rather than DM Mono. All three are fixes in site.css.
 
 ## Voice, tone, and copy
 
