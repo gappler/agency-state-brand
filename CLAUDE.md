@@ -10,7 +10,7 @@ This repo is the **canonical source of truth** for how Agency State presents its
 ## Contents
 
 - `brand-platform.md` — AI-facing brand intelligence: identity, what Agency State delivers, positioning, audience, voice, vocabulary, never-say, proof, boundaries. Each section is written to be served whole as one MCP tool response.
-- `brand-guidelines.md` — visual identity: logo, typography, color, components, page types.
+- `brand-guidelines.md` — visual identity: logo, color, typography, layout, components, motion, assets.
 
 ## Editing rule
 
