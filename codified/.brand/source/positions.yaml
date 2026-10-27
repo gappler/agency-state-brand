@@ -1,0 +1,61 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+positions:
+  - id: checks-have-scope
+    stance: '**Control** separates what a machine can check from what a person should decide. Passing a check establishes only what it tested. A person on the team reviews each draft, and decision owners get the questions that reviewer cannot settle.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    date: '2026-10-27'
+  - id: corrections-need-decisions
+    stance: A correction to a draft shouldn't automatically become a change to the brand. The problem may be an error in the draft, a case that calls for an exception, stale source material, or a rule that's too loose, too strict, or missing.
+    prov:
+      src: brand-book, What is Brand OS?, 04. Feedback
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    date: '2026-10-27'
+  - id: voice-fit-needs-judgment
+    stance: Voice judgment still belongs to a person. A system can catch banned words and formatting errors. It cannot decide whether a line has the right feel for the brand.
+    prov:
+      src: brand-book, What AI needs to know about your brand, Voice
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    date: '2026-10-27'
+  - id: leave-undecided-content-empty
+    stance: The source should make gaps visible. If the brand has not decided something, the slot stays empty and routes to a person. The codifier does not invent the answer.
+    prov:
+      src: brand-book, What AI needs to know about your brand, What stays out
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    date: '2026-10-27'
+  - id: feedback-needs-owner-approval
+    stance: Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review paths, the owner of that decision approves the change before it's applied. Future work then uses the updated facts, rules, or review paths.
+    prov:
+      src: brand-book, What is Brand OS?, 04. Feedback
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    date: '2026-10-27'

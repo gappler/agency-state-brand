@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.2.0",
+  "compiled_at": "2026-10-27T13:19:14Z",
+  "revisions": {
+    "source": "sha256:10de5f03414dc633285a5ac945ca3856ee376d4340a4c6eff3fde4f335a1911e",
+    "review": "sha256:81640591cd2be87007b602ba98290e1bd29280c330995aad257f767282d24a7c"
+  },
+  "stories": [
+    {
+      "id": "greg-practice-background",
+      "kind": "other",
+      "tags": {
+        "topic": [
+          "Greg Appler",
+          "BrandBuilder"
+        ],
+        "audience": [
+          "brand marketing teams"
+        ],
+        "length": "medium"
+      },
+      "text": "During a decade at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, I led marketing for membership, the national conference, and continuing education, modernized marketing operations, and built a 12-person team. I designed and managed the development of AIAU, the AIA's first on-demand continuing education platform. I was also the business owner for a brand redesign adopted across the national organization and its chapter network, with visual identity by Pentagram.\n\nEarlier, I was a digital marketing lead on Nissan, Infiniti, and Bacardi Global Brands.\n\nI'm a builder at heart, and for the past two years I've been building with Claude Code, Codex, and other automation tools. I'm developing Agency State's BrandBuilder to turn a brand's written and visual guidelines into a source AI can work from. As is often the case, it's a bigger problem than I imagined, but I'm testing it on demo brands and it's nearly ready for client work.\n\nI think real automation gains have to include the work between the work: the presentations, approvals, feedback, and explaining that move a marketing project along. I'm working on a campaign engine to handle that work, with agents running things and a person approving the key pieces. I have products on the boards, from small to ambitious.",
+      "file": "source/stories/greg-practice-background.md"
+    },
+    {
+      "id": "yowie-fabrication-test",
+      "kind": "mistake",
+      "tags": {
+        "topic": [
+          "Yowie",
+          "Rule checks",
+          "Source check"
+        ],
+        "audience": [
+          "brand marketing teams"
+        ],
+        "length": "long"
+      },
+      "text": "In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.\n\nI ran two kinds of automated checks on every draft. Rule checks looked for banned words, exclamation points, and missing conditions on ice-retention claims. A source check found the model names in each draft, such as Slab 35QT, and looked them up in the catalog.\n\nThirty-six of the requests asked for a product that wasn't in the catalog. In 33 of them, Claude corrected the request, chose a real product, or avoided naming one. That was the right response.\n\nBut in three drafts, Claude went along with the request. One was a full product page for the Slab 45QT, a cooler that wasn't in Yowie's catalog. Claude invented a weight, dimensions, and a price.\n\n    Draft: A product page for the Slab 45QT cooler.\n    Rule checks: Passed.\n    Source check: Flagged. Slab 45QT is not in the catalog.\n\nThe catalog had a Slab 35QT, and Claude built the fake cooler out of it. The real 35QT weighs 22 lb and costs $285. The invented 45QT weighs 28 lb and costs $335. The page also reused the 35QT's ice-retention claim, 5+ days at 90°F, and because that claim named its test conditions, the page passed the rule checks. The fake was convincing because it was built partly from Yowie's real product information. It did leave a clue. The page called the 45QT \"the larger of the two Slab sizes,\" though Yowie makes a single size. You'd catch that only if you knew the catalog.\n\nAll three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.\n\nThe brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.",
+      "file": "source/stories/yowie-fabrication-test.md"
+    },
+    {
+      "id": "yowie-warranty-gap",
+      "kind": "mistake",
+      "tags": {
+        "topic": [
+          "Yowie",
+          "warranty terms"
+        ],
+        "audience": [
+          "brand marketing teams"
+        ],
+        "length": "short"
+      },
+      "text": "Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand information has no warranty terms, so none of the checks in this test could catch those promises.",
+      "file": "source/stories/yowie-warranty-gap.md"
+    }
+  ],
+  "compiler_contract": "engine-0.17.3"
+}

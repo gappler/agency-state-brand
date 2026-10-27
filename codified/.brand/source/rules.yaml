@@ -1,0 +1,1049 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+never_say:
+  - words:
+      - don't get left behind
+      - AI is coming for your job
+      - your competitors are already doing this
+    kind: Fear framing
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Being plain about what AI automates, as the buyer's leverage, is not fear framing. The ban is on threatening the reader; honesty about the work is fine.
+    route_to: voice
+  - words:
+      - transform your career
+      - change your life
+      - 10x your output
+      - save 20 hours a week
+      - AI transformation
+    kind: Overclaim
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - unlock
+      - amplify
+      - empower
+      - disrupt
+      - synergy
+      - game-changer
+      - revolutionize
+    kind: SaaS clichés
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - our proprietary methodology
+      - best-in-class
+      - thought leadership
+    kind: Consultant-speak
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - we believe
+      - we think
+    kind: Hedge words
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - Scale yourself
+    kind: Scale yourself
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Treats the human as an asset to be multiplied.
+    route_to: voice
+  - words:
+      - AI-first
+      - AI-native
+      - AI-powered
+    kind: AI-first, AI-native, AI-powered
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Buzzword overclaim.
+    instead: Describe what the AI actually does in the work.
+    route_to: voice
+  - words:
+      - repeatable
+      - does the same thing every time
+      - the same way every time
+    kind: Mechanical-repetition framing
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Frames the AI as a deterministic script and undersells its judgment.
+    instead: Describe what the AI actually does, including how it handles novel situations. ("Recurring work" stays fine; "recurring" means happens regularly, not done identically.)
+    route_to: voice
+  - words:
+      - in many ways
+      - at the end of the day
+    kind: Filler and bait
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+conditional_say:
+  - words:
+      - leverage
+    condition: leverage as a noun (operational capacity)
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      condition: { src: 'brand-book, Agency State Brand Platform, 6. Vocabulary', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - may
+      - might
+    condition: '"May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don''t strengthen a claim merely to avoid a hedge word.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - no subscription, no vendor lock
+      - no IT required
+      - a Brand OS they own
+    condition: 'If the buyer didn''t ask, don''t answer. The same goes for telling readers they will own what gets built ("a Brand OS they own"): ownership is implied.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - AI strategy
+    condition: 'Never say: Generic "AI strategy" as a deliverable.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      condition: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Too abstract.
+    instead: Name what is being built.
+    route_to: voice
+  - words:
+      - Capability transfer
+      - teaches you to build
+    condition: 'Never say: "Capability transfer" or "teaches you to build" as promises.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      condition: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: Overstates what an engagement delivers. Greg builds with the team and provides artifacts and documentation, then works with the Brand OS lead as the system grows. That does not transfer capability in a single handoff.
+    route_to: voice
+  - words:
+      - Unlike enterprise consulting...
+      - not another AI course
+      - most brands
+      - most teams
+      - everyone
+      - nobody
+    condition: 'No defining Agency State against others ("Unlike enterprise consulting...," "not another AI course") and no characterizing how other brands, teams, or people operate ("most brands," "most teams," "everyone," "nobody"). The defect is asserting a proportion nobody counted, or casting the reader''s peers as the ones getting it wrong. A specific, factual comparison is allowed: name the vendor or category, state what each approach does, and keep every claim verifiable; the superiority has to be visible in the facts, not asserted around them. Lead with what Agency State does, and state a failure by what goes wrong rather than by who has it.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - What about you?
+      - let me know in the comments
+    condition: 'Never say: Hedging filler ("in many ways," "at the end of the day") and CTA-bait closes (a rhetorical "What about you?", "let me know in the comments").'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      condition: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - honestly
+      - to be honest
+      - I'll be honest
+      - truthfully
+      - the honest answer
+      - an honest look
+      - the honest version
+      - honesty ledger
+    condition: Describing a property under verification is different and fine when a plainer word does not exist, though "accurate" usually does.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    reason: The straight-talk voice proves candor by being direct, so announcing it signals the opposite and reads as a filler tic.
+    instead: Say the thing plainly.
+    route_to: voice
+  - words:
+      - proof so far
+      - the working parts
+      - not yet proven
+      - this is early
+    condition: 'Never say: Repeated "proof so far," "the working parts," "not yet proven," "this is early." Scope once, plainly, then move on; repeating the hedge signals doubt and buries the claim. This does not relax the overclaim or fake-proof bans; it keeps honest scoping from turning into self-doubt.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      condition: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - words:
+      - Brand OS
+    condition: '"Brand OS" may label, never argue. No claim is true "because it is an operating system," and no copy derives a property from the metaphor (mandatory, total, invisible, "the layer everything runs through"). The test: replace "Brand OS" with "this setup" and every claim must still hold. The name is a handle for the assembled whole; the definition and the evidence carry the weight.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+formatting:
+  - id: no-em-dashes
+    rule: No em dashes. Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: sentence-case
+    rule: "**Sentence case for titles and labels.** Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, AI Enablement, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: no-performative-emphasis
+    rule: No emphasis-by-italics, no exclamation, no transformation language.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: production-terms
+    rule: Say "automations and agents" for Production as a whole; use one word alone only when the sentence describes that kind of work.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: brandbuilder-name
+    rule: Use Agency State's BrandBuilder on first reference; use BrandBuilder after that.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: brandbuilder-capitals
+    rule: 'One word, both capitals: BrandBuilder.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: rule-check-term
+    rule: Say "rule check" in client copy, not "the linter."
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: serving-layer-term
+    rule: Say "serving layer" in prose; "a client-run MCP server" when naming the mechanism.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: handover-visual-19
+    rule: 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+  - id: handover-voice-70
+    rule: "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, AI Enablement, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: voice
+claims:
+  - id: no-fake-proof
+    rule: 'Never say: Fake proof. Testimonial-style claims or outcome numbers before the first engagements complete.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+    route_to: claims
+  - id: no-capability-transfer-promise
+    rule: 'Never say: "Capability transfer" or "teaches you to build" as promises. Overstates what an engagement delivers. Greg builds with the team and provides artifacts and documentation, then works with the Brand OS lead as the system grows. That does not transfer capability in a single handoff.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+    route_to: claims
+  - id: no-negative-positioning
+    rule: 'Never say: Negative positioning and unmeasured group claims. No defining Agency State against others ("Unlike enterprise consulting...," "not another AI course") and no characterizing how other brands, teams, or people operate ("most brands," "most teams," "everyone," "nobody"). The defect is asserting a proportion nobody counted, or casting the reader''s peers as the ones getting it wrong. A specific, factual comparison is allowed: name the vendor or category, state what each approach does, and keep every claim verifiable; the superiority has to be visible in the facts, not asserted around them. Lead with what Agency State does, and state a failure by what goes wrong rather than by who has it.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+    route_to: claims
+  - id: no-os-metaphor-arguments
+    rule: 'Never say: Arguments from the OS metaphor. "Brand OS" may label, never argue. No claim is true "because it is an operating system," and no copy derives a property from the metaphor (mandatory, total, invisible, "the layer everything runs through"). The test: replace "Brand OS" with "this setup" and every claim must still hold. The name is a handle for the assembled whole; the definition and the evidence carry the weight.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+    route_to: claims
+  - id: proof-posture
+    rule: 'Proof posture. Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Practice recommendations can be stated as recommendations when they follow from Greg''s brand, marketing operations, and AI implementation work. Name the basis, then move on. The Brand OS parts are built and tested on Agency State''s own work and on demo brands. No Brand OS has yet been built or run end to end for anyone, including Agency State itself, and none has run at a client. Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn''t happened or been measured.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: site-evidence-and-client-results
+    rule: 'Site articles name their evidence plainly: a test is called a test, and a demo brand is named as one. They do not state that no Brand OS has been built or run end to end or at a client. Greg discloses that directly with prospective clients. No copy claims or implies client results.'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: keep-material-limits
+    rule: 'Keep material limits with the claim, close enough that the reader can''t miss them: "none of the checks in this test," not "no check."'
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: quiet-public-offer
+    rule: Keep the offer quiet. Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: identify-demo-brands
+    rule: Name it plainly when it is shown (Yowie, a demo outdoor-gear brand); never imply a demo brand is a client.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: internal-scope-boundaries
+    rule: These are internal boundaries for scoping the work, not lines for public copy.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 9. What Agency State is not
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: feedback-approval
+    rule: Feedback records corrections and what was decided. A correction may fix one draft or lead to a change in the source, checks, or review paths. The person responsible for that decision approves the change before it is applied to future work.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: feedback-owner-approval
+    rule: Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review paths, the owner of that decision approves the change before it's applied. Future work then uses the updated facts, rules, or review paths.
+    severity: hard
+    prov:
+      src: brand-book, What is Brand OS?, 04. Feedback
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: established-brand-scope
+    rule: Not a branding engagement. Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 9. What Agency State is not
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+  - id: handover-products-52
+    rule: The campaign engine and BrandBuilder have been tested on fictional organizations and demo brands; none of it has been used with a client.
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: claims
+visual_rules:
+  - id: wordmark-1
+    rule: agencystate, lowercase, one word with no space, from outlined SVG paths (wordmark-black-on-white.svg, and wordmark-white-on-black.svg for dark grounds).
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Wordmark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: wordmark-2
+    rule: '"agency" in bold and "state" in regular. The weight shift is the identity. It is locked in the outlined paths, so never retype the wordmark as live text.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Wordmark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: mark-1
+    rule: A white star on a sharp square, the star rotated and leaving the square toward the right edge. No corner radius.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Mark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: mark-2
+    rule: 'Orange mark (#D4602A square, agency-state-mark-orange.svg): the site''s mark. Used for the favicon, in the header next to the wordmark, on social preview cards, and on document covers.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Mark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: mark-3
+    rule: 'Black mark (#111111 square, agency-state-mark-black.svg): for one-color contexts, such as print, embossing, or a place where orange would clash.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Mark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: star-watermark-1
+    rule: 'The star alone (agency-state-watermark.svg, #111111, rotated) appears once per page as a fixed background element near the lower right, at very low opacity. It is texture, never a logo: no other use of the star without its square.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Star watermark
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: lockups-1
+    rule: 'Header: orange mark immediately left of the wordmark, at the header''s small scale.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Lockups
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: lockups-2
+    rule: 'Social preview card: orange mark and wordmark with the tagline, "On brand, at the speed of AI," plus the descriptor where a reader may not yet know Agency State (brand platform §1).'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Lockups
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: lockups-3
+    rule: 'Document cover: orange mark and wordmark, with the same tagline and descriptor rule.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Lockups
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: lines-1
+    rule: The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Lines
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: do-not-1
+    rule: 'Do not: Add space between "agency" and "state," set the wordmark in capitals, or give both words the same weight.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Do not
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Do not', conf: high, basis: confirmed }
+    route_to: visual
+  - id: do-not-2
+    rule: 'Do not: Recolor the mark beyond the orange and black versions, or add gradients or effects.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Do not
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Do not', conf: high, basis: confirmed }
+    route_to: visual
+  - id: do-not-3
+    rule: 'Do not: Round the square, rotate or distort the mark, or put the mark to the right of the wordmark.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Do not
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Do not', conf: high, basis: confirmed }
+    route_to: visual
+  - id: color-1
+    rule: White ground, gray type, and no accent color in the page itself. Orange appears only in the mark.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-2
+    rule: Links in body text keep the surrounding color with a thin gray-300 underline that turns gray-500 on hover (text to gray-700). Navigation, meta, card, stack, and article-footer links have no underline. No colored links, buttons, or highlighted words.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: typography-1
+    rule: Three faces, at regular weight unless noted.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: typography-2
+    rule: Hierarchy comes mainly from face and gray. Greg's name and section labels are the same size; nothing on a page is set large.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: typography-3
+    rule: 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: layout-1
+    rule: One narrow reading column on a white page, with generous space between sections.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: layout-2
+    rule: Each section is a Schibsted label above its content.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: layout-3
+    rule: 'The header holds the lockup and a short nav, a thin rule, then a monospace meta line: Washington, DC time, "Washington, DC," "copy email," and LinkedIn.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: layout-4
+    rule: The footer is one or two small gray lines.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-1
+    rule: Each visual form has one job. Use the form that matches what the content is.
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-2
+    rule: 'Link cards (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-3
+    rule: 'Rows (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-4
+    rule: 'Spec panels (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system''s own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-5
+    rule: 'Inline code: tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: components-6
+    rule: 'Stack rows: the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool''s brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: motion-1
+    rule: 'Motion is small and functional: content may fade or slide in slightly as it scrolls into view, and links and cards change color on hover.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Motion
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: motion-2
+    rule: No exaggerated bounce, loops, pulses, or parallax. A slight settle at the end of a slide-in is fine (the stack rows on the homepage).
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Motion
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: motion-3
+    rule: 'Respect reduced motion: with prefers-reduced-motion, content appears without animation and nothing stays hidden.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Motion
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: assets-1
+    rule: 'Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Assets
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-white
+    rule: 'white (#ffffff): Page background, card background'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-50
+    rule: 'gray-50 (#f9f9f9): Spec panel background, card hover'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-100
+    rule: 'gray-100 (#f4f4f4): Number badge on link cards'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-200
+    rule: 'gray-200 (#ededed): Rules between rows, card and panel borders'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-300
+    rule: 'gray-300 (#dddddd): Link underline, card border on hover'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-400
+    rule: 'gray-400 (#a0a0a0): Meta line, nav, footer, small labels'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-500
+    rule: 'gray-500 (#707070): Body text, descriptions'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-600
+    rule: 'gray-600 (#505050): Spec panel text, numbers in badges'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-700
+    rule: 'gray-700 (#343434): Link text on hover'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-gray-800
+    rule: 'gray-800 (#2e2e2e): Names, section labels, titles'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual
+  - id: color-use-orange
+    rule: 'orange (#D4602A): The mark only'
+    severity: soft
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+      rule: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      route_to: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    route_to: visual

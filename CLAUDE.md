@@ -11,6 +11,7 @@ This repo is the **canonical source of truth** for how Agency State presents its
 
 - `brand-platform.md` — AI-facing brand intelligence: identity, what Agency State delivers, positioning, audience, voice, vocabulary, never-say, proof, boundaries. Each section is written to be served whole as one MCP tool response.
 - `brand-guidelines.md` — visual identity: logo, color, typography, layout, components, motion, assets.
+- `codified/` — the platform and guidelines codified into BrandBuilder's `.brand/` schema (`brand-book.md` is its assembled source; `.brand/` holds the reviewed source files, review ledger and compiled outputs). Reviewed by Greg 2026-10-27 (human_reviewed). Served over the web by the BrandBuilder MCP service. When the platform or guidelines change, re-codify and review rather than hand-editing `.brand/`.
 
 ## Editing rule
 

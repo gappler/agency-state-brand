@@ -1,0 +1,791 @@
+{
+  "schema_version": "0.2.0",
+  "baseline_version": "1.1",
+  "compiled_at": "2026-10-27T13:19:14Z",
+  "summary": {
+    "required": {
+      "filled": 30,
+      "partial": 1,
+      "empty": 0,
+      "n/a": 3
+    },
+    "recommended": {
+      "filled": 7,
+      "partial": 0,
+      "empty": 0,
+      "n/a": 4
+    },
+    "optional": {
+      "filled": 0,
+      "partial": 0,
+      "empty": 1,
+      "n/a": 0
+    }
+  },
+  "slots": [
+    {
+      "slot": "brand.name_usage",
+      "tier": "R",
+      "path": "brand.name.usage",
+      "status": "filled"
+    },
+    {
+      "slot": "brand.name_meaning",
+      "tier": "R",
+      "path": "brand.name.meaning",
+      "status": "filled"
+    },
+    {
+      "slot": "brand.canonical_lines",
+      "tier": "R",
+      "path": "brand.canonical_lines",
+      "status": "filled"
+    },
+    {
+      "slot": "brand.values",
+      "tier": "REC",
+      "path": "brand.values",
+      "status": "n/a",
+      "reason": "Not applicable for now; add values if Greg writes them."
+    },
+    {
+      "slot": "brand.mission",
+      "tier": "REC",
+      "path": "brand.mission",
+      "status": "n/a",
+      "reason": "Not applicable for now; add a mission if Greg writes one."
+    },
+    {
+      "slot": "architecture.naming_structure",
+      "tier": "REC",
+      "path": "architecture.lines",
+      "status": "n/a",
+      "reason": "Single brand; no product-line or sub-brand hierarchy applies."
+    },
+    {
+      "slot": "architecture.capitalization",
+      "tier": "REC",
+      "path": "architecture.naming.capitalization",
+      "status": "filled"
+    },
+    {
+      "slot": "architecture.never_abbreviate",
+      "tier": "REC",
+      "path": "architecture.naming.never_abbreviate",
+      "status": "filled"
+    },
+    {
+      "slot": "positioning.statement",
+      "tier": "R",
+      "path": "positioning.what_it_is",
+      "status": "filled"
+    },
+    {
+      "slot": "positioning.audience",
+      "tier": "R",
+      "path": "positioning.personas",
+      "status": "partial",
+      "reasons": [
+        "1 entry without assumed_knowledge"
+      ]
+    },
+    {
+      "slot": "positioning.category",
+      "tier": "R",
+      "path": "positioning.category",
+      "status": "filled"
+    },
+    {
+      "slot": "positioning.differentiators",
+      "tier": "R",
+      "path": "positioning.differentiators",
+      "status": "filled"
+    },
+    {
+      "slot": "positioning.competitors",
+      "tier": "OPT",
+      "path": "positioning.competitors",
+      "status": "empty"
+    },
+    {
+      "slot": "positions.perspectives",
+      "tier": "REC",
+      "path": "positions.positions",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.preferred_words",
+      "tier": "R",
+      "path": "voice.vocabulary.reach_for",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.banned_words",
+      "tier": "R",
+      "path": "voice.vocabulary.refuse",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.sentence_length",
+      "tier": "R",
+      "path": "voice.data_points.sentence_length",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.reading_level",
+      "tier": "R",
+      "path": "voice.data_points.reading_level",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.person",
+      "tier": "R",
+      "path": "voice.data_points.person",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.punctuation",
+      "tier": "R",
+      "path": "voice.data_points.punctuation",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.formatting",
+      "tier": "R",
+      "path": "voice.data_points.formatting",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.style_guide",
+      "tier": "R",
+      "path": "voice.data_points.style_guide",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.exemplars",
+      "tier": "R",
+      "path": "voice.exemplars",
+      "status": "filled"
+    },
+    {
+      "slot": "voice.register_splits",
+      "tier": "REC",
+      "path": "voice.register.splits",
+      "status": "n/a",
+      "reason": "One voice, no formality levels or registers."
+    },
+    {
+      "slot": "voice.channel_variations",
+      "tier": "REC",
+      "path": "voice.register.channels",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.palette",
+      "tier": "R",
+      "path": "visual.colors",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.typefaces",
+      "tier": "R",
+      "path": "visual.type",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.logo_usage",
+      "tier": "R",
+      "path": "visual.logo",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.spacing",
+      "tier": "R",
+      "path": "visual.spacing",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.imagery",
+      "tier": "R",
+      "path": "visual.imagery",
+      "status": "filled"
+    },
+    {
+      "slot": "visual.iconography",
+      "tier": "R",
+      "path": "visual.iconography",
+      "status": "filled"
+    },
+    {
+      "slot": "products.list",
+      "tier": "R",
+      "path": "products.products",
+      "status": "n/a",
+      "reason": "Agency State sells services, not products."
+    },
+    {
+      "slot": "products.facts",
+      "tier": "R",
+      "path": "products.products",
+      "status": "n/a",
+      "reason": "Agency State sells services, not products."
+    },
+    {
+      "slot": "products.prices",
+      "tier": "R",
+      "path": "products.products",
+      "status": "n/a",
+      "reason": "Agency State sells services, not products."
+    },
+    {
+      "slot": "products.claims",
+      "tier": "R",
+      "path": [
+        "products.claims",
+        "products.products[*].claims"
+      ],
+      "status": "filled"
+    },
+    {
+      "slot": "approved_language.boilerplate",
+      "tier": "R",
+      "path": "approved_language.blocks",
+      "status": "filled"
+    },
+    {
+      "slot": "approved_language.legal",
+      "tier": "R",
+      "path": "approved_language.blocks",
+      "status": "filled"
+    },
+    {
+      "slot": "approved_language.attributions",
+      "tier": "R",
+      "path": "approved_language.blocks",
+      "status": "filled"
+    },
+    {
+      "slot": "approved_language.passages",
+      "tier": "REC",
+      "path": "approved_language.blocks",
+      "status": "filled"
+    },
+    {
+      "slot": "stories.library",
+      "tier": "REC",
+      "path": "stories",
+      "status": "filled"
+    },
+    {
+      "slot": "rules.never_say",
+      "tier": "R",
+      "path": "rules.never_say",
+      "status": "filled"
+    },
+    {
+      "slot": "rules.claim_conditions",
+      "tier": "R",
+      "path": "rules.claims",
+      "status": "filled"
+    },
+    {
+      "slot": "rules.formatting",
+      "tier": "R",
+      "path": "rules.formatting",
+      "status": "filled"
+    },
+    {
+      "slot": "rules.conditional",
+      "tier": "REC",
+      "path": "rules.conditional_say",
+      "status": "filled"
+    },
+    {
+      "slot": "decision_rights.owners",
+      "tier": "R",
+      "path": "decision_rights.classes",
+      "status": "filled"
+    },
+    {
+      "slot": "needs_review.ledger",
+      "tier": "R",
+      "path": "needs_review",
+      "status": "filled"
+    }
+  ],
+  "coverage_gaps": [],
+  "revisions": {
+    "source": "sha256:10de5f03414dc633285a5ac945ca3856ee376d4340a4c6eff3fde4f335a1911e",
+    "review": "sha256:81640591cd2be87007b602ba98290e1bd29280c330995aad257f767282d24a7c"
+  },
+  "unknown_fields": [],
+  "ledger": {
+    "valid": true,
+    "findings": [],
+    "lapsed": [],
+    "open_items": 0,
+    "open_item_ids": [],
+    "current_items": 343,
+    "backed_paths": [
+      "approved_language.blocks",
+      "approved_language.blocks[company-description-100]",
+      "approved_language.blocks[company-description-25]",
+      "approved_language.blocks[company-description-50]",
+      "approved_language.blocks[company-description-full]",
+      "approved_language.blocks[definition-agents].remix",
+      "approved_language.blocks[definition-ai-enablement].remix",
+      "approved_language.blocks[definition-artifacts].remix",
+      "approved_language.blocks[definition-automations].remix",
+      "approved_language.blocks[definition-brand-os-lead].remix",
+      "approved_language.blocks[definition-brand-os].remix",
+      "approved_language.blocks[definition-brandbuilder].remix",
+      "approved_language.blocks[definition-codified-brand].remix",
+      "approved_language.blocks[definition-demo-brand].remix",
+      "approved_language.blocks[definition-provenance].remix",
+      "approved_language.blocks[definition-recurring-work].remix",
+      "approved_language.blocks[definition-rule-check].remix",
+      "approved_language.blocks[definition-serving-layer-mcp].remix",
+      "approved_language.blocks[definition-source-check].remix",
+      "approved_language.blocks[definition-workflow].remix",
+      "approved_language.blocks[published-context-is-not-control-what-a-check-can-tell-you].remix",
+      "approved_language.blocks[published-context-is-not-control-where-the-corrections-go].remix",
+      "approved_language.blocks[published-context-is-not-control].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-serving-yowie].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-source-and-server].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-the-job].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-what-tools-ask-for].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-why-it-matters].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-approved-language-and-stories].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-decision-owners-and-review].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-identity-and-architecture].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-positioning-and-positions].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-products-and-claims].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-rules].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-the-inventory].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-the-output].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-visual-identity].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-voice].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-what-stays-out].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand].remix",
+      "approved_language.blocks[published-what-is-brand-os-01-source].remix",
+      "approved_language.blocks[published-what-is-brand-os-02-production].remix",
+      "approved_language.blocks[published-what-is-brand-os-03-control].remix",
+      "approved_language.blocks[published-what-is-brand-os-04-feedback].remix",
+      "approved_language.blocks[published-what-is-brand-os-05-operators].remix",
+      "approved_language.blocks[published-what-is-brand-os-how-i-work-with-a-team].remix",
+      "approved_language.blocks[published-what-is-brand-os-why-it-matters].remix",
+      "approved_language.blocks[published-what-is-brand-os].remix",
+      "architecture.naming.never_abbreviate",
+      "architecture.structure.type",
+      "brand.canonical_lines.preview_line",
+      "decision_rights.classes",
+      "positioning.differentiators[#0].claim_refs",
+      "positioning.personas[#1]",
+      "positioning.personas[#1].buys",
+      "positioning.personas[#1].how_to_talk",
+      "positioning.personas[Stakeholders, not buyers]",
+      "positioning.sells_against.refuses",
+      "positions.positions[checks-have-scope].date",
+      "positions.positions[checks-have-scope].owner",
+      "positions.positions[corrections-need-decisions].date",
+      "positions.positions[corrections-need-decisions].owner",
+      "positions.positions[feedback-needs-owner-approval].date",
+      "positions.positions[feedback-needs-owner-approval].owner",
+      "positions.positions[leave-undecided-content-empty].date",
+      "positions.positions[leave-undecided-content-empty].owner",
+      "positions.positions[voice-fit-needs-judgment].date",
+      "positions.positions[voice-fit-needs-judgment].owner",
+      "products.claims",
+      "products.claims[brand-os-built-parts]",
+      "products.claims[principal-experience]",
+      "products.claims[yowie-context-result]",
+      "products.claims[yowie-fake-cooler-composition]",
+      "products.claims[yowie-missing-product-requests]",
+      "products.claims[yowie-rule-source-check-result]",
+      "products.claims[yowie-three-fabricated-drafts]",
+      "products.claims[yowie-warranty-fabrication]",
+      "rules.claims[established-brand-scope].route_to",
+      "rules.claims[established-brand-scope].severity",
+      "rules.claims[feedback-approval].route_to",
+      "rules.claims[feedback-approval].severity",
+      "rules.claims[feedback-owner-approval].route_to",
+      "rules.claims[feedback-owner-approval].severity",
+      "rules.claims[handover-products-52].route_to",
+      "rules.claims[handover-products-52].severity",
+      "rules.claims[identify-demo-brands].route_to",
+      "rules.claims[identify-demo-brands].severity",
+      "rules.claims[internal-scope-boundaries].route_to",
+      "rules.claims[internal-scope-boundaries].severity",
+      "rules.claims[keep-material-limits].route_to",
+      "rules.claims[keep-material-limits].severity",
+      "rules.claims[no-capability-transfer-promise].route_to",
+      "rules.claims[no-capability-transfer-promise].rule",
+      "rules.claims[no-capability-transfer-promise].severity",
+      "rules.claims[no-fake-proof].route_to",
+      "rules.claims[no-fake-proof].rule",
+      "rules.claims[no-fake-proof].severity",
+      "rules.claims[no-negative-positioning].route_to",
+      "rules.claims[no-negative-positioning].rule",
+      "rules.claims[no-negative-positioning].severity",
+      "rules.claims[no-os-metaphor-arguments].route_to",
+      "rules.claims[no-os-metaphor-arguments].rule",
+      "rules.claims[no-os-metaphor-arguments].severity",
+      "rules.claims[proof-posture].route_to",
+      "rules.claims[proof-posture].severity",
+      "rules.claims[quiet-public-offer].route_to",
+      "rules.claims[quiet-public-offer].severity",
+      "rules.claims[site-evidence-and-client-results].route_to",
+      "rules.claims[site-evidence-and-client-results].severity",
+      "rules.conditional_say[#0].condition",
+      "rules.conditional_say[#0].route_to",
+      "rules.conditional_say[#0].severity",
+      "rules.conditional_say[#1].route_to",
+      "rules.conditional_say[#1].severity",
+      "rules.conditional_say[#2].route_to",
+      "rules.conditional_say[#2].severity",
+      "rules.conditional_say[#3].condition",
+      "rules.conditional_say[#3].route_to",
+      "rules.conditional_say[#3].severity",
+      "rules.conditional_say[#4].condition",
+      "rules.conditional_say[#4].route_to",
+      "rules.conditional_say[#4].severity",
+      "rules.conditional_say[#5]",
+      "rules.conditional_say[#5].route_to",
+      "rules.conditional_say[#5].severity",
+      "rules.conditional_say[#6]",
+      "rules.conditional_say[#6].condition",
+      "rules.conditional_say[#6].route_to",
+      "rules.conditional_say[#6].severity",
+      "rules.conditional_say[#7]",
+      "rules.conditional_say[#7].route_to",
+      "rules.conditional_say[#7].severity",
+      "rules.conditional_say[#8]",
+      "rules.conditional_say[#8].condition",
+      "rules.conditional_say[#8].route_to",
+      "rules.conditional_say[#8].severity",
+      "rules.conditional_say[#9]",
+      "rules.conditional_say[#9].route_to",
+      "rules.conditional_say[#9].severity",
+      "rules.formatting[brandbuilder-capitals].route_to",
+      "rules.formatting[brandbuilder-capitals].severity",
+      "rules.formatting[brandbuilder-name].route_to",
+      "rules.formatting[brandbuilder-name].severity",
+      "rules.formatting[handover-visual-19].route_to",
+      "rules.formatting[handover-visual-19].severity",
+      "rules.formatting[handover-voice-70].route_to",
+      "rules.formatting[handover-voice-70].severity",
+      "rules.formatting[no-em-dashes].route_to",
+      "rules.formatting[no-em-dashes].severity",
+      "rules.formatting[no-performative-emphasis].route_to",
+      "rules.formatting[no-performative-emphasis].severity",
+      "rules.formatting[production-terms].route_to",
+      "rules.formatting[production-terms].severity",
+      "rules.formatting[rule-check-term].route_to",
+      "rules.formatting[rule-check-term].severity",
+      "rules.formatting[sentence-case].route_to",
+      "rules.formatting[sentence-case].severity",
+      "rules.formatting[serving-layer-term].route_to",
+      "rules.formatting[serving-layer-term].severity",
+      "rules.never_say[#0].route_to",
+      "rules.never_say[#0].severity",
+      "rules.never_say[#1].route_to",
+      "rules.never_say[#1].severity",
+      "rules.never_say[#2].route_to",
+      "rules.never_say[#2].severity",
+      "rules.never_say[#3].route_to",
+      "rules.never_say[#3].severity",
+      "rules.never_say[#4].route_to",
+      "rules.never_say[#4].severity",
+      "rules.never_say[#5].route_to",
+      "rules.never_say[#5].severity",
+      "rules.never_say[#6].route_to",
+      "rules.never_say[#6].severity",
+      "rules.never_say[#7].route_to",
+      "rules.never_say[#7].severity",
+      "rules.never_say[#8].route_to",
+      "rules.never_say[#8].severity",
+      "rules.visual_rules[assets-1].route_to",
+      "rules.visual_rules[assets-1].severity",
+      "rules.visual_rules[color-1].route_to",
+      "rules.visual_rules[color-1].severity",
+      "rules.visual_rules[color-2].route_to",
+      "rules.visual_rules[color-2].severity",
+      "rules.visual_rules[color-use-gray-100].route_to",
+      "rules.visual_rules[color-use-gray-100].rule",
+      "rules.visual_rules[color-use-gray-100].severity",
+      "rules.visual_rules[color-use-gray-200].route_to",
+      "rules.visual_rules[color-use-gray-200].rule",
+      "rules.visual_rules[color-use-gray-200].severity",
+      "rules.visual_rules[color-use-gray-300].route_to",
+      "rules.visual_rules[color-use-gray-300].rule",
+      "rules.visual_rules[color-use-gray-300].severity",
+      "rules.visual_rules[color-use-gray-400].route_to",
+      "rules.visual_rules[color-use-gray-400].rule",
+      "rules.visual_rules[color-use-gray-400].severity",
+      "rules.visual_rules[color-use-gray-500].route_to",
+      "rules.visual_rules[color-use-gray-500].rule",
+      "rules.visual_rules[color-use-gray-500].severity",
+      "rules.visual_rules[color-use-gray-50].route_to",
+      "rules.visual_rules[color-use-gray-50].rule",
+      "rules.visual_rules[color-use-gray-50].severity",
+      "rules.visual_rules[color-use-gray-600].route_to",
+      "rules.visual_rules[color-use-gray-600].rule",
+      "rules.visual_rules[color-use-gray-600].severity",
+      "rules.visual_rules[color-use-gray-700].route_to",
+      "rules.visual_rules[color-use-gray-700].rule",
+      "rules.visual_rules[color-use-gray-700].severity",
+      "rules.visual_rules[color-use-gray-800].route_to",
+      "rules.visual_rules[color-use-gray-800].rule",
+      "rules.visual_rules[color-use-gray-800].severity",
+      "rules.visual_rules[color-use-orange].route_to",
+      "rules.visual_rules[color-use-orange].rule",
+      "rules.visual_rules[color-use-orange].severity",
+      "rules.visual_rules[color-use-white].route_to",
+      "rules.visual_rules[color-use-white].rule",
+      "rules.visual_rules[color-use-white].severity",
+      "rules.visual_rules[components-1].route_to",
+      "rules.visual_rules[components-1].severity",
+      "rules.visual_rules[components-2].route_to",
+      "rules.visual_rules[components-2].severity",
+      "rules.visual_rules[components-3].route_to",
+      "rules.visual_rules[components-3].severity",
+      "rules.visual_rules[components-4].route_to",
+      "rules.visual_rules[components-4].severity",
+      "rules.visual_rules[components-5].route_to",
+      "rules.visual_rules[components-5].severity",
+      "rules.visual_rules[components-6].route_to",
+      "rules.visual_rules[components-6].severity",
+      "rules.visual_rules[do-not-1].route_to",
+      "rules.visual_rules[do-not-1].rule",
+      "rules.visual_rules[do-not-1].severity",
+      "rules.visual_rules[do-not-2].route_to",
+      "rules.visual_rules[do-not-2].rule",
+      "rules.visual_rules[do-not-2].severity",
+      "rules.visual_rules[do-not-3].route_to",
+      "rules.visual_rules[do-not-3].rule",
+      "rules.visual_rules[do-not-3].severity",
+      "rules.visual_rules[layout-1].route_to",
+      "rules.visual_rules[layout-1].severity",
+      "rules.visual_rules[layout-2].route_to",
+      "rules.visual_rules[layout-2].severity",
+      "rules.visual_rules[layout-3].route_to",
+      "rules.visual_rules[layout-3].severity",
+      "rules.visual_rules[layout-4].route_to",
+      "rules.visual_rules[layout-4].severity",
+      "rules.visual_rules[lines-1].route_to",
+      "rules.visual_rules[lines-1].severity",
+      "rules.visual_rules[lockups-1].route_to",
+      "rules.visual_rules[lockups-1].severity",
+      "rules.visual_rules[lockups-2].route_to",
+      "rules.visual_rules[lockups-2].severity",
+      "rules.visual_rules[lockups-3].route_to",
+      "rules.visual_rules[lockups-3].severity",
+      "rules.visual_rules[mark-1].route_to",
+      "rules.visual_rules[mark-1].severity",
+      "rules.visual_rules[mark-2].route_to",
+      "rules.visual_rules[mark-2].severity",
+      "rules.visual_rules[mark-3].route_to",
+      "rules.visual_rules[mark-3].severity",
+      "rules.visual_rules[motion-1].route_to",
+      "rules.visual_rules[motion-1].severity",
+      "rules.visual_rules[motion-2].route_to",
+      "rules.visual_rules[motion-2].severity",
+      "rules.visual_rules[motion-3].route_to",
+      "rules.visual_rules[motion-3].severity",
+      "rules.visual_rules[star-watermark-1].route_to",
+      "rules.visual_rules[star-watermark-1].severity",
+      "rules.visual_rules[typography-1].route_to",
+      "rules.visual_rules[typography-1].severity",
+      "rules.visual_rules[typography-2].route_to",
+      "rules.visual_rules[typography-2].severity",
+      "rules.visual_rules[typography-3].route_to",
+      "rules.visual_rules[typography-3].severity",
+      "rules.visual_rules[wordmark-1].route_to",
+      "rules.visual_rules[wordmark-1].severity",
+      "rules.visual_rules[wordmark-2].route_to",
+      "rules.visual_rules[wordmark-2].severity",
+      "stories",
+      "stories[greg-practice-background].tags",
+      "stories[yowie-fabrication-test].tags",
+      "stories[yowie-warranty-gap].tags",
+      "visual.colors[Black mark].role",
+      "visual.colors[black wordmark].role",
+      "visual.colors[gray-100].role",
+      "visual.colors[gray-200].role",
+      "visual.colors[gray-300].role",
+      "visual.colors[gray-400].role",
+      "visual.colors[gray-500].role",
+      "visual.colors[gray-50].role",
+      "visual.colors[gray-600].role",
+      "visual.colors[gray-700].role",
+      "visual.colors[gray-800].role",
+      "visual.colors[orange].role",
+      "visual.colors[white].role",
+      "visual.iconography",
+      "visual.imagery",
+      "visual.imagery.specs[social-preview-assets]",
+      "visual.imagery.specs[social-preview-assets].implementation_reference",
+      "visual.logo.usage",
+      "visual.spacing",
+      "visual.type[#0].character",
+      "visual.type[#0].roles",
+      "visual.type[#0].use",
+      "visual.type[#1].character",
+      "visual.type[#1].roles",
+      "visual.type[#1].use",
+      "visual.type[#2].character",
+      "visual.type[#2].roles",
+      "visual.type[#2].use",
+      "voice.data_points.reading_level",
+      "voice.data_points.style_guide",
+      "voice.exemplars[brand-os-production]",
+      "voice.exemplars[homepage-practice]",
+      "voice.guidelines[scoped-ai-strategy].text",
+      "voice.guidelines[scoped-capability-transfer].text",
+      "voice.register.channels",
+      "voice.vocabulary.conditional"
+    ],
+    "bulk_reviewed": {
+      "approved_language": [
+        "authored",
+        "verbatim"
+      ],
+      "architecture": [
+        "authored",
+        "verbatim"
+      ],
+      "brand": [
+        "authored",
+        "verbatim"
+      ],
+      "decision_rights": [
+        "authored",
+        "verbatim"
+      ],
+      "greg_practice_background": [
+        "authored",
+        "verbatim"
+      ],
+      "positioning": [
+        "authored",
+        "verbatim"
+      ],
+      "positions": [
+        "authored",
+        "verbatim"
+      ],
+      "products": [
+        "authored",
+        "verbatim"
+      ],
+      "rules": [
+        "authored",
+        "verbatim"
+      ],
+      "visual": [
+        "authored",
+        "verbatim"
+      ],
+      "voice": [
+        "authored",
+        "verbatim"
+      ],
+      "yowie_fabrication_test": [
+        "authored",
+        "verbatim"
+      ],
+      "yowie_warranty_gap": [
+        "authored",
+        "verbatim"
+      ]
+    },
+    "deferred": [
+      {
+        "path": "architecture.lines",
+        "note": "Greg Appler approved review-sheet.md section C row C7, 2026-10-27. No product-line or sub-brand family hierarchy is stated. Source, Production, Control, Feedback and Operators are system parts, not products. Confirm applicability. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "architecture.naming.personality_lives_here",
+        "note": "Greg Appler approved review-sheet.md section C row C7, 2026-10-27. No instruction states where naming personality lives. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "products.products",
+        "note": "Greg Appler approved review-sheet.md section C row C5; section B row B1, 2026-10-27. Practice has no sold catalog. Confirm product list, facts and price slots as not applicable or represent specifically described services in later review. No sold SKUs invented. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "positioning.personas[#1].assumed_knowledge",
+        "note": "Greg Appler approved review-sheet.md section C row C1, 2026-10-27. Source names referral stakeholders but no assumed knowledge. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "positioning.competitors",
+        "slot": "positioning.competitors",
+        "note": "Greg Appler approved review-sheet.md section C row C11; section C row C5, 2026-10-27. No competitor fact sheet supplied. Internal scope categories are not public comparisons. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "positioning.principles",
+        "note": "Greg Appler approved review-sheet.md section C row C11; section C row C5, 2026-10-27. No separate strategic principles set stated; five system parts and voice principles are not recast. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "voice.register.splits",
+        "note": "Greg Appler approved review-sheet.md section C row C8, 2026-10-27. No formal/plain register split is stated. Leave empty; no additional content was supplied in the completed review.",
+        "route_to": "voice",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      },
+      {
+        "path": "positioning.personas",
+        "slot": "positioning.audience",
+        "note": "Greg Appler approved review-sheet.md section C row C1, 2026-10-27. Non-buyers retained. Greg supplied no assumed_knowledge for referral stakeholders; leave that field empty.",
+        "route_to": "source_updates",
+        "decided_by": "Greg Appler",
+        "decided_at": "2026-10-27"
+      }
+    ],
+    "flagged": []
+  },
+  "approval": {
+    "status": "human_reviewed",
+    "revisions": {
+      "source": "sha256:10de5f03414dc633285a5ac945ca3856ee376d4340a4c6eff3fde4f335a1911e",
+      "review": "sha256:81640591cd2be87007b602ba98290e1bd29280c330995aad257f767282d24a7c"
+    },
+    "checks": {
+      "ledger_valid": true,
+      "lapsed": 0,
+      "open_items": 0,
+      "uncovered_values": 0,
+      "values_without_review_evidence": 0,
+      "deferred": 8
+    },
+    "blocking": [],
+    "unbacked": []
+  },
+  "uncovered": [],
+  "filtered_out": [],
+  "dangling_routes": [],
+  "dangling_claim_refs": [],
+  "source_warnings": [],
+  "color_mismatches": [],
+  "migrate": [],
+  "unserved_flags": [],
+  "compiler_contract": "engine-0.17.3"
+}

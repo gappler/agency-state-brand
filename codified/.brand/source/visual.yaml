@@ -1,0 +1,368 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+colors:
+  - name: white
+    hex: '#ffffff'
+    role: base
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-50
+    hex: '#f9f9f9'
+    role: base
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-100
+    hex: '#f4f4f4'
+    role: base
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-200
+    hex: '#ededed'
+    role: neutral
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-300
+    hex: '#dddddd'
+    role: neutral
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-400
+    hex: '#a0a0a0'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-500
+    hex: '#707070'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-600
+    hex: '#505050'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-700
+    hex: '#343434'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: gray-800
+    hex: '#2e2e2e'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: orange
+    hex: '#D4602A'
+    role: signal
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Color
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+  - name: Black mark
+    hex: '#111111'
+    role: neutral
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Mark
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Mark', conf: high, basis: confirmed }
+  - name: black wordmark
+    hex: '#000000'
+    role: text
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Assets
+      conf: high
+      basis: verbatim
+    field_prov:
+      role: { src: 'brand-book, Agency State Brand Guidelines, Assets', conf: high, basis: confirmed }
+type:
+  - family: Schibsted Grotesk
+    use: display
+    roles:
+      - display
+    weights:
+      - regular
+    character: Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names
+    usage: 'Three faces, at regular weight unless noted.
+
+
+      | Face | Role | Main size |
+
+      |---|---|---|
+
+      | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
+
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+
+      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+
+
+      - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
+
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      use: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      roles: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      usage:
+        src: brand-book, Agency State Brand Guidelines, Typography
+        conf: high
+        basis: verbatim
+      character: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+  - family: Libre Franklin
+    use: body
+    roles:
+      - body
+    weights:
+      - regular
+      - medium
+    character: Body text, article subtitles, card and row titles and descriptions, the footer
+    usage: 'Three faces, at regular weight unless noted.
+
+
+      | Face | Role | Main size |
+
+      |---|---|---|
+
+      | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
+
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+
+      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+
+
+      - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
+
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      use: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      roles: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      usage:
+        src: brand-book, Agency State Brand Guidelines, Typography
+        conf: high
+        basis: verbatim
+      character: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+  - family: DM Mono
+    use: mono
+    roles:
+      - mono
+      - spec
+    weights:
+      - regular
+    character: The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code
+    usage: 'Three faces, at regular weight unless noted.
+
+
+      | Face | Role | Main size |
+
+      |---|---|---|
+
+      | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
+
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+
+      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+
+
+      - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
+
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
+
+
+      **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    field_prov:
+      use: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      roles: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+      usage:
+        src: brand-book, Agency State Brand Guidelines, Typography; brand-book, Agency State Brand Guidelines, Components
+        conf: high
+        basis: verbatim
+      character: { src: 'brand-book, Agency State Brand Guidelines, Typography', conf: high, basis: confirmed }
+logo:
+  wordmark: '`agencystate`, lowercase, one word with no space, from outlined SVG paths (`wordmark-black-on-white.svg`, and `wordmark-white-on-black.svg` for dark grounds).
+
+    "agency" in bold and "state" in regular. The weight shift is the identity. It is locked in the outlined paths, so never retype the wordmark as live text.'
+  mark: 'A white star on a sharp square, the star rotated and leaving the square toward the right edge. No corner radius.
+
+    **Orange mark** (`#D4602A` square, `agency-state-mark-orange.svg`): the site''s mark. Used for the favicon, in the header next to the wordmark, on social preview cards, and on document covers.
+
+    **Black mark** (`#111111` square, `agency-state-mark-black.svg`): for one-color contexts, such as print, embossing, or a place where orange would clash.'
+  usage:
+    - '`agencystate`, lowercase, one word with no space, from outlined SVG paths (`wordmark-black-on-white.svg`, and `wordmark-white-on-black.svg` for dark grounds).'
+    - '"agency" in bold and "state" in regular. The weight shift is the identity. It is locked in the outlined paths, so never retype the wordmark as live text.'
+    - A white star on a sharp square, the star rotated and leaving the square toward the right edge. No corner radius.
+    - '**Orange mark** (`#D4602A` square, `agency-state-mark-orange.svg`): the site''s mark. Used for the favicon, in the header next to the wordmark, on social preview cards, and on document covers.'
+    - '**Black mark** (`#111111` square, `agency-state-mark-black.svg`): for one-color contexts, such as print, embossing, or a place where orange would clash.'
+    - 'The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once per page as a fixed background element near the lower right, at very low opacity. It is texture, never a logo: no other use of the star without its square.'
+    - '**Header:** orange mark immediately left of the wordmark, at the header''s small scale.'
+    - '**Social preview card:** orange mark and wordmark with the tagline, "On brand, at the speed of AI," plus the descriptor where a reader may not yet know Agency State (brand platform §1).'
+    - '**Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.'
+    - The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
+    - 'Do not: Add space between "agency" and "state," set the wordmark in capitals, or give both words the same weight.'
+    - 'Do not: Recolor the mark beyond the orange and black versions, or add gradients or effects.'
+    - 'Do not: Round the square, rotate or distort the mark, or put the mark to the right of the wordmark.'
+    - 'Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.'
+    - 'Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).'
+  files:
+    - wordmark-black-on-white.svg
+    - wordmark-white-on-black.svg
+    - agency-state-mark-orange.svg
+    - agency-state-mark-black.svg
+    - agency-state-watermark.svg
+  prov:
+    src: brand-book, Agency State Brand Guidelines, Wordmark; brand-book, Agency State Brand Guidelines, Mark; brand-book, Agency State Brand Guidelines, Star watermark; brand-book, Agency State Brand Guidelines, Lockups; brand-book, Agency State Brand Guidelines, Lines; brand-book, Agency State Brand Guidelines, Do not; brand-book, Agency State Brand Guidelines, Assets
+    conf: high
+    basis: verbatim
+  field_prov:
+    wordmark:
+      src: brand-book, Agency State Brand Guidelines, Wordmark
+      conf: high
+      basis: verbatim
+    mark:
+      src: brand-book, Agency State Brand Guidelines, Mark
+      conf: high
+      basis: verbatim
+    usage: { src: 'brand-book, Agency State Brand Guidelines, Do not', conf: high, basis: confirmed }
+imagery:
+  stance: 'The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and the orange mark as the only color. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.'
+  specs:
+    - id: social-preview-assets
+      medium: Social preview images
+      spec: 'Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.'
+      prov:
+        src: brand-book, Agency State Brand Guidelines, Assets
+        conf: high
+        basis: confirmed
+      implementation_reference: site.css in the agency-state repo is the source of exact social preview implementation values.
+      field_prov:
+        implementation_reference:
+          src: review by Greg Appler, 2026-10-27
+          conf: high
+          basis: authored
+  prov:
+    src: review by Greg Appler, 2026-10-27
+    conf: high
+    basis: authored
+  policy: No stock photography. Images are limited to the mark, screenshots of real work, and simple diagrams. Social preview images follow the social card lockup.
+  portrait: No portrait for now; revisit the imagery policy if one is added.
+spacing:
+  - id: implementation-reference
+    rule: These are the brand-level rules. `site.css` in the agency-state repo holds the exact implementation values (spacing, widths, breakpoints, timings) and is the file to change when they change.
+    prov:
+      src: brand-book, Agency State Brand Guidelines
+      conf: high
+      basis: verbatim
+  - id: one-narrow-reading-column-on-a-white-pag
+    rule: One narrow reading column on a white page, with generous space between sections.
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+  - id: each-section-is-a-schibsted-label-above
+    rule: Each section is a Schibsted label above its content.
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+  - id: the-header-holds-the-lockup-and-a-short
+    rule: 'The header holds the lockup and a short nav, a thin rule, then a monospace meta line: Washington, DC time, "Washington, DC," "copy email," and LinkedIn.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+  - id: the-footer-is-one-or-two-small-gray-line
+    rule: The footer is one or two small gray lines.
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Layout
+      conf: high
+      basis: verbatim
+  - id: link-cards-boxed-rounded-with-a-gray
+    rule: '**Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+  - id: rows-lines-separated-by-thin-gray-rules
+    rule: '**Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.'
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+  - id: spec-panels-a-light-gray-rounded-panel
+    rule: "**Spec panels** (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system's own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration."
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+  - id: stack-rows
+    rule: "**Stack rows:** the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool's brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged."
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
+iconography:
+  usage: "**Stack rows:** the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool's brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged."
+  prov:
+    src: review by Greg Appler, 2026-10-27
+    conf: high
+    basis: authored
+  policy: "Icons appear only as tool icons in the Stack rows: gray monochrome where the tool's brand allows it, the official icon unchanged where it doesn't. No decorative icons."
+field_prov:
+  spacing: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }

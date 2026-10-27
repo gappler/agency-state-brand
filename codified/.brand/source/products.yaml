@@ -1,0 +1,96 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+products: []
+claims:
+  - id: principal-experience
+    claim: 'More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, where he led marketing for membership, the national conference, and continuing education, built a twelve-member multidisciplinary team, modernized marketing operations, designed the product and led the technology project for AIAU, the organization''s on-demand continuing education platform, and was business owner for a brand redesign adopted at the national organization and across the chapter network (messaging strategy by marketing staff; visual identity in collaboration with Pentagram). Earlier, ran US digital marketing for Lincoln, Nissan, and Infiniti; for Bacardi Global Brands, supported local-market digital promotions and built bar.tv, a global drinks website (since decommissioned). He is a business leader in digital: he builds teams and the processes they run on, and the strategies and marketing plans that connect campaigns to the business. Earlier in his career he wrote code, building CD-ROM games, presentations, and kiosks. He is a builder at heart. For the past two years he has been building with Claude Code, and more recently Codex, as well as other automation tools: a campaign engine, still in development, in which agents run a marketing campaign through phases with a person approving the key pieces between each one, BrandBuilder (the codification and checking engine, in testing on demo brands) and the brand''s own MCP server, review panels, and tests on demo brands. He also has a few AI products of his own in the works. The campaign engine and BrandBuilder have been tested on fictional organizations and demo brands; none of it has been used with a client.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: confirmed
+    conditions: No copy claims or implies client results.
+  - id: brand-os-built-parts
+    claim: The Brand OS parts are built and tested on Agency State's own work and on demo brands.
+    prov:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: confirmed
+    conditions: 'No Brand OS has yet been built or run end to end for anyone, including Agency State itself, and none has run at a client.
+
+      No copy claims or implies client results.'
+  - id: brand-os-practice-method
+    claim: 'Agency State helps a brand marketing team build its Brand OS (see Vocabulary), in five parts: Source, Production, Control, Feedback, and Operators.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
+      conf: high
+      basis: verbatim
+    conditions: 'Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn''t happened or been measured.'
+    field_prov:
+      conditions:
+        src: brand-book, Agency State Brand Platform, 8. Proof
+        conf: high
+        basis: verbatim
+  - id: yowie-missing-product-requests
+    claim: Thirty-six of the requests asked for a product that wasn't in the catalog. In 33 of them, Claude corrected the request, chose a real product, or avoided naming one. That was the right response.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+  - id: yowie-three-fabricated-drafts
+    claim: But in three drafts, Claude went along with the request. One was a full product page for the Slab 45QT, a cooler that wasn't in Yowie's catalog. Claude invented a weight, dimensions, and a price.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+  - id: yowie-fake-cooler-composition
+    claim: The catalog had a Slab 35QT, and Claude built the fake cooler out of it. The real 35QT weighs 22 lb and costs $285. The invented 45QT weighs 28 lb and costs $335. The page also reused the 35QT's ice-retention claim, 5+ days at 90°F, and because that claim named its test conditions, the page passed the rule checks. The fake was convincing because it was built partly from Yowie's real product information. It did leave a clue. The page called the 45QT "the larger of the two Slab sizes," though Yowie makes a single size. You'd catch that only if you knew the catalog.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+  - id: yowie-rule-source-check-result
+    claim: All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+  - id: yowie-context-result
+    claim: The brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+  - id: yowie-warranty-fabrication
+    claim: Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand information has no warranty terms, so none of the checks in this test could catch those promises.
+    prov:
+      src: brand-book, Context is not control, What a check can tell you
+      conf: high
+      basis: confirmed
+    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+
+      This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
+    field_prov:
+      conditions:
+        src: brand-book, Context is not control
+        conf: high
+        basis: verbatim
+field_prov:
+  claims: { src: human review, conf: high, basis: confirmed }

@@ -1,0 +1,23 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+classes:
+  - class: voice
+    owner: Greg Appler
+    owner_role: Greg Appler
+  - class: claims
+    owner: Greg Appler
+    owner_role: Greg Appler
+  - class: visual
+    owner: Greg Appler
+    owner_role: Greg Appler
+  - class: legal
+    owner: Greg Appler
+    owner_role: Greg Appler
+  - class: source_updates
+    owner: Greg Appler
+    owner_role: Greg Appler
+field_prov:
+  classes: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }

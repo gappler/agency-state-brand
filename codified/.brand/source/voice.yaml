@@ -1,0 +1,475 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+attributes:
+  - name: Concrete over abstract
+    definition: Name the thing, the number, the work.
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - name: First person where it fits
+    definition: Say what Greg does, found, or thinks as "I," and name the basis.
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - name: Confident without performing
+    definition: State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - name: Honest over polished
+    definition: A line that is slightly rough but true beats one that is smooth but performing.
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+register:
+  baseline: Agency State's brand voice is one practitioner talking to another about real work. Plain, specific, honest. The reader is a peer.
+  flex_by_channel: 'One voice covers everything written for Agency State: the site, including the homepage and the Practice pieces, plus proposals, outreach, social, and deliverables. Greg''s personal writing outside the site (Substack, LinkedIn, curator drafts) is not governed here; its voice and craft live in the writing-substack-posts skill.'
+  prov:
+    src: brand-book, Agency State Brand Platform, 5. Voice
+    conf: high
+    basis: verbatim
+  channels:
+    - channel: site
+      delta: "Same voice. Articles name their evidence plainly: a test is called a test, and a demo brand is named as one. No copy claims or implies client results. On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Keep the offer quiet. Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly."
+      prov:
+        src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State + Agency State Brand Platform, 8. Proof
+        conf: high
+        basis: inferred
+    - channel: proposals
+      delta: Same voice; no channel-specific guidance recorded yet.
+      prov:
+        src: brand-book, Agency State Brand Platform, 5. Voice
+        conf: high
+        basis: inferred
+    - channel: outreach
+      delta: Same voice; keep the offer quiet.
+      prov:
+        src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State
+        conf: high
+        basis: inferred
+    - channel: social
+      delta: Same voice; keep the offer quiet. The tagline goes with the mark and wordmark on social cards. Page and social descriptions use the preview line, "Helping brand marketing teams put AI to work."
+      prov:
+        src: brand-book, Agency State Brand Platform, 1. Identity + Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State
+        conf: high
+        basis: inferred
+    - channel: deliverables
+      delta: Same voice; no channel-specific guidance recorded yet.
+      prov:
+        src: brand-book, Agency State Brand Platform, 5. Voice
+        conf: high
+        basis: inferred
+  field_prov:
+    channels: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+guidelines:
+  - id: cut-what-s-already-implied
+    kind: avoid
+    text: '**Cut what''s already implied.** If a clause restates what the words before it already entail, delete it and keep the single strongest version. Same for intent language ("designed to," "built to") where the active verb says it plainly.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: limit-signpost-sentences
+    kind: avoid
+    text: '**Limit signpost sentences.** A signpost sentence announces the turn before making it: "That changes the role of review," "The distinction matters," "Here is the practical value." Use one only when the reader needs help following the explanation. Prefer letting the next concrete sentence carry the point.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: plain-words-over-coined-terms
+    kind: do
+    text: '**Plain words over coined terms.** Prefer language the reader already understands. Skip invented labels (for example, "brand-core") when a plain phrase expresses the meaning. Explain the work with its actual objects and actions, without metaphors.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: define-positively
+    kind: do
+    text: '**Define positively.** The broader rule behind the antithesis ban: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader''s gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity. A contrast survives only when the contrast itself is the point.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: x-not-y-antithesis-is-off-by-default
+    kind: avoid
+    text: '**"X, not Y" antithesis is off by default.** The comma-pivot reversal ("a repo you own, not a tool you rent," "encoded, not carried in memory") is a tic once it recurs. State the point positively instead. Allowed only where the contrast itself is the point and earns its place; if there''s no clear cause, cut the "not Y" half.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: watch-the-list-tic
+    kind: avoid
+    text: '**Watch the list tic.** A long inline comma-series, especially five to seven items, starts to read generated. Prefer prose, one concrete example, or a real bulleted list when the items matter, and keep only the items that carry information. This is a tendency to watch, not a hard count: some lists are load-bearing and earn their length.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: the-voice-rule
+    kind: do
+    text: Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: point-of-view
+    kind: do
+    text: 'Default to first person: I built, I help, I embed. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: relaxed-professional-explanation-is-the-default
+    kind: do
+    text: '**Relaxed, professional explanation is the default.** A practitioner explaining real work to a peer, clearly enough for a reader without an engineering background.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: the-references-are-the-current-homepage-and-the-finished-site-articles-especially-what-is-brand-os-and-context-is-not-control
+    kind: do
+    text: '**The references are the current homepage and the finished site articles, especially What is Brand OS? and Context is not control.** Match their relaxed, specific explanation and the approved reference passages below.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: introduce-a-technical-term-through-the-work-it-does
+    kind: do
+    text: '**Introduce a technical term through the work it does.** Explain technical details far enough for the reader to understand what they establish.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: name-the-thing
+    kind: do
+    text: '**Name the thing.** When "it," "this," or "them" could point at more than one thing, repeat the noun.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: say-what-the-work-does
+    kind: do
+    text: '**Say what the work does.** Avoid stacking "needs to" and "should" into a list of requirements; describe what happens and who does it.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: personal-pieces
+    kind: do
+    text: '**Personal pieces.** On the homepage and other introductions, Greg''s own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: paragraphs-connect
+    kind: do
+    text: '**Paragraphs connect.** Let paragraphs run a few sentences that build; avoid stacks of one-sentence paragraphs unless a line has earned its isolation.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: keep-the-offer-quiet
+    kind: do
+    text: '**Keep the offer quiet.** Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: an-objection-is-about-one-passage
+    kind: do
+    text: '**An objection is about one passage.** Rejecting a word in one sentence is evidence about that sentence; it does not ban the word everywhere.'
+    prov:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+  - id: scoped-defensive-copy
+    kind: avoid
+    text: '**Defensive copy answering unraised objections.** "no subscription, no vendor lock," "no IT required." If the buyer didn''t ask, don''t answer. The same goes for telling readers they will own what gets built ("a Brand OS they own"): ownership is implied.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+  - id: scoped-ai-strategy
+    kind: avoid
+    text: '**Generic "AI strategy" as a deliverable.** Too abstract. Name what is being built.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      text: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+  - id: scoped-capability-transfer
+    kind: avoid
+    text: '**"Capability transfer" or "teaches you to build" as promises.** Overstates what an engagement delivers. Greg builds with the team and provides artifacts and documentation, then works with the Brand OS lead as the system grows. That does not transfer capability in a single handoff.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      text: { src: 'brand-book, Agency State Brand Platform, 7. Never say', conf: high, basis: confirmed }
+  - id: scoped-group-comparisons
+    kind: avoid
+    text: '**Negative positioning and unmeasured group claims.** No defining Agency State against others ("Unlike enterprise consulting...," "not another AI course") and no characterizing how other brands, teams, or people operate ("most brands," "most teams," "everyone," "nobody"). The defect is asserting a proportion nobody counted, or casting the reader''s peers as the ones getting it wrong. A specific, factual comparison is allowed: name the vendor or category, state what each approach does, and keep every claim verifiable; the superiority has to be visible in the facts, not asserted around them. Lead with what Agency State does, and state a failure by what goes wrong rather than by who has it.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+  - id: scoped-cta-bait
+    kind: avoid
+    text: '**Filler and bait.** Hedging filler ("in many ways," "at the end of the day") and CTA-bait closes (a rhetorical "What about you?", "let me know in the comments").'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+  - id: scoped-maturity-hedges
+    kind: avoid
+    text: '**Self-undermining maturity hedges.** Repeated "proof so far," "the working parts," "not yet proven," "this is early." Scope once, plainly, then move on; repeating the hedge signals doubt and buries the claim. This does not relax the overclaim or fake-proof bans; it keeps honest scoping from turning into self-doubt.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+  - id: vocabulary-use-avoid
+    kind: do
+    text: '**Use / avoid:**
+
+
+      | Use | Avoid |
+
+      |-----|-------|
+
+      | *leverage* as a noun (operational capacity) | *leverage* as a verb |
+
+      | *with*, *together* | *alongside* |
+
+      | name the specific tool or the tool count | *tools* as a category for what the practice offers |
+
+      | describe what the AI is doing in the work | *AI-first*, *AI-native*, *AI-powered* |
+
+      | *marketers*, *the team* (people) | *AI-fluent organization* (entity-level overclaim) |'
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+  - id: scoped-announced-honesty
+    kind: avoid
+    text: '**Announced honesty, in any form.** "honestly," "to be honest," "I''ll be honest," "truthfully," and the adjective versions: "the honest answer," "an honest look," "the honest version," "honesty ledger." The straight-talk voice proves candor by being direct, so announcing it signals the opposite and reads as a filler tic. Say the thing plainly. Describing a property under verification is different and fine when a plainer word does not exist, though "accurate" usually does.'
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+vocabulary:
+  reach_for:
+    words:
+      - with
+      - together
+      - marketers
+      - the team
+      - AI Enablement
+      - Artifacts
+      - Workflow
+      - Codified brand
+      - Brand OS
+      - Brand OS lead
+      - Agents
+      - Automations
+      - BrandBuilder
+      - Provenance
+      - Rule check
+      - Source check
+      - Serving layer (MCP)
+      - Demo brand
+      - Recurring work
+    rule: 'Terms with fixed meaning:'
+    prov:
+      src: brand-book, Agency State Brand Platform, 6. Vocabulary
+      conf: high
+      basis: verbatim
+  refuse:
+    Fear framing:
+      words:
+        - don't get left behind
+        - AI is coming for your job
+        - your competitors are already doing this
+      reason: Being plain about what AI automates, as the buyer's leverage, is not fear framing. The ban is on threatening the reader; honesty about the work is fine.
+    Overclaim:
+      words:
+        - transform your career
+        - change your life
+        - 10x your output
+        - save 20 hours a week
+        - AI transformation
+    SaaS clichés:
+      words:
+        - unlock
+        - amplify
+        - empower
+        - disrupt
+        - synergy
+        - game-changer
+        - revolutionize
+    Consultant-speak:
+      words:
+        - our proprietary methodology
+        - best-in-class
+        - thought leadership
+    Hedge words:
+      words:
+        - we believe
+        - we think
+      reason: 'Exception: in founder first person, "I think," "I''ve found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden. "May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don''t strengthen a claim merely to avoid a hedge word.'
+    AI-first, AI-native, AI-powered:
+      words:
+        - AI-first
+        - AI-native
+        - AI-powered
+      reason: Buzzword overclaim. Describe what the AI actually does in the work.
+    Mechanical-repetition framing:
+      words:
+        - repeatable
+        - does the same thing every time
+        - the same way every time
+      reason: Frames the AI as a deterministic script and undersells its judgment. Describe what the AI actually does, including how it handles novel situations. ("Recurring work" stays fine; "recurring" means happens regularly, not done identically.)
+    Filler and bait:
+      words:
+        - in many ways
+        - at the end of the day
+    Scale yourself:
+      words:
+        - Scale yourself
+      reason: Treats the human as an asset to be multiplied.
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+  conditional:
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: confirmed
+    items:
+      - word: leverage
+        condition: leverage as a noun (operational capacity)
+        prov:
+          src: brand-book, Agency State Brand Platform, 6. Vocabulary
+          conf: high
+          basis: verbatim
+      - words:
+          - may
+          - might
+        condition: '"we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I''ve found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden. "May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don''t strengthen a claim merely to avoid a hedge word.'
+        prov:
+          src: brand-book, Agency State Brand Platform, 7. Never say
+          conf: high
+          basis: verbatim
+      - words:
+          - I think
+          - I've found
+          - my pick
+        condition: '"we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I''ve found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden. "May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don''t strengthen a claim merely to avoid a hedge word.'
+        prov:
+          src: brand-book, Agency State Brand Platform, 7. Never say
+          conf: high
+          basis: verbatim
+      - words:
+          - honestly,
+          - to be honest,
+          - I'll be honest,
+          - truthfully,
+          - the honest answer,
+          - an honest look,
+          - the honest version,
+          - honesty ledger.
+        condition: Describing a property under verification is different and fine when a plainer word does not exist, though "accurate" usually does.
+        prov:
+          src: brand-book, Agency State Brand Platform, 7. Never say
+          conf: high
+          basis: verbatim
+data_points:
+  sentence_length: Vary sentence length within connected paragraphs. Short sentences need their surrounding context.
+  person: first
+  punctuation:
+    - No em dashes. Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
+    - No emphasis-by-italics, no exclamation, no transformation language.
+  formatting:
+    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, AI Enablement, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    - 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+  prov:
+    src: brand-book, Agency State Brand Platform, Core rules
+    conf: high
+    basis: verbatim
+  field_prov:
+    sentence_length:
+      src: brand-book, Agency State Brand Platform, Writing for Agency State
+      conf: high
+      basis: verbatim
+    formatting:
+      src: brand-book, Agency State Brand Platform, Core rules; brand-book, Agency State Brand Guidelines, Typography
+      conf: high
+      basis: verbatim
+    reading_level: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+  reading_level: About grade 9, plain.
+  style_guide:
+    of_record: The Chicago Manual of Style
+    exceptions:
+      - House rules in the platform take precedence, including no em dashes and sentence-case headings.
+    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+messaging:
+  one_line: Helping brand marketing teams put AI to work.
+  claim_shape: Name the basis, then move on.
+  prov:
+    src: brand-book, Agency State Brand Platform, 1. Identity
+    conf: high
+    basis: verbatim
+  field_prov:
+    claim_shape:
+      src: brand-book, Agency State Brand Platform, 8. Proof
+      conf: high
+      basis: verbatim
+exemplars:
+  - id: context-opening
+    label: Context is not control, opening
+    text: 'Giving AI your written brand documents can help it write better marketing copy. Those documents become its context: the vocabulary, examples of the voice, product information, and the rules you want it to follow.
+
+
+      But a draft it writes can sound right while getting important things wrong. It can name a product you don''t sell or promise a policy you don''t offer. I''ve found these errors are different from the ones people make. They fit. They borrow real details, or they sound like what any brand like yours would say. The clues that they''re wrong are there, but only someone who knows the facts will see them.'
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: verbatim
+  - id: context-result
+    label: Context is not control, result and limits
+    text: All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
+    prov:
+      src: brand-book, Context is not control
+      conf: high
+      basis: verbatim
+  - id: context-close
+    label: Context is not control, close
+    text: 'The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can''t. That''s the work a Brand OS does: turning the brand information into a source a check can read, keeping it current, giving it to the AI with every request, running the checks, and routing the remaining decisions to the right person.'
+    prov:
+      src: brand-book, Context is not control, Where the corrections go
+      conf: high
+      basis: verbatim
+  - id: brand-os-production
+    label: What is Brand OS?, Production
+    text: 'Production is where the team''s work gets made. The team supplies the brief and the idea; the source supplies the brand guidance for the task. The work covers campaigns and the ongoing production between them: product updates, page revisions, email versions, social posts.
+
+
+      Agents draft, adapt, localize, and update that material. An email and a social post call for different choices about length, emphasis, and detail, and the agent makes those choices within the brief. Automations handle the set steps around each draft: they run the checks and send the draft to the person who reviews it.'
+    prov:
+      src: brand-book, What is Brand OS?, 02. Production
+      conf: high
+      basis: confirmed
+  - id: homepage-practice
+    label: Homepage, practice introduction
+    text: Agency State is my AI Enablement practice for brand marketing teams building their own AI workflows with Claude Code and Codex. The approach starts with the brand. I call it Brand OS, the system that keeps a marketing team's AI work on brand. It improves as the team approves the corrections that come out of the work.
+    prov:
+      src: brand-book, Agency State homepage
+      conf: high
+      basis: confirmed

@@ -1,0 +1,72 @@
+---
+version: 1.0
+last_updated: 2026-10-27
+---
+schema_version: 0.2.0
+client_name: Agency State
+source_manifest:
+  - id: brand-book
+    label: Approved Agency State sources, combined without source frontmatter
+    kind: brand-book
+    path: brand-book.md
+    note: Platform v3.0 excluding Decisions & rationale; guidelines v5.2; four approved articles; visible homepage prose. Original paths are recorded in logs/source-manifest.json.
+name:
+  usage:
+    prov:
+      src: brand-book, Agency State Brand Platform, 1. Identity; brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+    items:
+      - Agency State
+      - '"Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines).'
+      - Tagline. "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
+      - Descriptor. "AI Enablement for brand marketing teams." The plain statement of what Agency State is. Use it in page and social descriptions, and beside the tagline when it needs context.
+      - Positioning line (plain). "Helping brand marketing teams put AI to work." A short opening statement of what the work is. The tagline, descriptor, and positioning line do different jobs.
+  meaning:
+    means: the capacity to act
+    does_not_mean: agency as a marketing shop
+    prov:
+      src: brand-book, Agency State Brand Platform, 1. Identity
+      conf: high
+      basis: verbatim
+canonical_lines:
+  tagline:
+    text: On brand, at the speed of AI.
+    prov:
+      src: brand-book, Agency State Brand Platform, 1. Identity
+      conf: high
+      basis: verbatim
+  positioning_line:
+    text: Helping brand marketing teams put AI to work.
+    prov:
+      src: brand-book, Agency State Brand Platform, 1. Identity
+      conf: high
+      basis: verbatim
+  preview_line:
+    text: Helping brand marketing teams put AI to work.
+    prov:
+      src: review by Greg Appler, 2026-10-27
+      conf: high
+      basis: authored
+not_applicable:
+  - slot: products.list
+    reason: Agency State sells services, not products.
+    decided_by: Greg Appler
+  - slot: products.facts
+    reason: Agency State sells services, not products.
+    decided_by: Greg Appler
+  - slot: products.prices
+    reason: Agency State sells services, not products.
+    decided_by: Greg Appler
+  - slot: brand.values
+    reason: Not applicable for now; add values if Greg writes them.
+    decided_by: Greg Appler
+  - slot: brand.mission
+    reason: Not applicable for now; add a mission if Greg writes one.
+    decided_by: Greg Appler
+  - slot: voice.register_splits
+    reason: One voice, no formality levels or registers.
+    decided_by: Greg Appler
+  - slot: architecture.naming_structure
+    reason: Single brand; no product-line or sub-brand hierarchy applies.
+    decided_by: Greg Appler
