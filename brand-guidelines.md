@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.3
+version: 5.4
 status: Canonical
 date: 2026-10-25
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 source: Approved by Greg 2026-10-25. Derived from the redesigned homepage (agency-state/index.html) and the shared stylesheet every page links (agency-state/site.css), October 2026. Replaces v4.1 in full; earlier guidance on faces, sizes, color, and accent use no longer applies.
 ---
 
@@ -64,10 +64,10 @@ White ground, gray type, and no accent color in the page itself. Orange appears 
 | gray-200 | `#ededed` | Rules between rows, card and panel borders |
 | gray-300 | `#dddddd` | Link underline, card border on hover, the pull-quote rule |
 | gray-400 | `#a0a0a0` | Meta line, nav, footer, small labels |
-| gray-500 | `#707070` | Body text, descriptions |
+| gray-500 | `#707070` | Body text, descriptions, pull-quote text and source lines |
 | gray-600 | `#505050` | Spec panel text, numbers in badges |
 | gray-700 | `#343434` | Link text on hover |
-| gray-800 | `#2e2e2e` | Names, section labels, titles, pull-quote text |
+| gray-800 | `#2e2e2e` | Names, section labels, titles |
 | orange | `#D4602A` | The mark only |
 
 Links in body text keep the surrounding color with a thin gray-300 underline that turns gray-500 on hover (text to gray-700). Navigation, meta, card, stack, and article-footer links have no underline. No colored links, buttons, or highlighted words.
@@ -101,7 +101,7 @@ Each visual form has one job. Use the form that matches what the content is.
 - **Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
 - **Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.
 - **Spec panels** (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system's own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration.
-- **Pull quotes** (a short quotation set off by a thin gray rule at its left, in the body face at a gray darker than body text, with a small gray source line beneath that links to the source): for a line from a cited source that the surrounding prose relies on, placed after the paragraph that relies on it. Not for Greg's own words, emphasis, or decoration.
+- **Pull quotes** (a short quotation set off by a thin gray rule at its left, set like body text, with a small gray source line beneath that links to the source): for a line from a cited source that the surrounding prose relies on, placed after the paragraph that relies on it. Not for Greg's own words, emphasis, or decoration.
 - **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.
 - **Stack rows:** the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool's brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged.
 
