@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Platform
-version: 3.1
+version: 3.2
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-10-27
+last_updated: 2026-10-30
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, Codex, and AI workflows.
 ---
 
@@ -30,6 +30,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 - **Tagline.** "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
 - **Descriptor.** "AI Enablement for brand marketing teams." The plain statement of what Agency State is. Use it in page and social descriptions, and beside the tagline when it needs context.
 - **Positioning line (plain).** "Helping brand marketing teams put AI to work." A short opening statement of what the work is. The tagline, descriptor, and positioning line do different jobs.
+- **Value line.** "with one brand source, checks against it, and people who make the judgment calls and keep the source current." The short form of Brand OS's five parts, used after a statement of what Greg does ("I help them put AI to work on more of what they ship, with one brand source, checks against it, and people who make the judgment calls and keep the source current."). It names the means, not an outcome. For the full definition, use the five parts above.
 
 ---
 
