@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 3.3
+version: 3.4
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-11-02
@@ -29,7 +29,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 - **Tagline.** "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
 - **Descriptor and positioning line.** "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
-- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "helps the team make better calls about which AI work represents its brand and is ready to ship." Example, the homepage introduction: "I help brand marketing teams and their agencies use AI in Claude Code and Codex to produce marketing work they can stand behind." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
+- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "helps the team make better calls about which AI work represents its brand and is ready to ship." Example, the homepage introduction: "That's what I help them work through, so they can produce marketing work they can stand behind." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
 
 ---
 
@@ -94,6 +94,18 @@ Agency State's brand voice is one practitioner talking to another about real wor
   - ✗ "Agency State empowers organizations to harness the power of AI."
   - ✓ "In a test I ran with Yowie, a demo outdoor-gear brand, a product page for a cooler that didn't exist passed every rule check."
   - ✗ "Testing has shown that rule checks alone are not enough."
+
+- **Establish relevance before describing capability.** When introducing the work, start with the reader's task, decision, or the result they need, then say what Greg does. First person doesn't require opening with "I." Check: does the reader know why the work matters before hearing what Greg offers?
+  - ✓ "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That's what I help them work through."
+  - ✗ "I help brand marketing teams and their agencies use AI in Claude Code and Codex."
+
+- **Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?
+  - ✓ "I partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team's automations and agents. It gives the team a basis for making those calls about the work."
+  - ✗ "It turns a brand into one source AI can read, serves that source to the team's automations and agents, and helps the team make better calls about which AI work represents its brand and is ready to ship."
+
+- **Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg's status?
+  - ✓ "We can start with a first automation or agent, or work together on a full Brand OS."
+  - ✗ "I'm available for projects ranging from a first automation or agent to a full Brand OS."
 
 - **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
   - ✓ "The source is the team's existing brand, written so a machine can read it."
