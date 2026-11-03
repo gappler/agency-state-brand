@@ -1,6 +1,6 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 client_name: Agency State
@@ -9,7 +9,7 @@ source_manifest:
     label: Approved Agency State sources, combined without source frontmatter
     kind: brand-book
     path: brand-book.md
-    note: Platform v3.0 excluding Decisions & rationale; guidelines v5.2; four approved articles; visible homepage prose. Original paths are recorded in logs/source-manifest.json.
+    note: Platform v3.4 excluding Decisions & rationale; guidelines v5.4; four approved articles; visible homepage prose. Original paths are recorded in logs/source-manifest.json.
 name:
   usage:
     prov:
@@ -20,8 +20,8 @@ name:
       - Agency State
       - '"Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines).'
       - Tagline. "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
-      - Descriptor. "AI Enablement for brand marketing teams." The plain statement of what Agency State is. Use it in page and social descriptions, and beside the tagline when it needs context.
-      - Positioning line (plain). "Helping brand marketing teams put AI to work." A short opening statement of what the work is. The tagline, descriptor, and positioning line do different jobs.
+      - Descriptor and positioning line. "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
+      - 'Value lines. What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "helps the team make better calls about which AI work represents its brand and is ready to ship." Example, the homepage introduction: "That''s what I help them work through, so they can produce marketing work they can stand behind." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.'
   meaning:
     means: the capacity to act
     does_not_mean: agency as a marketing shop

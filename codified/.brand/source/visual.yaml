@@ -1,6 +1,6 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 colors:
@@ -138,7 +138,7 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
 
       | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
 
@@ -175,7 +175,7 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
 
       | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
 
@@ -212,7 +212,7 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) |
+      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
 
       | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
 
@@ -351,6 +351,12 @@ spacing:
       src: brand-book, Agency State Brand Guidelines, Components
       conf: high
       basis: verbatim
+  - id: pull-quotes
+    rule: "**Pull quotes** (a short quotation set off by a thin gray rule at its left, set like body text, with a small gray source line beneath that links to the source): for a line from a cited source that the surrounding prose relies on, placed after the paragraph that relies on it. Not for Greg's own words, emphasis, or decoration."
+    prov:
+      src: brand-book, Agency State Brand Guidelines, Components
+      conf: high
+      basis: verbatim
   - id: stack-rows
     rule: "**Stack rows:** the tools Greg works with, as ruled rows with a small tool icon and the tool name. Tool icons are gray monochrome where the tool's brand allows it; where a brand forbids modifying its icon (VS Code), use the official icon unchanged."
     prov:
@@ -365,4 +371,4 @@ iconography:
     basis: authored
   policy: "Icons appear only as tool icons in the Stack rows: gray monochrome where the tool's brand allows it, the official icon unchanged where it doesn't. No decorative icons."
 field_prov:
-  spacing: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+  spacing: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }

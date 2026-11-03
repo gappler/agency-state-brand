@@ -1,6 +1,6 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 positions:
@@ -27,9 +27,9 @@ positions:
       date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
     date: '2026-10-27'
   - id: voice-fit-needs-judgment
-    stance: Voice judgment still belongs to a person. A system can catch banned words and formatting errors. It cannot decide whether a line has the right feel for the brand.
+    stance: "Voice needs human review. In a recent study of three Claude models and one brand, the models given the brand's voice to imitate still wrote in their own voice."
     prov:
-      src: brand-book, What AI needs to know about your brand, Voice
+      src: brand-book, What is Brand OS?, 03. Control
       conf: high
       basis: verbatim
     owner: Greg Appler
@@ -38,9 +38,9 @@ positions:
       date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
     date: '2026-10-27'
   - id: leave-undecided-content-empty
-    stance: The source should make gaps visible. If the brand has not decided something, the slot stays empty and routes to a person. The codifier does not invent the answer.
+    stance: "During codification, each entry is filled from the brand's existing material. What the material doesn't settle goes to the person who decides it."
     prov:
-      src: brand-book, What AI needs to know about your brand, What stays out
+      src: brand-book, A codified brand template, The baseline
       conf: high
       basis: verbatim
     owner: Greg Appler
@@ -49,7 +49,7 @@ positions:
       date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
     date: '2026-10-27'
   - id: feedback-needs-owner-approval
-    stance: Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review paths, the owner of that decision approves the change before it's applied. Future work then uses the updated facts, rules, or review paths.
+    stance: "Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it's applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change."
     prov:
       src: brand-book, What is Brand OS?, 04. Feedback
       conf: high

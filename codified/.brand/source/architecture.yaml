@@ -1,6 +1,6 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 lines: []
@@ -8,13 +8,12 @@ naming:
   convention: Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that.
   exact_names:
     - Agency State
-    - AI Enablement
     - Brand OS
     - Brand OS lead
     - BrandBuilder
+    - brand-readiness assessment
   capitalization:
-    - 'AI Enablement. The discipline and practice remit: building a marketing team''s AI capacity through governance, knowledge bases, content engineering, planning, measurement, and change management. Not separately purchasable services. Capitalize throughout.'
-    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, AI Enablement, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
     - 'One word, both capitals: BrandBuilder.'
   prov:
     src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -22,7 +21,7 @@ naming:
     basis: verbatim
   field_prov:
     exact_names:
-      src: brand-book, Agency State Brand Platform, 1. Identity; brand-book, Agency State Brand Platform, 6. Vocabulary
+      src: brand-book, Agency State Brand Platform, 1. Identity; brand-book, Agency State Brand Platform, 2. What Agency State delivers; brand-book, Agency State Brand Platform, 6. Vocabulary
       conf: high
       basis: verbatim
     capitalization:
@@ -35,7 +34,7 @@ naming:
     - Brand OS
 structure:
   type: single-brand
-  note: Agency State is Greg Appler's AI Enablement practice for brand marketing teams.
+  note: Agency State helps brand marketing teams and their agencies use AI in Claude Code and Codex to produce marketing work they can stand behind.
   prov:
     src: brand-book, Agency State Brand Platform, 1. Identity
     conf: high

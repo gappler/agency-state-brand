@@ -1,6 +1,6 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 attributes:
@@ -69,6 +69,27 @@ register:
   field_prov:
     channels: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
 guidelines:
+  - id: establish-relevance-before-describing-capability
+    kind: do
+    text: '**Establish relevance before describing capability.** When introducing the work, start with the reader''s task, decision, or the result they need, then say what Greg does. First person doesn''t require opening with "I." Check: does the reader know why the work matters before hearing what Greg offers?'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: give-the-result-its-own-sentence
+    kind: do
+    text: '**Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
+  - id: close-with-a-next-step-the-reader-can-take
+    kind: do
+    text: '**Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg''s status?'
+    prov:
+      src: brand-book, Agency State Brand Platform, Core rules
+      conf: high
+      basis: verbatim
   - id: cut-what-s-already-implied
     kind: avoid
     text: '**Cut what''s already implied.** If a clause restates what the words before it already entail, delete it and keep the single strongest version. Same for intent language ("designed to," "built to") where the active verb says it plainly.'
@@ -247,7 +268,7 @@ guidelines:
 
       | *with*, *together* | *alongside* |
 
-      | name the specific tool or the tool count | *tools* as a category for what the practice offers |
+      | name the specific tool or the tool count | *tools* as a category for what Agency State offers |
 
       | describe what the AI is doing in the work | *AI-first*, *AI-native*, *AI-powered* |
 
@@ -270,7 +291,6 @@ vocabulary:
       - together
       - marketers
       - the team
-      - AI Enablement
       - Artifacts
       - Workflow
       - Codified brand
@@ -279,6 +299,7 @@ vocabulary:
       - Agents
       - Automations
       - BrandBuilder
+      - Brand-readiness assessment
       - Provenance
       - Rule check
       - Source check
@@ -397,7 +418,7 @@ data_points:
     - No em dashes. Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
     - No emphasis-by-italics, no exclamation, no transformation language.
   formatting:
-    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, AI Enablement, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
     - 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
   prov:
     src: brand-book, Agency State Brand Platform, Core rules
@@ -461,15 +482,28 @@ exemplars:
     text: 'Production is where the team''s work gets made. The team supplies the brief and the idea; the source supplies the brand guidance for the task. The work covers campaigns and the ongoing production between them: product updates, page revisions, email versions, social posts.
 
 
-      Agents draft, adapt, localize, and update that material. An email and a social post call for different choices about length, emphasis, and detail, and the agent makes those choices within the brief. Automations handle the set steps around each draft: they run the checks and send the draft to the person who reviews it.'
+      Agents draft, adapt, localize, and update that material. An email and a social post call for different choices about length, emphasis, and detail, and the agent makes those choices within the brief. Automations handle the set steps around each draft. They run the checks and send the draft to the person who reviews it.'
     prov:
       src: brand-book, What is Brand OS?, 02. Production
       conf: high
       basis: confirmed
-  - id: homepage-practice
-    label: Homepage, practice introduction
-    text: Agency State is my AI Enablement practice for brand marketing teams building their own AI workflows with Claude Code and Codex. The approach starts with the brand. I call it Brand OS, the system that keeps a marketing team's AI work on brand. It improves as the team approves the corrections that come out of the work.
+  - id: homepage-introduction
+    label: Homepage, introduction
+    text: 'Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That’s what I help them work through, so they can produce marketing work they can stand behind.
+
+
+      I partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team’s automations and agents. It gives the team a basis for making those calls about the work.
+
+
+      We can start with a first automation or agent, or work together on a full Brand OS. To compare notes or request a brand-readiness assessment, send me an email.'
     prov:
       src: brand-book, Agency State homepage
+      conf: high
+      basis: confirmed
+  - id: brand-os-why-it-matters
+    label: What is Brand OS?, Why it matters
+    text: Leaders in the 2026 CMO Survey say they use AI in about a quarter of their marketing today and expect it in more than half within three years. Agencies and brand teams still answer for what ships. I build Brand OS with teams to give their AI work a brand source, checks against it, and people who review every draft. With it, the team has a basis for deciding whether the work represents its brand and is ready to ship.
+    prov:
+      src: brand-book, What is Brand OS?, Why it matters
       conf: high
       basis: confirmed

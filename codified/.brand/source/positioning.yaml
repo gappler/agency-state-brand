@@ -1,11 +1,11 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 what_it_is:
-  statement: For brand marketing teams building their own AI workflows with Claude Code and Codex, Agency State is Greg Appler's AI Enablement practice. It builds the Brand OS that keeps the team's AI work on brand, drawing on more than twenty years of brand marketing leadership and hands-on building with the same tools.
-  premise: 'AI Enablement is the discipline. Brand OS is its application to brand marketing: the system that makes the brand usable by AI, puts it to work, and keeps it governed as production grows.'
+  statement: For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg partners with the team to build Brand OS. It brings together one brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review drafts, make judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+  premise: Brand OS is the whole system, starting from one brand source. It makes the brand usable by AI, puts it to work, and keeps it governed as production grows. Agency State extends it into more of a team's work, such as briefs, production, and reporting.
   prov:
     src: brand-book, Agency State Brand Platform, 3. Positioning
     conf: high
@@ -15,12 +15,6 @@ what_it_is:
       src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
       conf: high
       basis: verbatim
-category: AI Enablement
-field_prov:
-  category:
-    src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
-    conf: high
-    basis: verbatim
 personas:
   - name: brand marketing leaders, and the builders on their teams
     who: Agency State's audience is brand marketing leaders, and the builders on their teams, at mid-to-large B2B and B2C organizations with intentional brands, in-house or at the agencies that serve them. The sharpest fit is a team building its own AI workflows with Claude Code and Codex. The Brand OS gives those tools structured brand source to work with, checks on their output, and routes to the people who decide the remaining questions. A team that hasn't started with these tools can still fit if it is comfortable with technology, already uses AI, and plans to do more with it.
@@ -62,7 +56,7 @@ differentiators:
     field_prov:
       claim_refs: { src: 'brand-book, Agency State Brand Platform, 3. Positioning', conf: high, basis: confirmed }
 sells_against:
-  competes_on: The assessment establishes whether the brand is ready to codify, what needs deciding first, and what is worth building. Brand OS is the focus of the practice, which also takes on other AI Enablement work for brand marketing teams.
+  competes_on: The brand-readiness assessment establishes whether the brand is ready to codify, what needs deciding first, and what is worth building. Agency State takes on projects from a first automation or agent to a full Brand OS.
   refuses: '*These are internal boundaries for scoping the work, not lines for public copy.*
 
 

@@ -1,2 +1,8 @@
 schema_version: 0.2.0
-suggestions: []
+suggestions:
+  - id: ban-ai-enablement
+    add_to: rules.never_say
+    entry: { word: AI Enablement, kind: retired term, severity: soft, reason: "Retired in platform v3.3; the descriptor, discipline name and fixed term were removed." }
+    why: "Platform v3.3 removed the term everywhere and the decision log rules out reintroducing it; the platform states no ban, so this is a suggestion for Greg, not a rule."
+    prov: { src: "brand-book, Agency State Brand Platform, 6. Vocabulary; the term no longer appears in the source", conf: medium, basis: inferred }
+    status: open

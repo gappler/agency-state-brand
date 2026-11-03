@@ -1,12 +1,12 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-10-27T13:19:14Z",
+  "compiled_at": "2026-11-03T01:05:59Z",
   "summary": {
     "required": {
-      "filled": 30,
+      "filled": 29,
       "partial": 1,
-      "empty": 0,
+      "empty": 1,
       "n/a": 3
     },
     "recommended": {
@@ -93,7 +93,7 @@
       "slot": "positioning.category",
       "tier": "R",
       "path": "positioning.category",
-      "status": "filled"
+      "status": "empty"
     },
     {
       "slot": "positioning.differentiators",
@@ -315,8 +315,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:10de5f03414dc633285a5ac945ca3856ee376d4340a4c6eff3fde4f335a1911e",
-    "review": "sha256:81640591cd2be87007b602ba98290e1bd29280c330995aad257f767282d24a7c"
+    "source": "sha256:629ba878028952014c32f6682eac7f804c4b9d009e588402c0c63760a729eec0",
+    "review": "sha256:90669e5a74e20b8342fc281bf47df8392ed88b8661eeac514bfa9e94f9bb9e10"
   },
   "unknown_fields": [],
   "ledger": {
@@ -325,7 +325,7 @@
     "lapsed": [],
     "open_items": 0,
     "open_item_ids": [],
-    "current_items": 343,
+    "current_items": 355,
     "backed_paths": [
       "approved_language.blocks",
       "approved_language.blocks[company-description-100]",
@@ -333,11 +333,11 @@
       "approved_language.blocks[company-description-50]",
       "approved_language.blocks[company-description-full]",
       "approved_language.blocks[definition-agents].remix",
-      "approved_language.blocks[definition-ai-enablement].remix",
       "approved_language.blocks[definition-artifacts].remix",
       "approved_language.blocks[definition-automations].remix",
       "approved_language.blocks[definition-brand-os-lead].remix",
       "approved_language.blocks[definition-brand-os].remix",
+      "approved_language.blocks[definition-brand-readiness-assessment].remix",
       "approved_language.blocks[definition-brandbuilder].remix",
       "approved_language.blocks[definition-codified-brand].remix",
       "approved_language.blocks[definition-demo-brand].remix",
@@ -350,23 +350,21 @@
       "approved_language.blocks[published-context-is-not-control-what-a-check-can-tell-you].remix",
       "approved_language.blocks[published-context-is-not-control-where-the-corrections-go].remix",
       "approved_language.blocks[published-context-is-not-control].remix",
-      "approved_language.blocks[published-serving-your-brand-to-ai-tools-serving-yowie].remix",
+      "approved_language.blocks[published-serving-your-brand-to-ai-tools-serving-agency-states-brand].remix",
       "approved_language.blocks[published-serving-your-brand-to-ai-tools-source-and-server].remix",
       "approved_language.blocks[published-serving-your-brand-to-ai-tools-the-job].remix",
       "approved_language.blocks[published-serving-your-brand-to-ai-tools-what-tools-ask-for].remix",
       "approved_language.blocks[published-serving-your-brand-to-ai-tools-why-it-matters].remix",
       "approved_language.blocks[published-serving-your-brand-to-ai-tools].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-approved-language-and-stories].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-approved-language].remix",
       "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-decision-owners-and-review].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-identity-and-architecture].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-positioning-and-positions].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-products-and-claims].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-identity].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-positioning-and-audience].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-products-facts-and-claims].remix",
       "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-rules].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-the-inventory].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-the-output].remix",
+      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-the-baseline].remix",
       "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-visual-identity].remix",
       "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-voice].remix",
-      "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand-what-stays-out].remix",
       "approved_language.blocks[published-what-ai-needs-to-know-about-your-brand].remix",
       "approved_language.blocks[published-what-is-brand-os-01-source].remix",
       "approved_language.blocks[published-what-is-brand-os-02-production].remix",
@@ -556,6 +554,8 @@
       "rules.visual_rules[components-5].severity",
       "rules.visual_rules[components-6].route_to",
       "rules.visual_rules[components-6].severity",
+      "rules.visual_rules[components-7].route_to",
+      "rules.visual_rules[components-7].severity",
       "rules.visual_rules[do-not-1].route_to",
       "rules.visual_rules[do-not-1].rule",
       "rules.visual_rules[do-not-1].severity",
@@ -606,7 +606,6 @@
       "rules.visual_rules[wordmark-2].route_to",
       "rules.visual_rules[wordmark-2].severity",
       "stories",
-      "stories[greg-practice-background].tags",
       "stories[yowie-fabrication-test].tags",
       "stories[yowie-warranty-gap].tags",
       "visual.colors[Black mark].role",
@@ -640,7 +639,8 @@
       "voice.data_points.reading_level",
       "voice.data_points.style_guide",
       "voice.exemplars[brand-os-production]",
-      "voice.exemplars[homepage-practice]",
+      "voice.exemplars[brand-os-why-it-matters]",
+      "voice.exemplars[homepage-introduction]",
       "voice.guidelines[scoped-ai-strategy].text",
       "voice.guidelines[scoped-capability-transfer].text",
       "voice.register.channels",
@@ -758,6 +758,14 @@
         "route_to": "source_updates",
         "decided_by": "Greg Appler",
         "decided_at": "2026-10-27"
+      },
+      {
+        "path": "positioning.category",
+        "slot": "positioning.category",
+        "note": "Codex fidelity review: platform v3.3 retired the former category and v3.4 names no replacement. Leave the slot empty rather than derive a category from the offer; Greg names one.",
+        "route_to": "source_updates",
+        "decided_by": "Codex (fidelity to platform v3.4; content approved by Greg 2026-11-02)",
+        "decided_at": "2026-11-02"
       }
     ],
     "flagged": []
@@ -765,8 +773,8 @@
   "approval": {
     "status": "human_reviewed",
     "revisions": {
-      "source": "sha256:10de5f03414dc633285a5ac945ca3856ee376d4340a4c6eff3fde4f335a1911e",
-      "review": "sha256:81640591cd2be87007b602ba98290e1bd29280c330995aad257f767282d24a7c"
+      "source": "sha256:629ba878028952014c32f6682eac7f804c4b9d009e588402c0c63760a729eec0",
+      "review": "sha256:90669e5a74e20b8342fc281bf47df8392ed88b8661eeac514bfa9e94f9bb9e10"
     },
     "checks": {
       "ledger_valid": true,
@@ -774,7 +782,7 @@
       "open_items": 0,
       "uncovered_values": 0,
       "values_without_review_evidence": 0,
-      "deferred": 8
+      "deferred": 9
     },
     "blocking": [],
     "unbacked": []

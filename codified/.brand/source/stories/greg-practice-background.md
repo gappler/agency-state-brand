@@ -1,5 +1,5 @@
 ---
-id: greg-practice-background
+id: greg-background
 kind: other
 tags:
   topic:
@@ -8,17 +8,15 @@ tags:
   audience:
     - brand marketing teams
   length: medium
-  prov: {src: 'brand-book, Agency State homepage', conf: high, basis: confirmed}
+  prov: {src: 'brand-book, Agency State homepage', conf: high, basis: inferred}
 prov:
   src: brand-book, Agency State homepage
   conf: high
   basis: verbatim
 ---
 
-During a decade at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, I led marketing for membership, the national conference, and continuing education, modernized marketing operations, and built a 12-person team. I designed and managed the development of AIAU, the AIA's first on-demand continuing education platform. I was also the business owner for a brand redesign adopted across the national organization and its chapter network, with visual identity by Pentagram.
+My work with AI draws on more than twenty years leading brand marketing strategy, operations, and teams, both agency-side and in-house. At The American Institute of Architects, I spent a decade as Managing Director of Brand & Strategic Marketing. I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I was also the business owner for a brand redesign, with visual identity by Pentagram. The redesign was adopted across the national organization and its chapter network.
 
-Earlier, I was a digital marketing lead on Nissan, Infiniti, and Bacardi Global Brands.
+Before the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.
 
-I'm a builder at heart, and for the past two years I've been building with Claude Code, Codex, and other automation tools. I'm developing Agency State's BrandBuilder to turn a brand's written and visual guidelines into a source AI can work from. As is often the case, it's a bigger problem than I imagined, but I'm testing it on demo brands and it's nearly ready for client work.
-
-I think real automation gains have to include the work between the work: the presentations, approvals, feedback, and explaining that move a marketing project along. I'm working on a campaign engine to handle that work, with agents running things and a person approving the key pieces. I have products on the boards, from small to ambitious.
+For the past two years, I’ve been building with Claude Code, and more recently Codex. I’m developing Agency State’s BrandBuilder, the tool behind Brand OS. It turns a brand’s written and visual guidelines into a reviewed source for AI tools and runs the checks and routing around that source. I’ve used it on Agency State’s own brand. That brand source is now served to my AI tools. I’m testing BrandBuilder on demo brands before using it with a client.

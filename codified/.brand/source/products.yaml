@@ -1,12 +1,12 @@
 ---
-version: 1.0
-last_updated: 2026-10-27
+version: 1.1
+last_updated: 2026-11-02
 ---
 schema_version: 0.2.0
 products: []
 claims:
   - id: principal-experience
-    claim: 'More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, where he led marketing for membership, the national conference, and continuing education, built a twelve-member multidisciplinary team, modernized marketing operations, designed the product and led the technology project for AIAU, the organization''s on-demand continuing education platform, and was business owner for a brand redesign adopted at the national organization and across the chapter network (messaging strategy by marketing staff; visual identity in collaboration with Pentagram). Earlier, ran US digital marketing for Lincoln, Nissan, and Infiniti; for Bacardi Global Brands, supported local-market digital promotions and built bar.tv, a global drinks website (since decommissioned). He is a business leader in digital: he builds teams and the processes they run on, and the strategies and marketing plans that connect campaigns to the business. Earlier in his career he wrote code, building CD-ROM games, presentations, and kiosks. He is a builder at heart. For the past two years he has been building with Claude Code, and more recently Codex, as well as other automation tools: a campaign engine, still in development, in which agents run a marketing campaign through phases with a person approving the key pieces between each one, BrandBuilder (the codification and checking engine, in testing on demo brands) and the brand''s own MCP server, review panels, and tests on demo brands. He also has a few AI products of his own in the works. The campaign engine and BrandBuilder have been tested on fictional organizations and demo brands; none of it has been used with a client.'
+    claim: "More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, where he led record-breaking membership and conference campaigns and marketing for continuing education, built a twelve-member multidisciplinary team, modernized marketing operations, designed the product and led the technology project for AIAU, the organization's on-demand continuing education platform, and was business owner for a brand redesign adopted at the national organization and across the chapter network (messaging strategy by marketing staff; visual identity in collaboration with Pentagram). Earlier, six years as VP of Digital Marketing at GRAFIK, an agency in Alexandria, Virginia, on B2B clients including Autodesk and Accenture; before that, digital account director at Designory leading US digital marketing for Nissan and Infiniti (national brand marketing, plus materials and guidance for dealer sales events), Lincoln Mercury at Young & Rubicam, and in-house at Bacardi Global Brands, where he supported local-market digital promotions and built bar.tv, a global drinks website (since decommissioned). His whole career has been agency-side or in-house on brand clients; at the AIA he ran the team as an in-house agency. He is a business leader in digital: he builds teams and the processes they run on, and the strategies and marketing plans that connect campaigns to the business. Earlier in his career he wrote code, building CD-ROM games, presentations, and kiosks. He is a builder at heart. For the past two years he has been building with Claude Code, and more recently Codex, as well as other automation tools: a campaign engine, still in development, in which agents run a marketing campaign through phases with a person approving the key pieces between each one, BrandBuilder (the codification and checking engine, in testing on demo brands) and the brand's own MCP server, review panels, and tests on demo brands. He also has a few AI products of his own in the works. The campaign engine and BrandBuilder have been tested on fictional organizations and demo brands; none of it has been used with a client."
     prov:
       src: brand-book, Agency State Brand Platform, 8. Proof
       conf: high
@@ -39,7 +39,7 @@ claims:
       src: brand-book, Context is not control
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-three-fabricated-drafts
@@ -48,7 +48,7 @@ claims:
       src: brand-book, Context is not control
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-fake-cooler-composition
@@ -57,7 +57,7 @@ claims:
       src: brand-book, Context is not control
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-rule-source-check-result
@@ -66,7 +66,7 @@ claims:
       src: brand-book, Context is not control
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-context-result
@@ -75,7 +75,7 @@ claims:
       src: brand-book, Context is not control
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-warranty-fabrication
@@ -84,7 +84,7 @@ claims:
       src: brand-book, Context is not control, What a check can tell you
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a fictional outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
     field_prov:
