@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-03T01:05:59Z",
+  "compiled_at": "2026-11-03T01:23:51Z",
   "summary": {
     "required": {
       "filled": 29,
@@ -315,8 +315,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:629ba878028952014c32f6682eac7f804c4b9d009e588402c0c63760a729eec0",
-    "review": "sha256:90669e5a74e20b8342fc281bf47df8392ed88b8661eeac514bfa9e94f9bb9e10"
+    "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
+    "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
   },
   "unknown_fields": [],
   "ledger": {
@@ -325,13 +325,21 @@
     "lapsed": [],
     "open_items": 0,
     "open_item_ids": [],
-    "current_items": 355,
+    "current_items": 363,
     "backed_paths": [
       "approved_language.blocks",
       "approved_language.blocks[company-description-100]",
+      "approved_language.blocks[company-description-100].remix",
+      "approved_language.blocks[company-description-100].text",
       "approved_language.blocks[company-description-25]",
+      "approved_language.blocks[company-description-25].remix",
+      "approved_language.blocks[company-description-25].text",
       "approved_language.blocks[company-description-50]",
+      "approved_language.blocks[company-description-50].remix",
+      "approved_language.blocks[company-description-50].text",
       "approved_language.blocks[company-description-full]",
+      "approved_language.blocks[company-description-full].remix",
+      "approved_language.blocks[company-description-full].text",
       "approved_language.blocks[definition-agents].remix",
       "approved_language.blocks[definition-artifacts].remix",
       "approved_language.blocks[definition-automations].remix",
@@ -773,8 +781,8 @@
   "approval": {
     "status": "human_reviewed",
     "revisions": {
-      "source": "sha256:629ba878028952014c32f6682eac7f804c4b9d009e588402c0c63760a729eec0",
-      "review": "sha256:90669e5a74e20b8342fc281bf47df8392ed88b8661eeac514bfa9e94f9bb9e10"
+      "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
+      "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
     },
     "checks": {
       "ledger_valid": true,

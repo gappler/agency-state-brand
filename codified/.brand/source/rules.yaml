@@ -94,6 +94,19 @@ never_say:
     reason: Treats the human as an asset to be multiplied.
     route_to: voice
   - words:
+      - AI Enablement
+    kind: AI Enablement
+    severity: hard
+    prov:
+      src: brand-book, Agency State Brand Platform, 7. Never say
+      conf: high
+      basis: verbatim
+    field_prov:
+      severity: { src: 'review by Greg Appler, 2026-11-02 ("ban it")', conf: high, basis: authored }
+      route_to: { src: 'review by Greg Appler, 2026-10-27 (all decision classes route to Greg)', conf: high, basis: authored }
+    reason: A retired name for the work. Say what Agency State does instead.
+    route_to: voice
+  - words:
       - AI-first
       - AI-native
       - AI-powered

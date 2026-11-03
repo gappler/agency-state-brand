@@ -87,13 +87,13 @@ blocks:
   - id: definition-brand-readiness-assessment
     kind: passage
     text: "**Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building."
-    remix: false
+    remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
       conf: high
       basis: verbatim
     field_prov:
-      remix: { src: 'conservative default for a new definition; review-sheet B2 allowed remix for the 15 definitions reviewed 2026-10-27, and this one awaits that decision', conf: high, basis: confirmed }
+      remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: definition-provenance
     kind: passage
     text: '**Provenance.** Whether the codified brand''s own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.'
@@ -516,30 +516,42 @@ blocks:
   - id: company-description-25
     kind: boilerplate
     length: 25
-    text: Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand.
-    remix: false
+    text: Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS.
+    remix: true
     usage: Approved company description.
-    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
+    field_prov:
+      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-50
     kind: boilerplate
     length: 50
-    text: Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand. He brings more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment.
-    remix: false
+    text: Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS. The work draws on more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.
+    remix: true
     usage: Approved company description.
-    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
+    field_prov:
+      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-100
     kind: boilerplate
     length: 100
-    text: "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand: the codified brand as source, the automations and agents that make the work, checks against the brand's rules, approved updates when the work shows a gap, and the people who decide what a check can't. Greg brings more than twenty years of brand marketing leadership, most recently a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment of the team's existing brand."
-    remix: false
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+    remix: true
     usage: Approved company description.
-    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
+    field_prov:
+      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-full
     kind: boilerplate
     length: full
-    text: "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand: the codified brand as source, the automations and agents that make the work, checks against the brand's rules, approved updates when the work shows a gap, and the people who decide what a check can't. Greg brings more than twenty years of brand marketing leadership, most recently a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment of the team's existing brand."
-    remix: false
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+    remix: true
     usage: Approved company description.
-    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
+    field_prov:
+      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
 field_prov:
   blocks: { src: human review, conf: high, basis: confirmed }

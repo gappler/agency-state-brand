@@ -364,6 +364,10 @@ vocabulary:
       words:
         - Scale yourself
       reason: Treats the human as an asset to be multiplied.
+    AI Enablement:
+      words:
+        - AI Enablement
+      reason: A retired name for the work. Say what Agency State does instead.
     prov:
       src: brand-book, Agency State Brand Platform, 7. Never say
       conf: high

@@ -4056,6 +4056,173 @@ items:
     route_to: source_updates
     id: positioning-category-2
     supersedes: positioning-category-1
+  - kind: inference
+    path: approved_language.blocks[company-description-25].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:5ffa827801665a4f1fd5d3c5ad372925e876e2635780e75e7e423df475535567
+    id: approved-language-blocks-company-description-25--1
+  - kind: inference
+    path: approved_language.blocks[company-description-25].remix
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+    id: approved-language-blocks-company-description-25--2
+  - kind: inference
+    path: approved_language.blocks[company-description-50].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:d5637e39838eaf2bb970a861fa2ab145923ba4f1e9b1c83fd23c8eb1a167d631
+    id: approved-language-blocks-company-description-50--1
+  - kind: inference
+    path: approved_language.blocks[company-description-50].remix
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+    id: approved-language-blocks-company-description-50--2
+  - kind: inference
+    path: approved_language.blocks[company-description-100].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:4c744cdd19b1770959c58a08849323ca0a833baf06b25bac2391143e4314ca06
+    id: approved-language-blocks-company-description-100-2
+  - kind: inference
+    path: approved_language.blocks[company-description-100].remix
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+    id: approved-language-blocks-company-description-100-3
+  - kind: inference
+    path: approved_language.blocks[company-description-full].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:4c744cdd19b1770959c58a08849323ca0a833baf06b25bac2391143e4314ca06
+    id: approved-language-blocks-company-description-ful-2
+  - kind: inference
+    path: approved_language.blocks[company-description-full].remix
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+    id: approved-language-blocks-company-description-ful-3
+  - kind: inference
+    path: approved_language.blocks[definition-brand-readiness-assessment].remix
+    status: revised
+    decision: 'Greg Appler, in chat 2026-11-02: allow rewording, consistent with review-sheet B2 for vocabulary definitions.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+    id: approved-language-blocks-definition-brand-readin-2
+    supersedes: approved-language-blocks-definition-brand-readin-1
+  - kind: inference
+    path: approved_language.blocks[company-description-25].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\"). Wording tightened by Claude after approval (repeated \"Agency State\" replaced with \"It\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:7a6fbceb4de3a262466a403a1f4fad21411381277bcfdf9ad6e9a8b9b50d0210
+    id: approved-language-blocks-company-description-25--3
+    supersedes: approved-language-blocks-company-description-25--1
+  - kind: inference
+    path: approved_language.blocks[company-description-50].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\"). Wording tightened by Claude after approval (repeated \"Agency State\" replaced with \"It\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:33eaf9d5a2f154315c3ecc2fcccfb6f01e939788317f344caf3aaf752cbb5d9b
+    id: approved-language-blocks-company-description-50--3
+    supersedes: approved-language-blocks-company-description-50--1
+  - kind: inference
+    path: approved_language.blocks[company-description-100].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\"). Wording tightened by Claude after approval (repeated \"Agency State\" replaced with \"It\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:5a8b208f7d6b75f50335c2b31ef121069587806decf9f0fac74f758b23dd7595
+    id: approved-language-blocks-company-description-100-4
+    supersedes: approved-language-blocks-company-description-100-2
+  - kind: inference
+    path: approved_language.blocks[company-description-full].text
+    status: revised
+    decision: "Greg Appler, in chat 2026-11-02: approved Claude's refreshed drafts for now, without his name (\"I am pretty sure I won't be using my name and changes need to be allowed\"). Wording tightened by Claude after approval (repeated \"Agency State\" replaced with \"It\")."
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:5a8b208f7d6b75f50335c2b31ef121069587806decf9f0fac74f758b23dd7595
+    id: approved-language-blocks-company-description-ful-4
+    supersedes: approved-language-blocks-company-description-ful-2
+  - kind: inference
+    path: approved_language.blocks[company-description-25]
+    status: confirmed
+    decision: 'Greg Appler, in chat 2026-11-02: refreshed company descriptions approved for now, without his name, rewording allowed.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:7982f81bfb2b27ad7b89f22f7f02214bb12f4fa79b54bbc306418de8ce9f0608
+    id: approved-language-blocks-company-description-25-2
+    supersedes: approved-language-blocks-company-description-25-1
+  - kind: inference
+    path: approved_language.blocks[company-description-50]
+    status: confirmed
+    decision: 'Greg Appler, in chat 2026-11-02: refreshed company descriptions approved for now, without his name, rewording allowed.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:62f15e37708d5e8b990c49a1bf27830e02ab376260a661341adb4620ff4e6025
+    id: approved-language-blocks-company-description-50-2
+    supersedes: approved-language-blocks-company-description-50-1
+  - kind: inference
+    path: approved_language.blocks[company-description-100]
+    status: confirmed
+    decision: 'Greg Appler, in chat 2026-11-02: refreshed company descriptions approved for now, without his name, rewording allowed.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:4f991e67efb0a454f8c7eeb321f7f02141847099206c07e406326d594e3199cf
+    id: approved-language-blocks-company-description-100-5
+    supersedes: approved-language-blocks-company-description-100-1
+  - kind: inference
+    path: approved_language.blocks[company-description-full]
+    status: confirmed
+    decision: 'Greg Appler, in chat 2026-11-02: refreshed company descriptions approved for now, without his name, rewording allowed.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:9c62273af1e55d5b025668590b9a7b005e9e434d0586426caf81263fd7407501
+    id: approved-language-blocks-company-description-ful-5
+    supersedes: approved-language-blocks-company-description-ful-1
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: 'Greg Appler, in chat 2026-11-02: refreshed company descriptions approved for now, without his name, rewording allowed.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    value_hash: sha256:40eadbd2fafaea5c9bb62b5b042979702bc5146029cb42c0c7d207556246c135
+    id: approved-language-blocks-2
+    supersedes: approved-language-blocks-1
+  - kind: gap
+    path: approved_language.boilerplate
+    status: filled
+    decision: 'Greg Appler, in chat 2026-11-02: the refreshed company descriptions fill the boilerplate slot.'
+    decided_by: Greg Appler
+    decided_at: '2026-11-02'
+    evidence:
+      - approved-language-blocks-company-description-25-2
+      - approved-language-blocks-company-description-50-2
+      - approved-language-blocks-company-description-100-5
+      - approved-language-blocks-company-description-ful-5
+    id: approved-language-boilerplate-2
+    supersedes: approved-language-boilerplate-1
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4231,3 +4398,38 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:c2661a13ee3f539f0a7e5c8f09b07a1ef46086d18114276c7c96d94797396fe3
     supersedes: review-2026-10-27-4
+  - id: review-2026-11-02-6
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Codex (fidelity to platform v3.5; content approved by Greg 2026-11-02)
+    reviewed_at: '2026-11-02'
+    files:
+      source/approved-language.yaml: sha256:11483151fe345135e36092c8d3299132099dbcbbaec86aeb5a4e034912f804af
+      source/architecture.yaml: sha256:909e3bebafc0b4f9c7ffeadbaec99b71d6a1d9dbaa470768cfb244e09a6a65ad
+      source/brand.yaml: sha256:9c85e51f4c77e1c2a0fede99f81993b12c897e1990a1050400c620fc99fec068
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:353e6b5514710c14d538aaa092616c1ae848165b53de03d8a7b5f88723b3a05f
+      source/positions.yaml: sha256:50c307e31851a54ec70d433a12760d033907c8a651fcb5957441df3bb426f63f
+      source/products.yaml: sha256:e3877bd3891ba2318fc4f1b6baf37888d6c1324a5cdcb7ce8e4ca4ac6c09d4bb
+      source/rules.yaml: sha256:676612da56eed79716052f77b0d8ea731a3a7a83975ed4ec796c24725bb008db
+      source/stories/greg-practice-background.md: sha256:2b02ae734176f0fd3f3a533bb33e126daf9d2b27a4bfa36216f4efc336cd66fe
+      source/stories/yowie-fabrication-test.md: sha256:1d4161de7e68a279f724178210578b385ce682f02e5077b8411750daee7293fa
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
+      source/voice.yaml: sha256:8b607a008d41da7e5782b0883634d655ba260c8781e3e595d88b4d7cf85b4b7b
+    supersedes: review-2026-11-02-5

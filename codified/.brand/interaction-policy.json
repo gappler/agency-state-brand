@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-03T01:05:59Z",
+  "compiled_at": "2026-11-03T01:23:51Z",
   "revisions": {
-    "source": "sha256:629ba878028952014c32f6682eac7f804c4b9d009e588402c0c63760a729eec0",
-    "review": "sha256:90669e5a74e20b8342fc281bf47df8392ed88b8661eeac514bfa9e94f9bb9e10"
+    "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
+    "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
   },
   "voice_rules": {
     "never_say": [
@@ -28,6 +28,7 @@
       "we believe",
       "we think",
       "Scale yourself",
+      "AI Enablement",
       "AI-first",
       "AI-native",
       "AI-powered",
@@ -1216,6 +1217,28 @@
         }
       },
       {
+        "word": "AI Enablement",
+        "severity": "hard",
+        "reason": "A retired name for the work. Say what Agency State does instead.",
+        "route_to": "voice",
+        "source": "brand-book, Agency State Brand Platform, 7. Never say",
+        "conf": "high",
+        "basis": "verbatim",
+        "provisional": false,
+        "field_sources": {
+          "severity": {
+            "source": "review by Greg Appler, 2026-11-02 (\"ban it\")",
+            "conf": "high",
+            "basis": "authored"
+          },
+          "route_to": {
+            "source": "review by Greg Appler, 2026-10-27 (all decision classes route to Greg)",
+            "conf": "high",
+            "basis": "authored"
+          }
+        }
+      },
+      {
         "word": "AI-first",
         "severity": "hard",
         "reason": "Buzzword overclaim.",
@@ -1588,19 +1611,19 @@
     },
     {
       "id": "company-description-25",
-      "text": "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS."
     },
     {
       "id": "company-description-50",
-      "text": "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand. He brings more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS. The work draws on more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     },
     {
       "id": "company-description-100",
-      "text": "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand: the codified brand as source, the automations and agents that make the work, checks against the brand's rules, approved updates when the work shows a gap, and the people who decide what a check can't. Greg brings more than twenty years of brand marketing leadership, most recently a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment of the team's existing brand."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     },
     {
       "id": "company-description-full",
-      "text": "Agency State helps brand marketing teams put AI to work. Greg Appler builds the Brand OS that keeps a team's AI work on brand: the codified brand as source, the automations and agents that make the work, checks against the brand's rules, approved updates when the work shows a gap, and the people who decide what a check can't. Greg brings more than twenty years of brand marketing leadership, most recently a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The work starts with an assessment of the team's existing brand."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     }
   ],
   "formatting_rules": [
