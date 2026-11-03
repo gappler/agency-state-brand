@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 3.4
+version: 3.5
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-11-02
@@ -223,6 +223,7 @@ The core rules above, with the §7 never-say list applied strictly.
 - **Hedge words.** "we believe," "we think," "may," "might." Exception: in founder first person, "I think," "I've found," and "my pick" stake a claim rather than hedge, and are allowed. Corporate "we think" is still forbidden. "May" and "might" are allowed when they describe a specific possibility or an evidence-based limit. Make clear what is uncertain; don't strengthen a claim merely to avoid a hedge word.
 - **"Scale yourself."** Treats the human as an asset to be multiplied.
 - **AI-first, AI-native, AI-powered.** Buzzword overclaim. Describe what the AI actually does in the work.
+- **"AI Enablement."** A retired name for the work. Say what Agency State does instead.
 - **Generic "AI strategy" as a deliverable.** Too abstract. Name what is being built.
 - **"Capability transfer" or "teaches you to build" as promises.** Overstates what an engagement delivers. Greg builds with the team and provides artifacts and documentation, then works with the Brand OS lead as the system grows. That does not transfer capability in a single handoff.
 - **Negative positioning and unmeasured group claims.** No defining Agency State against others ("Unlike enterprise consulting...," "not another AI course") and no characterizing how other brands, teams, or people operate ("most brands," "most teams," "everyone," "nobody"). The defect is asserting a proportion nobody counted, or casting the reader's peers as the ones getting it wrong. A specific, factual comparison is allowed: name the vendor or category, state what each approach does, and keep every claim verifiable; the superiority has to be visible in the facts, not asserted around them. Lead with what Agency State does, and state a failure by what goes wrong rather than by who has it.
