@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-03T01:23:51Z",
+  "compiled_at": "2026-11-03T12:46:47Z",
   "summary": {
     "required": {
       "filled": 29,
@@ -315,8 +315,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
-    "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
+    "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
+    "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
   },
   "unknown_fields": [],
   "ledger": {
@@ -781,8 +781,8 @@
   "approval": {
     "status": "human_reviewed",
     "revisions": {
-      "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
-      "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
+      "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
+      "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
     },
     "checks": {
       "ledger_valid": true,

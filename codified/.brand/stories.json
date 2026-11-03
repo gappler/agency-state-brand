@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-03T01:23:51Z",
+  "compiled_at": "2026-11-03T12:46:47Z",
   "revisions": {
-    "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
-    "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
+    "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
+    "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
   },
   "stories": [
     {
@@ -19,7 +19,7 @@
         ],
         "length": "medium"
       },
-      "text": "My work with AI draws on more than twenty years leading brand marketing strategy, operations, and teams, both agency-side and in-house. At The American Institute of Architects, I spent a decade as Managing Director of Brand & Strategic Marketing. I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I was also the business owner for a brand redesign, with visual identity by Pentagram. The redesign was adopted across the national organization and its chapter network.\n\nBefore the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.\n\nFor the past two years, I’ve been building with Claude Code, and more recently Codex. I’m developing Agency State’s BrandBuilder, the tool behind Brand OS. It turns a brand’s written and visual guidelines into a reviewed source for AI tools and runs the checks and routing around that source. I’ve used it on Agency State’s own brand. That brand source is now served to my AI tools. I’m testing BrandBuilder on demo brands before using it with a client.",
+      "text": "My work with AI draws on more than twenty years leading brand marketing strategy, operations, and teams, both agency-side and in-house. At The American Institute of Architects, I spent a decade as Managing Director of Brand & Strategic Marketing. I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I was also the business owner for a brand redesign, with visual identity by Pentagram. The redesign was adopted across the national organization and its chapter network.\n\nBefore the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.\n\nFor the past two years, I’ve been building with Claude Code, and more recently Codex. I’m developing Agency State’s BrandBuilder, the tool behind Brand OS. It turns a brand’s written and visual guidelines into a reviewed source for AI tools, runs checks against it, and identifies who decides the judgment calls. I’m testing BrandBuilder on demo brands before using it with a client. I’ve used it to prepare Agency State’s own brand source, which is now served to my AI tools.",
       "file": "source/stories/greg-practice-background.md"
     },
     {

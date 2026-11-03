@@ -1,7 +1,7 @@
 ---
 title: Agency State combined brand source
-version: 2.1
-last_updated: 2026-11-02
+version: 2.2
+last_updated: 2026-11-03
 ---
 
 # Agency State brand book
@@ -826,11 +826,11 @@ linkedin
 
 Greg Appler
 
-Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That’s what I help them work through, so they can produce marketing work they can stand behind.
+Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship.
 
-I partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team’s automations and agents. It gives the team a basis for making those calls about the work.
+The first step is a brand-readiness assessment. The source can hold only what a brand has written down and decided, so the assessment finds the gaps and disagreements to settle and the production work to start with once the source is approved. That can be a first automation or agent, or a full Brand OS.
 
-We can start with a first automation or agent, or work together on a full Brand OS. To compare notes or request a brand-readiness assessment,
+To request an assessment,
 
 send me an email
 
@@ -840,9 +840,9 @@ Brand OS
 
 A draft can follow your brand’s rules and still promise something your brand doesn’t offer.
 
-In a test I ran with Yowie, a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn’t make and wrote a full product page for it. Every rule check passed. A check against the product list caught the error. In the same test, a customer reply promised warranty terms the source didn’t have. None of the checks in that test caught them.
+In a test I ran with Yowie, a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn’t make and wrote a full product page for it. Every rule check passed. A check against the product list caught the error. In the same test, a customer reply promised free repair or replacement, with shipping both ways. Yowie’s brand source says nothing about warranties, so no check in that test could catch those promises.
 
-With Brand OS, I build checks against the brand source into the team’s automations and agents and send every draft to a person for review. The reviewer gets the draft and check results together, with the source to consult when judging facts, voice, and anything the checks missed. When a correction calls for a change to the source or checks, the team approves it before the next draft uses it.
+With Brand OS, I build checks against the brand source into the team’s automations and agents and send every draft to a person for review. The reviewer gets the draft and check results together, with the source to consult when judging facts, voice, and anything the checks missed. When a correction calls for a change to the source or the checks, such as adding warranty terms, the team approves the change before the next draft uses it.
 
 What is Brand OS?
 
@@ -852,7 +852,7 @@ My work with AI draws on more than twenty years leading brand marketing strategy
 
 Before the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.
 
-For the past two years, I’ve been building with Claude Code, and more recently Codex. I’m developing Agency State’s BrandBuilder, the tool behind Brand OS. It turns a brand’s written and visual guidelines into a reviewed source for AI tools and runs the checks and routing around that source. I’ve used it on Agency State’s own brand. That brand source is now served to my AI tools. I’m testing BrandBuilder on demo brands before using it with a client.
+For the past two years, I’ve been building with Claude Code, and more recently Codex. I’m developing Agency State’s BrandBuilder, the tool behind Brand OS. It turns a brand’s written and visual guidelines into a reviewed source for AI tools, runs checks against it, and identifies who decides the judgment calls. I’m testing BrandBuilder on demo brands before using it with a client. I’ve used it to prepare Agency State’s own brand source, which is now served to my AI tools.
 
 More reading
 
@@ -860,7 +860,7 @@ More reading
 
 What is Brand OS?
 
-How I bring brand information, AI production, checks, and human decisions together.
+How a brand source, automations and agents, checks, and the people reviewing the work fit together.
 
 02
 
@@ -878,7 +878,7 @@ The 46 entries I start from when preparing a brand for AI tools.
 
 Serving your brand to AI tools
 
-How MCP makes the relevant brand information available to AI tools as they work.
+How MCP serves each AI tool the part of the brand it needs.
 
 Stack
 

@@ -493,13 +493,13 @@ exemplars:
       basis: confirmed
   - id: homepage-introduction
     label: Homepage, introduction
-    text: 'Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That’s what I help them work through, so they can produce marketing work they can stand behind.
+    text: 'Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship.
 
 
-      I partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team’s automations and agents. It gives the team a basis for making those calls about the work.
+      The first step is a brand-readiness assessment. The source can hold only what a brand has written down and decided, so the assessment finds the gaps and disagreements to settle and the production work to start with once the source is approved. That can be a first automation or agent, or a full Brand OS.
 
 
-      We can start with a first automation or agent, or work together on a full Brand OS. To compare notes or request a brand-readiness assessment, send me an email.'
+      To request an assessment, send me an email.'
     prov:
       src: brand-book, Agency State homepage
       conf: high

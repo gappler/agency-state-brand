@@ -4223,6 +4223,15 @@ items:
       - approved-language-blocks-company-description-ful-5
     id: approved-language-boilerplate-2
     supersedes: approved-language-boilerplate-1
+  - kind: inference
+    path: voice.exemplars[homepage-introduction]
+    status: confirmed
+    decision: 'Codex fidelity review: the exemplar matches the three paragraphs under Greg Appler on the 2026-11-03 homepage word for word, after HTML removal, entity decoding, nonbreaking-space normalization and joining the CTA button text into its sentence.'
+    decided_by: Codex (fidelity to the homepage of 2026-11-03; content approved by Greg 2026-11-03)
+    decided_at: '2026-11-03'
+    value_hash: sha256:137f99ec4ff86e776b73ba6016cc4d041af0f634f5a885269b40b96951fd4590
+    id: voice-exemplars-homepage-introduction-2
+    supersedes: voice-exemplars-homepage-introduction-1
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4433,3 +4442,38 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:8b607a008d41da7e5782b0883634d655ba260c8781e3e595d88b4d7cf85b4b7b
     supersedes: review-2026-11-02-5
+  - id: review-2026-11-03-7
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Codex (fidelity to the homepage of 2026-11-03; content approved by Greg 2026-11-03)
+    reviewed_at: '2026-11-03'
+    files:
+      source/approved-language.yaml: sha256:11483151fe345135e36092c8d3299132099dbcbbaec86aeb5a4e034912f804af
+      source/architecture.yaml: sha256:909e3bebafc0b4f9c7ffeadbaec99b71d6a1d9dbaa470768cfb244e09a6a65ad
+      source/brand.yaml: sha256:9c85e51f4c77e1c2a0fede99f81993b12c897e1990a1050400c620fc99fec068
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:353e6b5514710c14d538aaa092616c1ae848165b53de03d8a7b5f88723b3a05f
+      source/positions.yaml: sha256:50c307e31851a54ec70d433a12760d033907c8a651fcb5957441df3bb426f63f
+      source/products.yaml: sha256:e3877bd3891ba2318fc4f1b6baf37888d6c1324a5cdcb7ce8e4ca4ac6c09d4bb
+      source/rules.yaml: sha256:676612da56eed79716052f77b0d8ea731a3a7a83975ed4ec796c24725bb008db
+      source/stories/greg-practice-background.md: sha256:6cc406ae1cc83dc5795b6e9017b1d255fe11fcb0b6c3d37b7d45d5ed97cac23b
+      source/stories/yowie-fabrication-test.md: sha256:1d4161de7e68a279f724178210578b385ce682f02e5077b8411750daee7293fa
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
+      source/voice.yaml: sha256:893c13d580e4e4c67b9d28a5697575e7bb44a08f6eaeca25ae2ae03b4f584e96
+    supersedes: review-2026-11-02-6

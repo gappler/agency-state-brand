@@ -2,10 +2,10 @@
   "schema_version": "0.2.0",
   "source_schema_version": "0.2.0",
   "client_name": "Agency State",
-  "compiled_at": "2026-11-03T01:23:51Z",
+  "compiled_at": "2026-11-03T12:46:47Z",
   "revisions": {
-    "source": "sha256:88b40703ae71c028815aea6f28610b866c615ae97ce4f1b30d7415bce8a5b060",
-    "review": "sha256:d9fbedb1fdcdbde5622265da7cf50fa7cd9af25fe4c23b2e95ecb732077c0d5d"
+    "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
+    "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
   },
   "approval": "human_reviewed",
   "completeness": {
@@ -642,7 +642,7 @@
       {
         "id": "homepage-introduction",
         "label": "Homepage, introduction",
-        "text": "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That’s what I help them work through, so they can produce marketing work they can stand behind.\n\nI partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team’s automations and agents. It gives the team a basis for making those calls about the work.\n\nWe can start with a first automation or agent, or work together on a full Brand OS. To compare notes or request a brand-readiness assessment, send me an email."
+        "text": "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship.\n\nThe first step is a brand-readiness assessment. The source can hold only what a brand has written down and decided, so the assessment finds the gaps and disagreements to settle and the production work to start with once the source is approved. That can be a first automation or agent, or a full Brand OS.\n\nTo request an assessment, send me an email."
       },
       {
         "id": "brand-os-why-it-matters",
