@@ -4232,6 +4232,51 @@ items:
     value_hash: sha256:137f99ec4ff86e776b73ba6016cc4d041af0f634f5a885269b40b96951fd4590
     id: voice-exemplars-homepage-introduction-2
     supersedes: voice-exemplars-homepage-introduction-1
+  - kind: inference
+    path: approved_language.blocks[company-description-100].text
+    status: confirmed
+    decision: "Greg approved in chat 2026-11-03 (\"go ahead\"): 'one source AI can read and serves it to' becomes 'one source AI can read, then serves that source to', the hero's garden-path fix. Codex confirmed nothing else changed."
+    decided_by: Greg Appler
+    decided_at: '2026-11-03'
+    value_hash: sha256:6aa18bc8762e4ce21182f5a3a1955de2983f0f28ac0346429a5506c115427bff
+    id: approved-language-blocks-company-description-100-6
+    supersedes: approved-language-blocks-company-description-100-4
+  - kind: inference
+    path: approved_language.blocks[company-description-full].text
+    status: confirmed
+    decision: "Greg approved in chat 2026-11-03 (\"go ahead\"): 'one source AI can read and serves it to' becomes 'one source AI can read, then serves that source to', the hero's garden-path fix. Codex confirmed nothing else changed."
+    decided_by: Greg Appler
+    decided_at: '2026-11-03'
+    value_hash: sha256:6aa18bc8762e4ce21182f5a3a1955de2983f0f28ac0346429a5506c115427bff
+    id: approved-language-blocks-company-description-ful-6
+    supersedes: approved-language-blocks-company-description-ful-4
+  - kind: inference
+    path: approved_language.blocks[company-description-100]
+    status: confirmed
+    decision: "Greg approved in chat 2026-11-03 (\"go ahead\"): 'one source AI can read and serves it to' becomes 'one source AI can read, then serves that source to', the hero's garden-path fix. Codex confirmed nothing else changed."
+    decided_by: Greg Appler
+    decided_at: '2026-11-03'
+    value_hash: sha256:a67f2bbe7a38b6b88679e073bfa4d25d05e3713c56f9403bcf60e5ede0901681
+    id: approved-language-blocks-company-description-100-7
+    supersedes: approved-language-blocks-company-description-100-5
+  - kind: inference
+    path: approved_language.blocks[company-description-full]
+    status: confirmed
+    decision: "Greg approved in chat 2026-11-03 (\"go ahead\"): 'one source AI can read and serves it to' becomes 'one source AI can read, then serves that source to', the hero's garden-path fix. Codex confirmed nothing else changed."
+    decided_by: Greg Appler
+    decided_at: '2026-11-03'
+    value_hash: sha256:9562c15dc04e764a24a9acf744a98eff7c7d462bf8992276fe76326f2dabbc2b
+    id: approved-language-blocks-company-description-ful-7
+    supersedes: approved-language-blocks-company-description-ful-5
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: "Codex fidelity review: the changed blocks (definition-brandbuilder, published-what-is-brand-os-how-i-work-with-a-team, published-what-is-brand-os-03-control) match platform v3.6 and What is Brand OS? v2.1; the two company descriptions changed only by Greg's approved phrase."
+    decided_by: Codex (fidelity to platform v3.6 and What is Brand OS? v2.1; content approved by Greg 2026-11-03)
+    decided_at: '2026-11-03'
+    value_hash: sha256:6958ca7dd91e093af91064101ce35b2f7e15234025fa9cf9dd86843e9fb6b0f4
+    id: approved-language-blocks-3
+    supersedes: approved-language-blocks-2
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4477,3 +4522,38 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:893c13d580e4e4c67b9d28a5697575e7bb44a08f6eaeca25ae2ae03b4f584e96
     supersedes: review-2026-11-02-6
+  - id: review-2026-11-03-8
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Codex (fidelity to platform v3.6 and What is Brand OS? v2.1; content approved by Greg 2026-11-03)
+    reviewed_at: '2026-11-03'
+    files:
+      source/approved-language.yaml: sha256:79de8a413a9ac965073f9d6b6d8203d4cf1dfb3fd7e0c998c038bbcf3e291dc5
+      source/architecture.yaml: sha256:909e3bebafc0b4f9c7ffeadbaec99b71d6a1d9dbaa470768cfb244e09a6a65ad
+      source/brand.yaml: sha256:01d2b4c59936fe43072ea978dc33202cbad9437827376947eb95d1026220aee3
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:353e6b5514710c14d538aaa092616c1ae848165b53de03d8a7b5f88723b3a05f
+      source/positions.yaml: sha256:50c307e31851a54ec70d433a12760d033907c8a651fcb5957441df3bb426f63f
+      source/products.yaml: sha256:e3877bd3891ba2318fc4f1b6baf37888d6c1324a5cdcb7ce8e4ca4ac6c09d4bb
+      source/rules.yaml: sha256:676612da56eed79716052f77b0d8ea731a3a7a83975ed4ec796c24725bb008db
+      source/stories/greg-practice-background.md: sha256:6cc406ae1cc83dc5795b6e9017b1d255fe11fcb0b6c3d37b7d45d5ed97cac23b
+      source/stories/yowie-fabrication-test.md: sha256:1d4161de7e68a279f724178210578b385ce682f02e5077b8411750daee7293fa
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
+      source/voice.yaml: sha256:893c13d580e4e4c67b9d28a5697575e7bb44a08f6eaeca25ae2ae03b4f584e96
+    supersedes: review-2026-11-03-7

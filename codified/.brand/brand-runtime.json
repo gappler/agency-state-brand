@@ -2,10 +2,10 @@
   "schema_version": "0.2.0",
   "source_schema_version": "0.2.0",
   "client_name": "Agency State",
-  "compiled_at": "2026-11-03T12:46:47Z",
+  "compiled_at": "2026-11-03T13:03:16Z",
   "revisions": {
-    "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
-    "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
+    "source": "sha256:638d52bae2ae410d85df8dd9ae0150bb845c11c298c5fce065c53debc0402634",
+    "review": "sha256:335cce850456ba582cef73d35ae1b770b3748e401de290475d0fb5b2cd959246"
   },
   "approval": "human_reviewed",
   "completeness": {
@@ -140,7 +140,7 @@
           "\"Agency State\" appears where it does structural work (the brand mark, the legal entity, positioning lines).",
           "Tagline. \"On brand, at the speed of AI.\" With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.",
           "Descriptor and positioning line. \"Helping brand marketing teams put AI to work.\" The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.",
-          "Value lines. What the reader gets from the work. For Agency State: \"marketing work they can stand behind.\" For Brand OS: it \"helps the team make better calls about which AI work represents its brand and is ready to ship.\" Example, the homepage introduction: \"That's what I help them work through, so they can produce marketing work they can stand behind.\" The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above."
+          "Value lines. What the reader gets from the work. For Agency State: \"marketing work they can stand behind.\" For Brand OS: it \"gives the team a basis for deciding whether its AI work represents its brand and is ready to ship.\" Example, the homepage introduction: \"It gives them a basis for deciding and helps them stand behind the work they ship.\" The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above."
         ]
       },
       "meaning": {
@@ -984,7 +984,7 @@
     {
       "id": "definition-brandbuilder",
       "kind": "passage",
-      "text": "**BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks and routing around that source. One word, both capitals: BrandBuilder.",
+      "text": "**BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks against that source and identifies who decides the judgment calls. One word, both capitals: BrandBuilder.",
       "remix": true
     },
     {
@@ -1056,7 +1056,7 @@
     {
       "id": "published-what-is-brand-os-03-control",
       "kind": "passage",
-      "text": "Control separates what a machine can check from what a person should decide. Some questions have a right answer: whether a banned word appears, whether a claim includes its required condition, whether a product is in the catalog, and whether a color is in the approved palette.\n\nA check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn't make and wrote a full product page for it. The page passed every rule check; only a check against the product list caught it. In the same test, a customer reply promised warranty terms the source didn't have, and none of the checks in that test caught them.\n\n```text\ncheck result (Yowie demo-brand test):\n  draft:          product page for the Slab 45QT cooler\n  rule checks:    passed (banned words, punctuation, claim conditions)\n  source check:   flagged; Slab 45QT is not in the catalog\n```\n\nVoice needs human review. In a recent study of three Claude models and one brand, the models given the brand's voice to imitate still wrote in their own voice.\n\n“Instructed to imitate a brand voice, the models remain almost perfectly separable from the brand's held-out text on style-only instruments. Asked to predict their own style, every model missed more often than it hit.”\n\nVictor A. Barger, [“Does AI Have a Voice?”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248819) working paper, 2026 (tested on three Claude models and one brand)\n\nOther questions have no right answer. A claim may be technically allowed but weak. The voice may fit the rules and still sound wrong for the campaign. An image may follow the guidelines and still miss the brand. The checks run first. A person on the team reviews every draft, judges whether it looks and sounds like the brand and whether an allowed claim is worth making, and catches anything the checks missed. Decision owners get the questions the reviewer can't settle.\n\n```text\nfor the reviewer:\n  is this claim worth making?\n  does the voice fit this campaign?\n  does the image fit the brand?\n  what have the checks missed?\n```",
+      "text": "Control separates what a machine can check from what a person should decide. Some questions have a right answer: whether a banned word appears, whether a claim includes its required condition, whether a product is in the catalog, and whether a color is in the approved palette.\n\nA check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn't make and wrote a full product page for it. The page passed every rule check; only a check against the product list caught it. In the same test, a customer reply promised free repair or replacement, with shipping both ways. Yowie's brand source says nothing about warranties, so no check in that test could catch those promises.\n\n```text\ncheck result (Yowie demo-brand test):\n  draft:          product page for the Slab 45QT cooler\n  rule checks:    passed (banned words, punctuation, claim conditions)\n  source check:   flagged; Slab 45QT is not in the catalog\n```\n\nVoice needs human review. In a recent study of three Claude models and one brand, the models given the brand's voice to imitate still wrote in their own voice.\n\n“Instructed to imitate a brand voice, the models remain almost perfectly separable from the brand's held-out text on style-only instruments. Asked to predict their own style, every model missed more often than it hit.”\n\nVictor A. Barger, [“Does AI Have a Voice?”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248819) working paper, 2026 (tested on three Claude models and one brand)\n\nOther questions have no right answer. A claim may be technically allowed but weak. The voice may fit the rules and still sound wrong for the campaign. An image may follow the guidelines and still miss the brand. The checks run first. A person on the team reviews every draft, judges whether it looks and sounds like the brand and whether an allowed claim is worth making, and catches anything the checks missed. Decision owners get the questions the reviewer can't settle.\n\n```text\nfor the reviewer:\n  is this claim worth making?\n  does the voice fit this campaign?\n  does the image fit the brand?\n  what have the checks missed?\n```",
       "remix": false
     },
     {
@@ -1074,7 +1074,7 @@
     {
       "id": "published-what-is-brand-os-how-i-work-with-a-team",
       "kind": "passage",
-      "text": "I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks and routing around that source.\n\nOnce the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.\n\nTo request a brand-readiness assessment, send me an email.",
+      "text": "I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks against that source and identifies who decides the judgment calls.\n\nOnce the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.\n\nTo request a brand-readiness assessment, send me an email.",
       "remix": false
     },
     {
@@ -1260,7 +1260,7 @@
       "id": "company-description-100",
       "kind": "boilerplate",
       "length": 100,
-      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.",
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.",
       "remix": true,
       "usage": "Approved company description."
     },
@@ -1268,7 +1268,7 @@
       "id": "company-description-full",
       "kind": "boilerplate",
       "length": "full",
-      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.",
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.",
       "remix": true,
       "usage": "Approved company description."
     }

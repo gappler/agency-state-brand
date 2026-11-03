@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-03T12:46:47Z",
+  "compiled_at": "2026-11-03T13:03:16Z",
   "revisions": {
-    "source": "sha256:e08796842ac0b424e5f503e135a6cd02812957342e3fcc71ec5e0829f90d8213",
-    "review": "sha256:66a55aac20a7a64786c2130277ed101ffdbc8808a3b06842da22c6b0cc661017"
+    "source": "sha256:638d52bae2ae410d85df8dd9ae0150bb845c11c298c5fce065c53debc0402634",
+    "review": "sha256:335cce850456ba582cef73d35ae1b770b3748e401de290475d0fb5b2cd959246"
   },
   "voice_rules": {
     "never_say": [
@@ -1451,7 +1451,7 @@
     },
     {
       "id": "definition-brandbuilder",
-      "text": "**BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks and routing around that source. One word, both capitals: BrandBuilder."
+      "text": "**BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks against that source and identifies who decides the judgment calls. One word, both capitals: BrandBuilder."
     },
     {
       "id": "definition-brand-readiness-assessment",
@@ -1503,7 +1503,7 @@
     },
     {
       "id": "published-what-is-brand-os-how-i-work-with-a-team",
-      "text": "I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks and routing around that source.\n\nOnce the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.\n\nTo request a brand-readiness assessment, send me an email."
+      "text": "I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks against that source and identifies who decides the judgment calls.\n\nOnce the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.\n\nTo request a brand-readiness assessment, send me an email."
     },
     {
       "id": "published-context-is-not-control",
@@ -1619,11 +1619,11 @@
     },
     {
       "id": "company-description-100",
-      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     },
     {
       "id": "company-description-full",
-      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read and serves it to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+      "text": "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     }
   ],
   "formatting_rules": [

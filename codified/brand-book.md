@@ -1,6 +1,6 @@
 ---
 title: Agency State combined brand source
-version: 2.2
+version: 2.3
 last_updated: 2026-11-03
 ---
 
@@ -29,7 +29,7 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 - **Tagline.** "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
 - **Descriptor and positioning line.** "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
-- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "helps the team make better calls about which AI work represents its brand and is ready to ship." Example, the homepage introduction: "That's what I help them work through, so they can produce marketing work they can stand behind." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
+- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "It gives them a basis for deciding and helps them stand behind the work they ship." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
 
 ---
 
@@ -96,11 +96,11 @@ Agency State's brand voice is one practitioner talking to another about real wor
   - ✗ "Testing has shown that rule checks alone are not enough."
 
 - **Establish relevance before describing capability.** When introducing the work, start with the reader's task, decision, or the result they need, then say what Greg does. First person doesn't require opening with "I." Check: does the reader know why the work matters before hearing what Greg offers?
-  - ✓ "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. That's what I help them work through."
+  - ✓ "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS."
   - ✗ "I help brand marketing teams and their agencies use AI in Claude Code and Codex."
 
 - **Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?
-  - ✓ "I partner with teams to build Brand OS, a system that brings the brand into one source AI can read and serves it to the team's automations and agents. It gives the team a basis for making those calls about the work."
+  - ✓ "I partner with teams to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship."
   - ✗ "It turns a brand into one source AI can read, serves that source to the team's automations and agents, and helps the team make better calls about which AI work represents its brand and is ready to ship."
 
 - **Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg's status?
@@ -201,7 +201,7 @@ The core rules above, with the §7 never-say list applied strictly.
 - **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
 - **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say "automations and agents" for Production as a whole.
 - **Automations.** In Production, the steps that run on their own when something triggers them, with no choices along the way: updating a changed fact everywhere it appears, running the checks, sending each version for review. Agents make the choices within a brief; automations carry the set steps around them. Say "automations and agents" for Production as a whole; use one word alone only when the sentence describes that kind of work.
-- **BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks and routing around that source. One word, both capitals: BrandBuilder.
+- **BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks against that source and identifies who decides the judgment calls. One word, both capitals: BrandBuilder.
 - **Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building.
 - **Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.
 - **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
@@ -431,7 +431,7 @@ production flow:
 
 Control separates what a machine can check from what a person should decide. Some questions have a right answer: whether a banned word appears, whether a claim includes its required condition, whether a product is in the catalog, and whether a color is in the approved palette.
 
-A check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn't make and wrote a full product page for it. The page passed every rule check; only a check against the product list caught it. In the same test, a customer reply promised warranty terms the source didn't have, and none of the checks in that test caught them.
+A check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn't make and wrote a full product page for it. The page passed every rule check; only a check against the product list caught it. In the same test, a customer reply promised free repair or replacement, with shipping both ways. Yowie's brand source says nothing about warranties, so no check in that test could catch those promises.
 
 ```text
 check result (Yowie demo-brand test):
@@ -488,7 +488,7 @@ operators (example roles):
 
 ### What is Brand OS?, How I work with a team
 
-I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks and routing around that source.
+I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks against that source and identifies who decides the judgment calls.
 
 Once the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.
 
