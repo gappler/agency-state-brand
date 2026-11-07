@@ -4608,6 +4608,43 @@ items:
       - approved-language-blocks-company-description-ful-9
     id: approved-language-boilerplate-3
     supersedes: approved-language-boilerplate-2
+  - id: rules-formatting-no-em-dashes-mark-severity-1
+    kind: inference
+    path: rules.formatting[no-em-dashes-mark].severity
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf high). Source: inferred from formatting[no-em-dashes] severity (review by Greg Appler, 2026-10-27). Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: "hard, following formatting[no-em-dashes] (Greg, 2026-10-27). Added so check_copy enforces the em-dash ban: the linter recognizes only the exact wording 'No em dashes.', which is verbatim in platform §5."
+    decided_by: Claude Code (follow-up fix, 2026-11-06; Greg Appler asked for both fixes)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b5c5b3125df259e8efe446e75e39b090291df72fceb88007780b17765bdccbac
+  - id: rules-formatting-no-em-dashes-mark-route-to-1
+    kind: inference
+    path: rules.formatting[no-em-dashes-mark].route_to
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf high). Source: inferred from formatting[no-em-dashes] route_to (review by Greg Appler, 2026-10-27). Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: voice, following formatting[no-em-dashes].
+    decided_by: Claude Code (follow-up fix, 2026-11-06; Greg Appler asked for both fixes)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f79f94edc44e1b6b90c2cc6d43932e958b66def678f30d8c0b5aaf3ed93a1081
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: "published-serving-your-brand-to-ai-tools-serving-agency-states-brand re-quoted word for word from the revised article (agency-state 80b29c6): 'with later updates checked by AI agents' and 'approval: agent_reviewed'. Other blocks unchanged from approved-language-blocks-4."
+    decided_by: Claude Code (follow-up fix, 2026-11-06; Greg Appler asked for both fixes)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f0999e44ddf2687dc44cd768ff02caba9c985de8a225772087de76d612c0bd75
+    id: approved-language-blocks-5
+    supersedes: approved-language-blocks-4
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4925,3 +4962,40 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:c9aee9f8f923ea7fe261a90666d740cf45bd6e473fd1f12f307ef9126c56cd4e
     supersedes: review-2026-11-03-8
+  - id: review-2026-11-06-10
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Claude Code (follow-up fix, 2026-11-06; Greg Appler asked for both fixes)
+    reviewed_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    files:
+      source/approved-language.yaml: sha256:c0cef2191dd53068d81d964ca4ffc318dc7a3fd6e1a7366024ae15bede869ee8
+      source/architecture.yaml: sha256:3cc1173fc0a5f782193e922cd7b8d83acb87a3bdd54dc7f39016c43e7947aaf7
+      source/brand.yaml: sha256:c319b4cf01fb14f19a1a986c3da5b692163e2caa8c6ae0f94a35e9f54d734c28
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:012bc23b35f51239f0c5ee6b3fb7f8d92ecdf7bb674134051e66b23c9039adcb
+      source/positions.yaml: sha256:e9f0920c730abd0799d9aff65e927f369962c102bbfb083efe3774312f46a8ff
+      source/products.yaml: sha256:54a58a583cf68e166aaf478f28488a51ac6935d70a9bf8b189fb5c6f024e7fc6
+      source/rules.yaml: sha256:88abdc0d6972235e8c433cd2469b15ad9eb90bb4ed0999a13c4421342718752a
+      source/stories/greg-practice-background.md: sha256:f963255a84d2fcf91ee291d8782ba302e0e30acd2ced04ac81d8e3b2fecf2f3f
+      source/stories/yowie-fabrication-test.md: sha256:c29be11b3af5a46e60ea1222496129d3f2116ef8859ffec9952ad5fb5dd71172
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
+      source/voice.yaml: sha256:c9aee9f8f923ea7fe261a90666d740cf45bd6e473fd1f12f307ef9126c56cd4e
+    supersedes: review-2026-11-06-9

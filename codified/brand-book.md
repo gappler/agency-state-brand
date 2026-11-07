@@ -1,6 +1,6 @@
 ---
 title: Agency State combined brand source
-version: 2.4
+version: 2.5
 last_updated: 2026-11-06
 ---
 
@@ -773,7 +773,7 @@ Connecting a server makes its tools available, but an agent still needs instruct
 
 ### Serving your brand to AI tools, Serving Agency State's brand
 
-My brand is codified as structured brand files, reviewed by me on October 27, 2026, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.
+My brand is codified as structured brand files, reviewed by me on October 27, 2026, with later updates checked by AI agents, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.
 
     request:
       get_never_say()
@@ -797,7 +797,7 @@ A request for the claims decision owner returns my name, along with the brand's 
       class:          claims
       owner:          Greg Appler
       brand_status:
-        approval:     human_reviewed
+        approval:     agent_reviewed
 
     the pattern:
       assess:   score the brand inventory

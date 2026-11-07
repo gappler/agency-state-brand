@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-07T01:36:31Z",
+  "compiled_at": "2026-11-07T01:59:11Z",
   "summary": {
     "required": {
       "filled": 29,
@@ -315,8 +315,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:545953c844adfe29639b225f0d12b776d191abb44b80158050285b2dcc4a6746",
-    "review": "sha256:d90bc85c2e23e14de85d56b48a179490ade17b4468bbc148f4114dfd2624516d"
+    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
+    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
   },
   "unknown_fields": [],
   "ledger": {
@@ -325,7 +325,7 @@
     "lapsed": [],
     "open_items": 0,
     "open_item_ids": [],
-    "current_items": 369,
+    "current_items": 371,
     "backed_paths": [
       "approved_language.blocks",
       "approved_language.blocks[company-description-100]",
@@ -482,6 +482,8 @@
       "rules.formatting[handover-visual-19].severity",
       "rules.formatting[handover-voice-70].route_to",
       "rules.formatting[handover-voice-70].severity",
+      "rules.formatting[no-em-dashes-mark].route_to",
+      "rules.formatting[no-em-dashes-mark].severity",
       "rules.formatting[no-em-dashes].route_to",
       "rules.formatting[no-em-dashes].severity",
       "rules.formatting[no-performative-emphasis].route_to",
@@ -780,9 +782,9 @@
     "flagged": [],
     "attribution": {
       "human_decisions": 340,
-      "agent_decisions": 30,
+      "agent_decisions": 32,
       "agent_record_ids": [
-        "approved-language-blocks-4",
+        "approved-language-blocks-5",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -799,7 +801,7 @@
         "products-claims-2",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
-        "review-2026-11-06-9",
+        "review-2026-11-06-10",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
@@ -808,6 +810,8 @@
         "rules-formatting-brandbuilder-capitals-severity-2",
         "rules-formatting-brandbuilder-name-route-to-2",
         "rules-formatting-brandbuilder-name-severity-2",
+        "rules-formatting-no-em-dashes-mark-route-to-1",
+        "rules-formatting-no-em-dashes-mark-severity-1",
         "stories-2",
         "voice-channel-variations-5",
         "voice-exemplars-homepage-introduction-3",
@@ -821,8 +825,8 @@
   "approval": {
     "status": "agent_reviewed",
     "revisions": {
-      "source": "sha256:545953c844adfe29639b225f0d12b776d191abb44b80158050285b2dcc4a6746",
-      "review": "sha256:d90bc85c2e23e14de85d56b48a179490ade17b4468bbc148f4114dfd2624516d"
+      "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
+      "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
     },
     "checks": {
       "ledger_valid": true,
@@ -831,15 +835,15 @@
       "uncovered_values": 0,
       "values_without_review_evidence": 0,
       "deferred": 9,
-      "agent_decisions": 30
+      "agent_decisions": 32
     },
     "blocking": [],
     "unbacked": [],
     "attribution": {
       "human_decisions": 340,
-      "agent_decisions": 30,
+      "agent_decisions": 32,
       "agent_record_ids": [
-        "approved-language-blocks-4",
+        "approved-language-blocks-5",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -856,7 +860,7 @@
         "products-claims-2",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
-        "review-2026-11-06-9",
+        "review-2026-11-06-10",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
@@ -865,6 +869,8 @@
         "rules-formatting-brandbuilder-capitals-severity-2",
         "rules-formatting-brandbuilder-name-route-to-2",
         "rules-formatting-brandbuilder-name-severity-2",
+        "rules-formatting-no-em-dashes-mark-route-to-1",
+        "rules-formatting-no-em-dashes-mark-severity-1",
         "stories-2",
         "voice-channel-variations-5",
         "voice-exemplars-homepage-introduction-3",

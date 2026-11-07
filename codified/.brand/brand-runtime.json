@@ -2,10 +2,10 @@
   "schema_version": "0.2.0",
   "source_schema_version": "0.2.0",
   "client_name": "Agency State",
-  "compiled_at": "2026-11-07T01:36:31Z",
+  "compiled_at": "2026-11-07T01:59:11Z",
   "revisions": {
-    "source": "sha256:545953c844adfe29639b225f0d12b776d191abb44b80158050285b2dcc4a6746",
-    "review": "sha256:d90bc85c2e23e14de85d56b48a179490ade17b4468bbc148f4114dfd2624516d"
+    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
+    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
   },
   "approval": "agent_reviewed",
   "completeness": {
@@ -1213,7 +1213,7 @@
     {
       "id": "published-serving-your-brand-to-ai-tools-serving-agency-states-brand",
       "kind": "passage",
-      "text": "My brand is codified as structured brand files, reviewed by me on October 27, 2026, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.\n\n    request:\n      get_never_say()\n\n    response excerpts:\n      word:      10x your output\n      severity:  hard\n\n      word:      unlock\n      severity:  hard\n\n      word:      AI-powered\n      severity:  hard\n\nA request for the claims decision owner returns my name, along with the brand's review status.\n\n    request:\n      get_decision_owner(decision_class=\"claims\")\n\n    response excerpts:\n      class:          claims\n      owner:          Greg Appler\n      brand_status:\n        approval:     human_reviewed\n\n    the pattern:\n      assess:   score the brand inventory\n      codify:   build the reviewed source\n      serve:    expose the source to agents and workflows\n      produce:  draft and adapt from the source\n      check:    compare output to the source\n      review:   a person reviews each draft\n      route:    send questions the reviewer cannot settle to the decision owner\n      update:   return approved corrections to the source",
+      "text": "My brand is codified as structured brand files, reviewed by me on October 27, 2026, with later updates checked by AI agents, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.\n\n    request:\n      get_never_say()\n\n    response excerpts:\n      word:      10x your output\n      severity:  hard\n\n      word:      unlock\n      severity:  hard\n\n      word:      AI-powered\n      severity:  hard\n\nA request for the claims decision owner returns my name, along with the brand's review status.\n\n    request:\n      get_decision_owner(decision_class=\"claims\")\n\n    response excerpts:\n      class:          claims\n      owner:          Greg Appler\n      brand_status:\n        approval:     agent_reviewed\n\n    the pattern:\n      assess:   score the brand inventory\n      codify:   build the reviewed source\n      serve:    expose the source to agents and workflows\n      produce:  draft and adapt from the source\n      check:    compare output to the source\n      review:   a person reviews each draft\n      route:    send questions the reviewer cannot settle to the decision owner\n      update:   return approved corrections to the source",
       "remix": false
     },
     {
