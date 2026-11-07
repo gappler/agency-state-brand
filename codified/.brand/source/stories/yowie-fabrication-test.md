@@ -9,9 +9,9 @@ tags:
   audience:
     - brand marketing teams
   length: long
-  prov: {src: 'brand-book, Context is not control', conf: high, basis: confirmed}
+  prov: {src: 'brand-book, Context is not control, The test', conf: high, basis: confirmed}
 prov:
-  src: brand-book, Context is not control
+  src: brand-book, Context is not control, The test
   conf: high
   basis: verbatim
 ---

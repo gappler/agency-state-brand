@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-03T13:03:16Z",
+  "compiled_at": "2026-11-07T01:36:31Z",
   "summary": {
     "required": {
       "filled": 29,
@@ -315,8 +315,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:638d52bae2ae410d85df8dd9ae0150bb845c11c298c5fce065c53debc0402634",
-    "review": "sha256:335cce850456ba582cef73d35ae1b770b3748e401de290475d0fb5b2cd959246"
+    "source": "sha256:545953c844adfe29639b225f0d12b776d191abb44b80158050285b2dcc4a6746",
+    "review": "sha256:d90bc85c2e23e14de85d56b48a179490ade17b4468bbc148f4114dfd2624516d"
   },
   "unknown_fields": [],
   "ledger": {
@@ -325,7 +325,7 @@
     "lapsed": [],
     "open_items": 0,
     "open_item_ids": [],
-    "current_items": 363,
+    "current_items": 369,
     "backed_paths": [
       "approved_language.blocks",
       "approved_language.blocks[company-description-100]",
@@ -346,7 +346,6 @@
       "approved_language.blocks[definition-brand-os-lead].remix",
       "approved_language.blocks[definition-brand-os].remix",
       "approved_language.blocks[definition-brand-readiness-assessment].remix",
-      "approved_language.blocks[definition-brandbuilder].remix",
       "approved_language.blocks[definition-codified-brand].remix",
       "approved_language.blocks[definition-demo-brand].remix",
       "approved_language.blocks[definition-provenance].remix",
@@ -355,6 +354,8 @@
       "approved_language.blocks[definition-serving-layer-mcp].remix",
       "approved_language.blocks[definition-source-check].remix",
       "approved_language.blocks[definition-workflow].remix",
+      "approved_language.blocks[published-context-is-not-control-the-problem].remix",
+      "approved_language.blocks[published-context-is-not-control-the-test].remix",
       "approved_language.blocks[published-context-is-not-control-what-a-check-can-tell-you].remix",
       "approved_language.blocks[published-context-is-not-control-where-the-corrections-go].remix",
       "approved_language.blocks[published-context-is-not-control].remix",
@@ -473,10 +474,10 @@
       "rules.conditional_say[#9]",
       "rules.conditional_say[#9].route_to",
       "rules.conditional_say[#9].severity",
-      "rules.formatting[brandbuilder-capitals].route_to",
-      "rules.formatting[brandbuilder-capitals].severity",
-      "rules.formatting[brandbuilder-name].route_to",
-      "rules.formatting[brandbuilder-name].severity",
+      "rules.formatting[brand-os-name].route_to",
+      "rules.formatting[brand-os-name].severity",
+      "rules.formatting[brand-os-replaces-brandbuilder].route_to",
+      "rules.formatting[brand-os-replaces-brandbuilder].severity",
       "rules.formatting[handover-visual-19].route_to",
       "rules.formatting[handover-visual-19].severity",
       "rules.formatting[handover-voice-70].route_to",
@@ -776,13 +777,52 @@
         "decided_at": "2026-11-02"
       }
     ],
-    "flagged": []
+    "flagged": [],
+    "attribution": {
+      "human_decisions": 340,
+      "agent_decisions": 30,
+      "agent_record_ids": [
+        "approved-language-blocks-4",
+        "approved-language-blocks-company-description-100-8",
+        "approved-language-blocks-company-description-100-9",
+        "approved-language-blocks-company-description-25--4",
+        "approved-language-blocks-company-description-25-3",
+        "approved-language-blocks-company-description-50--4",
+        "approved-language-blocks-company-description-50-3",
+        "approved-language-blocks-company-description-ful-8",
+        "approved-language-blocks-company-description-ful-9",
+        "approved-language-blocks-definition-brandbuilder-1",
+        "approved-language-blocks-published-context-is-no-1",
+        "approved-language-blocks-published-context-is-no-2",
+        "approved-language-boilerplate-3",
+        "positioning-sells-against-refuses-1",
+        "products-claims-2",
+        "products-claims-brand-os-built-parts-1",
+        "products-claims-principal-experience-2",
+        "review-2026-11-06-9",
+        "rules-formatting-brand-os-name-route-to-1",
+        "rules-formatting-brand-os-name-severity-1",
+        "rules-formatting-brand-os-replaces-brandbuilder--1",
+        "rules-formatting-brand-os-replaces-brandbuilder--2",
+        "rules-formatting-brandbuilder-capitals-route-to-2",
+        "rules-formatting-brandbuilder-capitals-severity-2",
+        "rules-formatting-brandbuilder-name-route-to-2",
+        "rules-formatting-brandbuilder-name-severity-2",
+        "stories-2",
+        "voice-channel-variations-5",
+        "voice-exemplars-homepage-introduction-3",
+        "voice-register-channels-4"
+      ],
+      "delegated_by": [
+        "Greg Appler"
+      ]
+    }
   },
   "approval": {
-    "status": "human_reviewed",
+    "status": "agent_reviewed",
     "revisions": {
-      "source": "sha256:638d52bae2ae410d85df8dd9ae0150bb845c11c298c5fce065c53debc0402634",
-      "review": "sha256:335cce850456ba582cef73d35ae1b770b3748e401de290475d0fb5b2cd959246"
+      "source": "sha256:545953c844adfe29639b225f0d12b776d191abb44b80158050285b2dcc4a6746",
+      "review": "sha256:d90bc85c2e23e14de85d56b48a179490ade17b4468bbc148f4114dfd2624516d"
     },
     "checks": {
       "ledger_valid": true,
@@ -790,10 +830,51 @@
       "open_items": 0,
       "uncovered_values": 0,
       "values_without_review_evidence": 0,
-      "deferred": 9
+      "deferred": 9,
+      "agent_decisions": 30
     },
     "blocking": [],
-    "unbacked": []
+    "unbacked": [],
+    "attribution": {
+      "human_decisions": 340,
+      "agent_decisions": 30,
+      "agent_record_ids": [
+        "approved-language-blocks-4",
+        "approved-language-blocks-company-description-100-8",
+        "approved-language-blocks-company-description-100-9",
+        "approved-language-blocks-company-description-25--4",
+        "approved-language-blocks-company-description-25-3",
+        "approved-language-blocks-company-description-50--4",
+        "approved-language-blocks-company-description-50-3",
+        "approved-language-blocks-company-description-ful-8",
+        "approved-language-blocks-company-description-ful-9",
+        "approved-language-blocks-definition-brandbuilder-1",
+        "approved-language-blocks-published-context-is-no-1",
+        "approved-language-blocks-published-context-is-no-2",
+        "approved-language-boilerplate-3",
+        "positioning-sells-against-refuses-1",
+        "products-claims-2",
+        "products-claims-brand-os-built-parts-1",
+        "products-claims-principal-experience-2",
+        "review-2026-11-06-9",
+        "rules-formatting-brand-os-name-route-to-1",
+        "rules-formatting-brand-os-name-severity-1",
+        "rules-formatting-brand-os-replaces-brandbuilder--1",
+        "rules-formatting-brand-os-replaces-brandbuilder--2",
+        "rules-formatting-brandbuilder-capitals-route-to-2",
+        "rules-formatting-brandbuilder-capitals-severity-2",
+        "rules-formatting-brandbuilder-name-route-to-2",
+        "rules-formatting-brandbuilder-name-severity-2",
+        "stories-2",
+        "voice-channel-variations-5",
+        "voice-exemplars-homepage-introduction-3",
+        "voice-register-channels-4"
+      ],
+      "delegated_by": [
+        "Greg Appler"
+      ]
+    },
+    "notice": "This brand's review includes agent decisions or delegated review. It is not human-reviewed; disclose that when using it."
   },
   "uncovered": [],
   "filtered_out": [],
@@ -803,5 +884,5 @@
   "color_mismatches": [],
   "migrate": [],
   "unserved_flags": [],
-  "compiler_contract": "engine-0.17.3"
+  "compiler_contract": "engine-0.18.0"
 }

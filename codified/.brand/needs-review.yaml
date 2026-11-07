@@ -4277,6 +4277,337 @@ items:
     value_hash: sha256:6958ca7dd91e093af91064101ce35b2f7e15234025fa9cf9dd86843e9fb6b0f4
     id: approved-language-blocks-3
     supersedes: approved-language-blocks-2
+  - id: approved-language-blocks-published-context-is-no-1
+    kind: inference
+    path: approved_language.blocks[published-context-is-not-control-the-problem].remix
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf high). Source: inferred from review-sheet B2 (Greg Appler, 2026-10-27: published passages, no rewording); applied by the 2026-11-06 re-codification to a passage split out under a new page heading. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: "Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): remix false, inferred from Greg's 2026-10-27 B2 rule (published passages, no rewording)."
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa
+  - id: approved-language-blocks-published-context-is-no-2
+    kind: inference
+    path: approved_language.blocks[published-context-is-not-control-the-test].remix
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf high). Source: inferred from review-sheet B2 (Greg Appler, 2026-10-27: published passages, no rewording); applied by the 2026-11-06 re-codification to a passage split out under a new page heading. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: "Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): remix false, inferred from Greg's 2026-10-27 B2 rule (published passages, no rewording)."
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa
+  - id: rules-formatting-brand-os-name-severity-1
+    kind: inference
+    path: rules.formatting[brand-os-name].severity
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf medium). Source: brand-book, Agency State Brand Platform, 6. Vocabulary. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): hard, following the BrandBuilder naming rule it replaces.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b5c5b3125df259e8efe446e75e39b090291df72fceb88007780b17765bdccbac
+  - id: rules-formatting-brand-os-name-route-to-1
+    kind: inference
+    path: rules.formatting[brand-os-name].route_to
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf medium). Source: brand-book, Agency State Brand Platform, 6. Vocabulary. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): voice, following the BrandBuilder naming rule it replaces.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f79f94edc44e1b6b90c2cc6d43932e958b66def678f30d8c0b5aaf3ed93a1081
+  - id: rules-formatting-brand-os-replaces-brandbuilder--1
+    kind: inference
+    path: rules.formatting[brand-os-replaces-brandbuilder].severity
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf medium). Source: brand-book, Agency State Brand Platform, 6. Vocabulary. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: "Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): hard; a formatting rule (not a never-say) so technical identifiers are not string-matched. The linter does not enforce this wording; a reviewer catches public 'BrandBuilder'."
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b5c5b3125df259e8efe446e75e39b090291df72fceb88007780b17765bdccbac
+  - id: rules-formatting-brand-os-replaces-brandbuilder--2
+    kind: inference
+    path: rules.formatting[brand-os-replaces-brandbuilder].route_to
+    issue: 'Labeled inferred by the codifier: not stated word for word where it is cited (conf medium). Source: brand-book, Agency State Brand Platform, 6. Vocabulary. Confirm, revise or remove it.'
+    basis: inferred
+    priority: medium
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): voice.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f79f94edc44e1b6b90c2cc6d43932e958b66def678f30d8c0b5aaf3ed93a1081
+  - kind: inference
+    path: approved_language.blocks[definition-brandbuilder].remix
+    status: removed
+    decision: 'definition-brandbuilder removed: platform v3.7 §6 removed the BrandBuilder entry (public copy uses Brand OS in place of the former BrandBuilder name).'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: approved-language-blocks-definition-brandbuilder-1
+    supersedes: library-approved-language-blocks-definition-brandbuilder-remix
+  - kind: inference
+    path: rules.formatting[brandbuilder-name].severity
+    status: removed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): rule removed with platform v3.7 §6 BrandBuilder entry; replaced by formatting[brand-os-name].'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-formatting-brandbuilder-name-severity-2
+    supersedes: rules-formatting-brandbuilder-name-severity-1
+  - kind: inference
+    path: rules.formatting[brandbuilder-name].route_to
+    status: removed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): rule removed with platform v3.7 §6 BrandBuilder entry; replaced by formatting[brand-os-name].'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-formatting-brandbuilder-name-route-to-2
+    supersedes: rules-formatting-brandbuilder-name-route-to-1
+  - kind: inference
+    path: rules.formatting[brandbuilder-capitals].severity
+    status: removed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): rule removed with platform v3.7 §6 BrandBuilder entry.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-formatting-brandbuilder-capitals-severity-2
+    supersedes: rules-formatting-brandbuilder-capitals-severity-1
+  - kind: inference
+    path: rules.formatting[brandbuilder-capitals].route_to
+    status: removed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): rule removed with platform v3.7 §6 BrandBuilder entry.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-formatting-brandbuilder-capitals-route-to-2
+    supersedes: rules-formatting-brandbuilder-capitals-route-to-1
+  - kind: inference
+    path: products.claims[brand-os-built-parts]
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): re-quoted from the v3.7 §8 proof posture (built process; check and routing changes not yet implemented; different basis from live acceptance).'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:056d75c41bb0ea8a78bd87319712ca299972f0bbdd050b808761dbe312b9c82d
+    id: products-claims-brand-os-built-parts-1
+    supersedes: products-products-claims-brand-os-built-parts
+  - kind: inference
+    path: positioning.sells_against.refuses
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): re-quoted from v3.7 §9.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:5c76182b8605af5a145fb0372ddaed859ae4d403bcefc2fc7edba4c58304be36
+    id: positioning-sells-against-refuses-1
+    supersedes: positioning-positioning-sells-against-refuses
+  - kind: inference
+    path: stories
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): Background story re-quoted from the 2026-11-06 homepage (career only); Yowie fabrication story cites Context is not control, The test.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:0d6552283d96e0512c7ef7eb316a44f234ea4dfc30cd9755ca7160578d3c77f8
+    id: stories-2
+    supersedes: stories-1
+  - kind: inference
+    path: products.claims
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): claims re-quoted from v3.7 §2 and §8; two claims added (brand-os-local-demonstrations, agency-state-codified-brand-served) from the §8 proof posture.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:818d3ff0fd107fa248bcf7f972647f7e9c714a977366cd0f33455fa43da8740e
+    id: products-claims-2
+    supersedes: products-claims-1
+  - kind: inference
+    path: products.claims[principal-experience]
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): re-quoted from v3.7 §8 (12-person, rebrand, visual identity by Pentagram, built-work list without BrandBuilder, separate campaign engine sentence).'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:e17c4ec55d5f31b7bffbb4e11edb911bf84ddbbb4e81cee048909b134a56bbcb
+    id: products-claims-principal-experience-2
+    supersedes: products-claims-principal-experience-1
+  - kind: inference
+    path: voice.exemplars[homepage-introduction]
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): the three hero paragraphs on the 2026-11-06 homepage, matched against index.html; basis inferred because the CTA link text is joined into its sentence.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:848d1fbd1ad5a85a5a9646a910ee1e5613e96d5b8f00ec5f9e0a66978a878b3a
+    id: voice-exemplars-homepage-introduction-3
+    supersedes: voice-exemplars-homepage-introduction-2
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): published passages re-quoted whole from What is Brand OS? v2.2.1 and Context is not control; Context body split under its new headings; §6 definitions re-quoted; definition-brandbuilder removed; redesign-attribution follows §8.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:68ea0ec77537346bf194530ab2ff2bd99dd8869a75c5c58d135cc8a06bc082fc
+    id: approved-language-blocks-4
+    supersedes: approved-language-blocks-3
+  - kind: inference
+    path: approved_language.blocks[company-description-25].text
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b91232d0a312c99886a8411478088154f9a0fe3a031d305754c5fca3fe26cd85
+    id: approved-language-blocks-company-description-25--4
+    supersedes: approved-language-blocks-company-description-25--3
+  - kind: inference
+    path: approved_language.blocks[company-description-50].text
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:5e53dc9657b593f00a2744c4b40ee76419e43fc27580a0c7854df807adf48f76
+    id: approved-language-blocks-company-description-50--4
+    supersedes: approved-language-blocks-company-description-50--3
+  - kind: inference
+    path: approved_language.blocks[company-description-25]
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:71afa2c1a20813590c4eeb6590c4d5c73b8e2bd25ea590b23b0f3f0f99d742d2
+    id: approved-language-blocks-company-description-25-3
+    supersedes: approved-language-blocks-company-description-25-2
+  - kind: inference
+    path: approved_language.blocks[company-description-50]
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:9f700db1d44c5d9a9a740401ae7d96ac290a25fd3075546e10a60b775133ae3e
+    id: approved-language-blocks-company-description-50-3
+    supersedes: approved-language-blocks-company-description-50-2
+  - kind: inference
+    path: approved_language.blocks[company-description-100].text
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b48177fa976fcd06846bd8dc8497579ef7cab250f5ca992e2da47ac5dda60405
+    id: approved-language-blocks-company-description-100-8
+    supersedes: approved-language-blocks-company-description-100-6
+  - kind: inference
+    path: approved_language.blocks[company-description-full].text
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:e811ef52f6a8995a2d7df06d00f57653b6564b5c50330f0d94ac2bd94e8cb289
+    id: approved-language-blocks-company-description-ful-8
+    supersedes: approved-language-blocks-company-description-ful-6
+  - kind: inference
+    path: approved_language.blocks[company-description-100]
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:1cf5b480a17e26ebd600f2803812bff2446e201e9a4029c1a1ffd26315c65c15
+    id: approved-language-blocks-company-description-100-9
+    supersedes: approved-language-blocks-company-description-100-7
+  - kind: inference
+    path: approved_language.blocks[company-description-full]
+    status: confirmed
+    decision: company descriptions refreshed to platform v3.7 (Greg-led help first, Agency State's Brand OS as the approach, no BrandBuilder, no claim beyond §8); drafted by the library lens, the 100-word and full versions revised by the independent check for an unclear 'It'. Rewording stays allowed. Replaces Greg's 2026-11-02 approval of the earlier text.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:0fbd2b28563d06638ec8418f0ea16d31b5f5764cd7ef561a8f8fd59307dc8e1c
+    id: approved-language-blocks-company-description-ful-9
+    supersedes: approved-language-blocks-company-description-ful-7
+  - kind: inference
+    path: voice.register.channels
+    status: confirmed
+    decision: "Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): site channel delta quotes the new v3.7 §8 sentence 'No copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone.'; other channels unchanged."
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:61b4160ea7c6fbd06facda58a7d268f8fbd237331196ab875359cb407b7b9723
+    id: voice-register-channels-4
+    supersedes: voice-register-channels-3
+  - kind: gap
+    path: voice.channel_variations
+    status: filled
+    decision: 'Fidelity check against book v2.4 (platform v3.7, site bd3cc9a): channel variations re-filled by the renewed channel decision.'
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    evidence:
+      - voice-register-channels-4
+    id: voice-channel-variations-5
+    supersedes: voice-channel-variations-4
+  - kind: gap
+    path: approved_language.boilerplate
+    status: filled
+    decision: boilerplate re-filled by the refreshed company descriptions.
+    decided_by: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    decided_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    evidence:
+      - approved-language-blocks-company-description-25-3
+      - approved-language-blocks-company-description-50-3
+      - approved-language-blocks-company-description-100-9
+      - approved-language-blocks-company-description-ful-9
+    id: approved-language-boilerplate-3
+    supersedes: approved-language-boilerplate-2
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4557,3 +4888,40 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:893c13d580e4e4c67b9d28a5697575e7bb44a08f6eaeca25ae2ae03b4f584e96
     supersedes: review-2026-11-03-7
+  - id: review-2026-11-06-9
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Claude Code (independent fidelity check; platform v3.7 text approved by Greg Appler 2026-11-06)
+    reviewed_at: '2026-11-06'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    files:
+      source/approved-language.yaml: sha256:6c76548696606bbd8c49cefde2e5a538aa0418ba04429f50ffd054332ebb4c29
+      source/architecture.yaml: sha256:3cc1173fc0a5f782193e922cd7b8d83acb87a3bdd54dc7f39016c43e7947aaf7
+      source/brand.yaml: sha256:c319b4cf01fb14f19a1a986c3da5b692163e2caa8c6ae0f94a35e9f54d734c28
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:012bc23b35f51239f0c5ee6b3fb7f8d92ecdf7bb674134051e66b23c9039adcb
+      source/positions.yaml: sha256:e9f0920c730abd0799d9aff65e927f369962c102bbfb083efe3774312f46a8ff
+      source/products.yaml: sha256:54a58a583cf68e166aaf478f28488a51ac6935d70a9bf8b189fb5c6f024e7fc6
+      source/rules.yaml: sha256:56a19a47e8bf13c3b64d4a69f08c55422c14ed9ac1268c8b52ab4b32992e8a56
+      source/stories/greg-practice-background.md: sha256:f963255a84d2fcf91ee291d8782ba302e0e30acd2ced04ac81d8e3b2fecf2f3f
+      source/stories/yowie-fabrication-test.md: sha256:c29be11b3af5a46e60ea1222496129d3f2116ef8859ffec9952ad5fb5dd71172
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
+      source/voice.yaml: sha256:c9aee9f8f923ea7fe261a90666d740cf45bd6e473fd1f12f307ef9126c56cd4e
+    supersedes: review-2026-11-03-8

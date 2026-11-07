@@ -1,6 +1,6 @@
 ---
-version: 1.1
-last_updated: 2026-11-02
+version: 1.2
+last_updated: 2026-11-06
 ---
 schema_version: 0.2.0
 blocks:
@@ -36,7 +36,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-brand-os
     kind: passage
-    text: "**Brand OS.** One brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with routes for judgment), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Agency State builds it with the team, then works closely with its Brand OS lead to measure how well the AI work holds to the brand, improve the source and checks, and extend the system."
+    text: "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -74,19 +74,9 @@ blocks:
       basis: verbatim
     field_prov:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
-  - id: definition-brandbuilder
-    kind: passage
-    text: "**BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks against that source and identifies who decides the judgment calls. One word, both capitals: BrandBuilder."
-    remix: true
-    prov:
-      src: brand-book, Agency State Brand Platform, 6. Vocabulary
-      conf: high
-      basis: verbatim
-    field_prov:
-      remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-brand-readiness-assessment
     kind: passage
-    text: "**Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building."
+    text: "**Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build."
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -156,7 +146,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: published-what-is-brand-os
     kind: passage
-    text: "*A Brand OS is one brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who make the judgment calls.*"
+    text: "*Agency State’s Brand OS connects an approved brand source with marketing production, checks, and people who review work and approve updates.*"
     remix: false
     prov:
       src: brand-book, What is Brand OS?
@@ -176,7 +166,7 @@ blocks:
       remix: { src: 'brand-book, What is Brand OS?, Why it matters', conf: high, basis: confirmed }
   - id: published-what-is-brand-os-01-source
     kind: passage
-    text: "The source brings the team's brand decisions together in material AI can read and the team can govern. It records who the brand is for, what it can claim, and how it looks and sounds, with the facts and evidence behind those decisions. Production and review work from the same brand information.\n\nFor a product launch, the source records the team's decisions about the facts and rules used in the product page, sales email, paid search copy, social posts, and internal review notes.\n\n```text\nlaunch source:\n  product facts:     specifications, availability, names, compatibility\n  claims:            approved language, evidence, required conditions\n  voice:             vocabulary, banned words, channel differences\n  visual:            color, type, logo, layout, image rules\n  provenance:        source, stated or inferred, confidence, reviewer, date\n  open questions:    gaps, conflicts, inferred items, decisions needed\n```\n\nEach automation or agent is served the parts of the source its task needs through MCP, an open standard for connecting AI tools to outside data. For agencies serving multiple clients, each client brand has its own source."
+    text: "The source brings the team’s brand decisions together as shared guidance for production and review. It records who the brand is for, what it can claim, and how it looks and sounds, with the facts and evidence behind those decisions. Each entry records where it came from and whether it was stated or inferred. Interpretations and unresolved questions go to the team for review.\n\nFor a product launch, the source records the team's decisions about the facts and rules used in the product page, sales email, paid search copy, social posts, and internal review notes.\n\n```text\nlaunch source:\n  product facts:     specifications, availability, names, compatibility\n  claims:            approved language, evidence, required conditions\n  voice:             vocabulary, banned words, channel differences\n  visual:            color, type, logo, layout, image rules\n  provenance:        source, stated or inferred, confidence, reviewer, date\n  open questions:    gaps, conflicts, inferred items, decisions needed\n```\n\nEach automation or agent is served the parts of the source its task needs through MCP, an open standard for connecting AI tools to outside data. For agencies serving multiple clients, each client brand has its own source."
     remix: false
     prov:
       src: brand-book, What is Brand OS?, 01. Source
@@ -186,7 +176,7 @@ blocks:
       remix: { src: 'brand-book, What is Brand OS?, 01. Source', conf: high, basis: confirmed }
   - id: published-what-is-brand-os-02-production
     kind: passage
-    text: "Production is where the team's work gets made. The team supplies the brief and the idea; the source supplies the brand guidance for the task. The work covers campaigns and the ongoing production between them: product updates, page revisions, email versions, social posts.\n\nAgents draft, adapt, localize, and update that material. An email and a social post call for different choices about length, emphasis, and detail, and the agent makes those choices within the brief. Automations handle the set steps around each draft. They run the checks and send the draft to the person who reviews it.\n\n```text\nproduction flow:\n  from the team:     brief, idea, audience, deadline\n  from the source:   facts, approved claims, voice, visual rules\n  agents make:       product page, paid search, email, social, partner copy\n  automations:       run the checks, send each draft for review\n  to a person:       a review brief with the choices to make\n```"
+    text: "Production is where the team's work gets made. The team supplies the brief and the idea; the source supplies the brand guidance for the task. The work covers campaigns and the ongoing production between them: product updates, page revisions, email versions, social posts.\n\nAgents draft, adapt, localize, and update that material. An email and a social post call for different choices about length, emphasis, and detail, and the agent makes those choices within the brief. Automations handle the set steps around each draft. They run the checks and send the draft to the person who reviews it. The reviewer receives the draft with the check results and any limits the checks report.\n\n```text\nproduction flow:\n  from the team:     brief, idea, audience, deadline\n  from the source:   facts, approved claims, voice, visual rules\n  agents make:       product page, paid search, email, social, partner copy\n  automations:       run the checks, send each draft for review\n  to a person:       a review brief with the choices to make\n```"
     remix: false
     prov:
       src: brand-book, What is Brand OS?, 02. Production
@@ -206,7 +196,7 @@ blocks:
       remix: { src: 'brand-book, What is Brand OS?, 03. Control', conf: high, basis: confirmed }
   - id: published-what-is-brand-os-04-feedback
     kind: passage
-    text: "A correction to a draft shouldn't automatically become a change to the brand. The problem may be an error in the draft, a case that calls for an exception, stale source material, or a rule that's too loose, too strict, or missing.\n\nEach correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it's applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change.\n\n```text\nfeedback outcomes:\n  draft correction:     fix this draft\n  approved exception:   record who approved the exception and why\n  source update:        change the fact or approved language\n  rule update:          add or revise a check\n  routing update:       send this question to the right owner\n```"
+    text: "A correction to a draft shouldn't automatically become a change to the brand. The problem may be an error in the draft, a case that calls for an exception, stale source material, or a rule that's too loose, too strict, or missing.\n\nEach correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it’s applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change. We use approved updates to improve how the system represents the brand and keep it current as the brand changes.\n\n```text\nfeedback outcomes:\n  draft correction:     fix this draft\n  approved exception:   record who approved the exception and why\n  source update:        change the fact or approved language\n  rule update:          add or revise a check\n  routing update:       send this question to the right owner\n```"
     remix: false
     prov:
       src: brand-book, What is Brand OS?, 04. Feedback
@@ -226,7 +216,7 @@ blocks:
       remix: { src: 'brand-book, What is Brand OS?, 05. Operators', conf: high, basis: confirmed }
   - id: published-what-is-brand-os-how-i-work-with-a-team
     kind: passage
-    text: "I start by assessing the brand as it's written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements and gaps to the people who decide them. Agency State's BrandBuilder turns that material into structured brand files for the team to review. Once approved, those files give the team's AI work its brand source. BrandBuilder runs the checks against that source and identifies who decides the judgment calls.\n\nOnce the source is approved and being served, I work with the team to set up the first production automations and agents, how every draft is reviewed, and how results are reported. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, fixing the source and checks behind each miss, and extending the system to more of the team's work.\n\nTo request a brand-readiness assessment, send me an email."
+    text: "I start with a brand-readiness assessment, looking at the brand as it’s written down and as it shows up in the work. The brand itself stays with the team and its agencies. I organize the material with them and bring disagreements, interpretations, and gaps to the people who decide them. We review the structured source before it is approved for use by the team’s AI tools.\n\nI can also help set up how the team works in Claude Code and Codex, organizing project files and repositories and configuring how agents receive brand guidance and project instructions.\n\nOnce the source is approved and being served, I work with the team to choose and build the first production automations and agents, agree on how every draft is reviewed, and decide how success will be measured. From there I work closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, making approved updates to the source and checks, and extending the system to more of the team’s work.\n\nTo request a brand-readiness assessment, send me an email."
     remix: false
     prov:
       src: brand-book, What is Brand OS?, How I work with a team
@@ -236,7 +226,7 @@ blocks:
       remix: { src: 'brand-book, What is Brand OS?, How I work with a team', conf: high, basis: confirmed }
   - id: published-context-is-not-control
     kind: passage
-    text: "*Brand documents shaped how Claude's copy sounded. They didn't stop it from inventing a cooler.*\n\nGiving AI your written brand documents can help it write better marketing copy. Those documents become its context: the vocabulary, examples of the voice, product information, and the rules you want it to follow.\n\nBut a draft it writes can sound right while getting important things wrong. It can name a product you don't sell or promise a policy you don't offer. I've found these errors are different from the ones people make. They fit. They borrow real details, or they sound like what any brand like yours would say. The clues that they're wrong are there, but only someone who knows the facts will see them.\n\nIn a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.\n\nI ran two kinds of automated checks on every draft. Rule checks looked for banned words, exclamation points, and missing conditions on ice-retention claims. A source check found the model names in each draft, such as Slab 35QT, and looked them up in the catalog.\n\nThirty-six of the requests asked for a product that wasn't in the catalog. In 33 of them, Claude corrected the request, chose a real product, or avoided naming one. That was the right response.\n\nBut in three drafts, Claude went along with the request. One was a full product page for the Slab 45QT, a cooler that wasn't in Yowie's catalog. Claude invented a weight, dimensions, and a price.\n\n    check result:\n      draft:          product page for the Slab 45QT cooler\n      rule checks:    passed\n      source check:   flagged; Slab 45QT is not in the catalog\n\nThe catalog had a Slab 35QT, and Claude built the fake cooler out of it. The real 35QT weighs 22 lb and costs $285. The invented 45QT weighs 28 lb and costs $335. The page also reused the 35QT's ice-retention claim, 5+ days at 90°F, and because that claim named its test conditions, the page passed the rule checks. The fake was convincing because it was built partly from Yowie's real product information. It did leave a clue. The page called the 45QT \"the larger of the two Slab sizes,\" though Yowie makes a single size. You'd catch that only if you knew the catalog.\n\nAll three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.\n\nThe brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked."
+    text: "*Brand documents shaped how Claude's copy sounded. They didn't stop it from inventing a cooler.*"
     remix: false
     prov:
       src: brand-book, Context is not control
@@ -244,6 +234,26 @@ blocks:
       basis: verbatim
     field_prov:
       remix: { src: 'brand-book, Context is not control', conf: high, basis: confirmed }
+  - id: published-context-is-not-control-the-problem
+    kind: passage
+    text: "Giving AI your written brand documents can help it write better marketing copy. Those documents become its context: the vocabulary, examples of the voice, product information, and the rules you want it to follow.\n\nBut a draft it writes can sound right while getting important things wrong. It can name a product you don't sell or promise a policy you don't offer. I've found these errors are different from the ones people make. They fit. They borrow real details, or they sound like what any brand like yours would say. The clues that they're wrong are there, but only someone who knows the facts will see them."
+    remix: false
+    prov:
+      src: brand-book, Context is not control, The problem
+      conf: high
+      basis: verbatim
+    field_prov:
+      remix: { src: 'inferred from review-sheet B2 (Greg Appler, 2026-10-27: published passages, no rewording); applied by the 2026-11-06 re-codification to a passage split out under a new page heading', conf: high, basis: confirmed }
+  - id: published-context-is-not-control-the-test
+    kind: passage
+    text: "In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.\n\nI ran two kinds of automated checks on every draft. Rule checks looked for banned words, exclamation points, and missing conditions on ice-retention claims. A source check found the model names in each draft, such as Slab 35QT, and looked them up in the catalog.\n\nThirty-six of the requests asked for a product that wasn't in the catalog. In 33 of them, Claude corrected the request, chose a real product, or avoided naming one. That was the right response.\n\nBut in three drafts, Claude went along with the request. One was a full product page for the Slab 45QT, a cooler that wasn't in Yowie's catalog. Claude invented a weight, dimensions, and a price.\n\n    check result:\n      draft:          product page for the Slab 45QT cooler\n      rule checks:    passed\n      source check:   flagged; Slab 45QT is not in the catalog\n\nThe catalog had a Slab 35QT, and Claude built the fake cooler out of it. The real 35QT weighs 22 lb and costs $285. The invented 45QT weighs 28 lb and costs $335. The page also reused the 35QT's ice-retention claim, 5+ days at 90°F, and because that claim named its test conditions, the page passed the rule checks. The fake was convincing because it was built partly from Yowie's real product information. It did leave a clue. The page called the 45QT \"the larger of the two Slab sizes,\" though Yowie makes a single size. You'd catch that only if you knew the catalog.\n\nAll three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.\n\nThe brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked."
+    remix: false
+    prov:
+      src: brand-book, Context is not control, The test
+      conf: high
+      basis: verbatim
+    field_prov:
+      remix: { src: 'inferred from review-sheet B2 (Greg Appler, 2026-10-27: published passages, no rewording); applied by the 2026-11-06 re-codification to a passage split out under a new page heading', conf: high, basis: confirmed }
   - id: published-context-is-not-control-what-a-check-can-tell-you
     kind: passage
     text: 'Some brand requirements are straightforward to check, such as whether a banned word appears or a color matches an approved value. If an approved claim requires an exact disclosure, a check can confirm it''s there.
@@ -265,16 +275,7 @@ blocks:
       remix: { src: 'brand-book, Context is not control, What a check can tell you', conf: high, basis: confirmed }
   - id: published-context-is-not-control-where-the-corrections-go
     kind: passage
-    text: 'When someone on the team reviews a draft and corrects it, the corrections can reveal problems in the brand information the AI is working from.
-
-
-      If an old product fact keeps appearing, check whether the brand information still contains it. If the team keeps making the same edit, decide where the fix belongs. A phrase that should never appear belongs in the rules. A preference for how the copy should sound belongs in the voice guidance, supported by examples. Exact wording the team wants reused belongs in approved material. A mistake that should be caught on every draft belongs in a check.
-
-
-      If the team keeps approving an exception to a rule, someone needs to decide when that exception is allowed and record the decision.
-
-
-      The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can''t. That''s the work a Brand OS does: turning the brand information into a source a check can read, keeping it current, giving it to the AI with every request, running the checks, and routing the remaining decisions to the right person.'
+    text: "A person on the team reviews each draft. Corrections to that draft can reveal problems in the brand information the AI is working from.\n\nIf an old product fact keeps appearing, check whether the brand information still contains it. If the team keeps making the same edit, decide where the fix belongs. A phrase that should never appear belongs in the rules. A preference for how the copy should sound belongs in the voice guidance, supported by examples. Exact wording the team wants reused belongs in approved material. A mistake that should be caught on every draft belongs in a check.\n\nIf the team keeps approving an exception to a rule, someone needs to decide when that exception is allowed and record the decision. The team approves changes to the source, checks, or review process before future work uses them.\n\nThe brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking."
     remix: false
     prov:
       src: brand-book, Context is not control, Where the corrections go
@@ -491,7 +492,7 @@ blocks:
       basis: verbatim
   - id: redesign-attribution
     kind: attribution
-    text: messaging strategy by marketing staff; visual identity in collaboration with Pentagram
+    text: messaging strategy by marketing staff; visual identity by Pentagram
     remix: false
     prov:
       src: brand-book, Agency State Brand Platform, 8. Proof
@@ -516,42 +517,42 @@ blocks:
   - id: company-description-25
     kind: boilerplate
     length: 25
-    text: Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS.
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. Agency State's Brand OS is the approach it brings."
     remix: true
     usage: Approved company description.
     prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
     field_prov:
-      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      text: { src: 'proposed 2026-11-06 by Claude, delegated by Greg Appler (platform v3.7)', conf: high, basis: confirmed }
       remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-50
     kind: boilerplate
     length: 50
-    text: Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS. The work draws on more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment.
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind, with Agency State's Brand OS as the approach. The work draws on more than twenty years of brand marketing leadership and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     remix: true
     usage: Approved company description.
     prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
     field_prov:
-      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
+      text: { src: 'proposed 2026-11-06 by Claude, delegated by Greg Appler (platform v3.7)', conf: high, basis: confirmed }
       remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-100
     kind: boilerplate
     length: 100
-    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It helps teams give AI the brand guidance it needs, build automations and agents, and set up checks and human review. Agency State's Brand OS is the approach it brings. Brand OS gives the team a basis for deciding whether its AI work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     remix: true
     usage: Approved company description.
     prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
     field_prov:
-      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: confirmed }
+      text: { src: 'proposed 2026-11-06 by Claude, delegated by Greg Appler (platform v3.7)', conf: high, basis: confirmed }
       remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: company-description-full
     kind: boilerplate
     length: full
-    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It partners with each team to build Brand OS, which brings the brand into one source AI can read, then serves that source to the team's automations and agents. Brand OS gives the team a basis for deciding whether the work represents its brand and is ready to ship. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
+    text: "Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. It helps teams give AI the brand guidance it needs, build automations and agents, and set up checks and human review. Agency State's Brand OS is the approach it brings: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. Brand OS gives the team a basis for deciding whether its AI work represents its brand and is ready to ship. Projects run from a first automation or agent to a full Brand OS. The work draws on more than twenty years of brand marketing leadership, including a decade at The American Institute of Architects, and two years of building with Claude Code and, more recently, Codex. The first step is a brand-readiness assessment."
     remix: true
     usage: Approved company description.
     prov: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
     field_prov:
-      text: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: confirmed }
+      text: { src: 'proposed 2026-11-06 by Claude, delegated by Greg Appler (platform v3.7)', conf: high, basis: confirmed }
       remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
 field_prov:
   blocks: { src: human review, conf: high, basis: confirmed }

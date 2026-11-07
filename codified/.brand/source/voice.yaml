@@ -1,6 +1,6 @@
 ---
-version: 1.1
-last_updated: 2026-11-02
+version: 1.2
+last_updated: 2026-11-06
 ---
 schema_version: 0.2.0
 attributes:
@@ -37,7 +37,7 @@ register:
     basis: verbatim
   channels:
     - channel: site
-      delta: "Same voice. Articles name their evidence plainly: a test is called a test, and a demo brand is named as one. No copy claims or implies client results. On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Keep the offer quiet. Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly."
+      delta: "Same voice. Articles name their evidence plainly: a test is called a test, and a demo brand is named as one. No copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone. On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Keep the offer quiet. Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly."
       prov:
         src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State + Agency State Brand Platform, 8. Proof
         conf: high
@@ -67,7 +67,7 @@ register:
         conf: high
         basis: inferred
   field_prov:
-    channels: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
+    channels: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: confirmed }
 guidelines:
   - id: establish-relevance-before-describing-capability
     kind: do
@@ -298,7 +298,6 @@ vocabulary:
       - Brand OS lead
       - Agents
       - Automations
-      - BrandBuilder
       - Brand-readiness assessment
       - Provenance
       - Rule check
@@ -464,19 +463,19 @@ exemplars:
 
       But a draft it writes can sound right while getting important things wrong. It can name a product you don''t sell or promise a policy you don''t offer. I''ve found these errors are different from the ones people make. They fit. They borrow real details, or they sound like what any brand like yours would say. The clues that they''re wrong are there, but only someone who knows the facts will see them.'
     prov:
-      src: brand-book, Context is not control
+      src: brand-book, Context is not control, The problem
       conf: high
       basis: verbatim
   - id: context-result
     label: Context is not control, result and limits
     text: All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
     prov:
-      src: brand-book, Context is not control
+      src: brand-book, Context is not control, The test
       conf: high
       basis: verbatim
   - id: context-close
     label: Context is not control, close
-    text: 'The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can''t. That''s the work a Brand OS does: turning the brand information into a source a check can read, keeping it current, giving it to the AI with every request, running the checks, and routing the remaining decisions to the right person.'
+    text: The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking.
     prov:
       src: brand-book, Context is not control, Where the corrections go
       conf: high
@@ -493,13 +492,13 @@ exemplars:
       basis: confirmed
   - id: homepage-introduction
     label: Homepage, introduction
-    text: 'Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship.
+    text: 'Brand marketing teams and their agencies need to know whether the work they make with AI represents their brand and is ready to ship. I help them give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce.
 
 
-      The first step is a brand-readiness assessment. The source can hold only what a brand has written down and decided, so the assessment finds the gaps and disagreements to settle and the production work to start with once the source is approved. That can be a first automation or agent, or a full Brand OS.
+      My AI work draws on more than twenty years leading brand marketing strategy and operations, both agency-side and in-house. That experience informs what I recommend and what I build with teams in Claude Code and Codex.
 
 
-      To request an assessment, send me an email.'
+      To talk about working together, send me an email.'
     prov:
       src: brand-book, Agency State homepage
       conf: high

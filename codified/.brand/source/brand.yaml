@@ -1,6 +1,6 @@
 ---
-version: 1.1
-last_updated: 2026-11-02
+version: 1.2
+last_updated: 2026-11-06
 ---
 schema_version: 0.2.0
 client_name: Agency State
@@ -9,7 +9,7 @@ source_manifest:
     label: Approved Agency State sources, combined without source frontmatter
     kind: brand-book
     path: brand-book.md
-    note: Platform v3.6 excluding Decisions & rationale; guidelines v5.4; four approved articles; visible homepage prose. Original paths are recorded in logs/source-manifest.json.
+    note: Platform v3.7 excluding Decisions & rationale; guidelines v5.4; four approved articles; visible homepage prose. Original paths are recorded in logs/source-manifest.json.
 name:
   usage:
     prov:
@@ -21,7 +21,7 @@ name:
       - '"Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines).'
       - Tagline. "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
       - Descriptor and positioning line. "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
-      - 'Value lines. What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "It gives them a basis for deciding and helps them stand behind the work they ship." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.'
+      - 'Value lines. What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "This gives teams a basis for deciding and helps them stand behind the work they produce." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.'
   meaning:
     means: the capacity to act
     does_not_mean: agency as a marketing shop

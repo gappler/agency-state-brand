@@ -1,20 +1,18 @@
 ---
-version: 1.1
-last_updated: 2026-11-02
+version: 1.2
+last_updated: 2026-11-06
 ---
 schema_version: 0.2.0
 lines: []
 naming:
-  convention: Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that.
+  convention: Use **Agency State's Brand OS** on first reference and **Brand OS** after that. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.
   exact_names:
     - Agency State
     - Brand OS
     - Brand OS lead
-    - BrandBuilder
     - brand-readiness assessment
   capitalization:
     - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
-    - 'One word, both capitals: BrandBuilder.'
   prov:
     src: brand-book, Agency State Brand Platform, 6. Vocabulary
     conf: high
@@ -34,7 +32,7 @@ naming:
     - Brand OS
 structure:
   type: single-brand
-  note: Agency State helps brand marketing teams and their agencies use AI in Claude Code and Codex to produce marketing work they can stand behind.
+  note: Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind.
   prov:
     src: brand-book, Agency State Brand Platform, 1. Identity
     conf: high
