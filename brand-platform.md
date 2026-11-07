@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Platform
-version: 3.6
+version: 3.7
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-11-03
+last_updated: 2026-11-06
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, Codex, and AI workflows.
 ---
 
@@ -11,9 +11,9 @@ purpose: AI-facing brand intelligence for Agency State. The canonical source for
 
 ## 1. Identity
 
-Agency State helps brand marketing teams and their agencies use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg Appler brings more than twenty years of brand marketing leadership and two years of building with Claude Code, and more recently Codex.
+Agency State helps brand marketing teams and their agencies use AI to produce marketing work they can stand behind. Greg Appler leads the work with his brand marketing judgment, his recommendations, and hands-on building. He helps teams give AI the brand guidance it needs, build automations and agents, and set up checks and human review. He brings more than twenty years of brand marketing leadership and two years of building with Claude Code, and more recently Codex.
 
-The work centers on Brand OS, which brings together one brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who make the judgment calls. It has five parts:
+Agency State's Brand OS is the approach he brings to that work. It connects one approved brand source AI can read with the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. It has five parts:
 
 - **Source:** the codified brand.
 - **Production:** automations and agents that make the work.
@@ -21,7 +21,7 @@ The work centers on Brand OS, which brings together one brand source AI can read
 - **Feedback:** approved updates to source, checks, and review paths.
 - **Operators:** people who make the decisions and keep the system current.
 
-Greg assesses the existing brand, organizes it with the team for codification, and builds the system with them. He then works closely with the team's Brand OS lead, who looks after the process that keeps the work on brand. His ongoing part is measuring how well the AI work holds to the brand, improving the source and checks, and extending the system.
+Not every engagement is a full Brand OS build. Greg starts with a brand-readiness assessment and a conversation about where AI fits the team's work, then builds what that shows is worth building, from a first automation or agent to a full Brand OS. He then works closely with the team's Brand OS lead, who looks after the process that keeps the work on brand. His ongoing part is tracking where the AI work misses the brand, making approved updates to the source and checks, and extending the system.
 
 The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
@@ -29,43 +29,43 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 - **Tagline.** "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
 - **Descriptor and positioning line.** "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
-- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "It gives them a basis for deciding and helps them stand behind the work they ship." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
+- **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "This gives teams a basis for deciding and helps them stand behind the work they produce." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
 
 ---
 
 ## 2. What Agency State delivers
 
-Agency State helps a brand marketing team build its Brand OS (see Vocabulary), in five parts: Source, Production, Control, Feedback, and Operators.
+Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it.
 
-**Source** is the codified brand, structured material a machine can read and a team can govern. Each client brand has its own source. The relevant source is served into the tools where the work happens.
+**Source** is the codified brand, structured material a machine can read and a team can govern. Each entry records where it came from and whether it was stated or inferred, and interpretations, conflicts, and gaps go to the team to decide. Each client brand has its own source. Once approved, the relevant parts of the source are served into the tools where the work happens.
 
-**Production** is the automations and agents that make the team's recurring marketing work. The team supplies the brief and the idea; the codified brand supplies the facts, approved claims, voice, and visual guidance for the task.
+**Production** is the automations and agents that make the team's marketing work, such as preparing briefs, updating product pages, or adapting campaign material for different channels. The team supplies the brief and the idea; the codified brand supplies the facts, approved claims, voice, and visual guidance for the task.
 
-**Control** separates what a machine can check from what a person should decide. Passing a check establishes only what it tested. A person on the team reviews each draft, and decision owners get the questions that reviewer cannot settle.
+**Control** separates what a machine can check from what a person should decide. Automated checks use the same approved source to flag potential errors, and passing a check establishes only what it tested. A person on the team reviews every draft. The reviewer receives the draft with the check results, any limits the checks report, and the questions that need human judgment, such as whether the work emphasizes the right benefits, fits the campaign, and sounds like the brand. Decision owners get the questions the reviewer cannot settle.
 
-**Feedback** records corrections and what was decided. A correction may fix one draft or lead to a change in the source, checks, or review paths. The person responsible for that decision approves the change before it is applied to future work.
+**Feedback** records corrections and what was decided. A correction may fix one draft or show a need to update the source, checks, or review process. The person responsible for that decision approves the change before it is applied to future work, so an edit to one draft does not automatically become a rule. Approved updates serve two purposes: improving how the codified brand informs the work, and incorporating changes to the brand itself.
 
-**Operators** are the people who direct the work, approve exceptions and updates, and keep the system current. The Brand OS lead looks after the process, working with the people responsible for brand, product, claims, and design decisions.
+**Operators** are the people who direct the work, review drafts, approve exceptions and updates, and keep the system current. The team keeps authority over its brand decisions. The Brand OS lead looks after the process, working with the people responsible for brand, product, claims, and design decisions.
 
-Brand OS is the whole system, starting from one brand source. It makes the brand usable by AI, puts it to work, and keeps it governed as production grows. Agency State extends it into more of a team's work, such as briefs, production, and reporting.
+**The shared working environment.** Where a team needs it, Greg also helps set up how it works in Claude Code and Codex: the project files and repositories, the shared instructions, and how agents receive brand guidance and project instructions. It gives people a consistent way to work together and maintain what they build. Greg builds on the team's existing working environment where it supports the agreed work.
 
-**How Greg works with a team.** He starts by assessing the brand as it is written down and as it shows up in the work. The brand itself stays with the team and its agencies. He organizes the material with them for codification, identifies where sources disagree, and brings conflicts and gaps to the people who decide them. Agency State's BrandBuilder turns the organized material into structured brand files for the team to review.
+**How Greg works with a team.** He starts with a brand-readiness assessment, looking at the brand as it is written down and as it shows up in the work. The assessment establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build. The brand itself stays with the team and its agencies. He organizes the material with them, drawing on the existing written and visual material, and brings disagreements, interpretations, and gaps to the people who decide them. The team reviews the structured source before it is approved for use by its AI tools.
 
-Once the source is approved and being served, Greg and the team set up the first production automations and agents, along with how drafts are reviewed and results are reported. He then works closely with the team, especially its Brand OS lead, measuring how well the AI work holds to the brand, improving the source and checks where it falls short, and extending the system to more of the team's work.
+Once the source is approved and being served, Greg and the team choose and build the first production automations and agents, agree on how every draft is reviewed, and decide how success will be measured. He then works closely with the team, especially its Brand OS lead, tracking where the AI work misses the brand, making approved updates to the source and checks, and extending the system to more of the team's work, such as briefs, production, and reporting.
 
-The brand-readiness assessment establishes whether the brand is ready to codify, what needs deciding first, and what is worth building. Agency State takes on projects from a first automation or agent to a full Brand OS.
+Agency State takes on projects from a first automation or agent to a full Brand OS.
 
 ---
 
 ## 3. Positioning
 
-For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg partners with the team to build Brand OS. It brings together one brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review drafts, make judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg helps them give AI the brand guidance it needs, build automations and agents, and set up checks and human review, bringing Agency State's Brand OS as the approach: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review every draft, make the judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
 
 ---
 
 ## 4. Audience
 
-Agency State's audience is brand marketing leaders, and the builders on their teams, at mid-to-large B2B and B2C organizations with intentional brands, in-house or at the agencies that serve them. The sharpest fit is a team building its own AI workflows with Claude Code and Codex. The Brand OS gives those tools structured brand source to work with, checks on their output, and routes to the people who decide the remaining questions. A team that hasn't started with these tools can still fit if it is comfortable with technology, already uses AI, and plans to do more with it.
+Agency State's audience is brand marketing leaders, and the builders on their teams, at mid-to-large organizations with established, intentional brands, B2B or consumer, in-house or at the agencies that serve them. The team has to be willing to maintain a shared brand source. A brand book helps but is not required; the brand-readiness assessment works from the brand's existing written and visual material and the work it has shipped. The sharpest fit is a team building its own AI workflows with Claude Code and Codex. Brand OS gives those tools structured brand source to work with, checks on their output, and people who review the work and decide the remaining questions. A team that hasn't started with these tools can still fit if it is comfortable with technology, already uses AI, and plans to do more with it.
 
 **Stakeholders, not buyers.** VPs and Managing Directors from other teams, IT leaders, or CIOs can champion or refer, but the marketing team directs the work.
 
@@ -90,21 +90,21 @@ Agency State's brand voice is one practitioner talking to another about real wor
   - ✗ "Significant paid media investment."
 
 - **First person where it fits.** Say what Greg does, found, or thinks as "I," and name the basis.
-  - ✓ "I help brand marketing teams and their agencies use AI to produce marketing work they can stand behind."
+  - ✓ "I help them give AI the brand guidance it needs, build automations and agents, and set up checks and human review."
   - ✗ "Agency State empowers organizations to harness the power of AI."
   - ✓ "In a test I ran with Yowie, a demo outdoor-gear brand, a product page for a cooler that didn't exist passed every rule check."
   - ✗ "Testing has shown that rule checks alone are not enough."
 
 - **Establish relevance before describing capability.** When introducing the work, start with the reader's task, decision, or the result they need, then say what Greg does. First person doesn't require opening with "I." Check: does the reader know why the work matters before hearing what Greg offers?
-  - ✓ "Brand marketing teams and their agencies need to know whether the work they make with Claude Code and Codex represents their brand and is ready to ship. I partner with them to build Brand OS."
+  - ✓ "Brand marketing teams and their agencies need to know whether the work they make with AI represents their brand and is ready to ship. I help them give AI the brand guidance it needs, build automations and agents, and set up checks and human review."
   - ✗ "I help brand marketing teams and their agencies use AI in Claude Code and Codex."
 
 - **Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?
-  - ✓ "I partner with teams to build Brand OS, a system that brings the brand into one source AI can read, then serves that source to their automations and agents. It gives them a basis for deciding and helps them stand behind the work they ship."
+  - ✓ "I help brand marketing teams and their agencies give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce."
   - ✗ "It turns a brand into one source AI can read, serves that source to the team's automations and agents, and helps the team make better calls about which AI work represents its brand and is ready to ship."
 
 - **Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg's status?
-  - ✓ "We can start with a first automation or agent, or work together on a full Brand OS."
+  - ✓ "To talk about working together, send me an email."
   - ✗ "I'm available for projects ranging from a first automation or agent to a full Brand OS."
 
 - **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
@@ -176,7 +176,7 @@ The core rules above, with the §7 never-say list applied strictly.
 
 *A close that names the work:*
 
-> The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. That's the work a Brand OS does: turning the brand information into a source a check can read, keeping it current, giving it to the AI with every request, running the checks, and routing the remaining decisions to the right person.
+> The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. With Agency State's Brand OS, I build those checks and human review into the team's automations and agents, using the same approved brand source for production and checking.
 
 ---
 
@@ -197,12 +197,11 @@ The core rules above, with the §7 never-say list applied strictly.
 - **Artifacts.** The reusable units an engagement produces: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
 - **Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.
 - **Codified brand.** The existing brand expressed as structured source a machine can read and a team can govern: positioning, audiences, voice, vocabulary, claims, products, proof, visual rules, and brand decisions. It is built from the team's written material and approved work, then compiled into the files a model reads and the checks use. Each entry records where it came from and whether it was stated or inferred. Inferences, conflicts, and gaps go to the people who decide them for review. The codified brand is Source, one of the five parts of Brand OS; it does not replace the team's brand development work.
-- **Brand OS.** One brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with routes for judgment), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Agency State builds it with the team, then works closely with its Brand OS lead to measure how well the AI work holds to the brand, improve the source and checks, and extend the system.
+- **Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.
 - **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
 - **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say "automations and agents" for Production as a whole.
 - **Automations.** In Production, the steps that run on their own when something triggers them, with no choices along the way: updating a changed fact everywhere it appears, running the checks, sending each version for review. Agents make the choices within a brief; automations carry the set steps around them. Say "automations and agents" for Production as a whole; use one word alone only when the sentence describes that kind of work.
-- **BrandBuilder.** Agency State's codification tool. Use **Agency State's BrandBuilder** on first reference; use **BrandBuilder** after that. It turns organized brand material into structured brand files for the team to review, then compiles the reviewed source into the compiled contracts a model reads and the checks use, and runs the checks against that source and identifies who decides the judgment calls. One word, both capitals: BrandBuilder.
-- **Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building.
+- **Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build.
 - **Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.
 - **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
 - **Source check.** A check of whether a claim points to something real, for example whether a named product exists in the catalog. It is triage: it flags where to look, it does not declare a flagged item false.
@@ -237,11 +236,15 @@ The core rules above, with the §7 never-say list applied strictly.
 
 ## 8. Proof
 
-**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, where he led record-breaking membership and conference campaigns and marketing for continuing education, built a twelve-member multidisciplinary team, modernized marketing operations, designed the product and led the technology project for AIAU, the organization's on-demand continuing education platform, and was business owner for a brand redesign adopted at the national organization and across the chapter network (messaging strategy by marketing staff; visual identity in collaboration with Pentagram). Earlier, six years as VP of Digital Marketing at GRAFIK, an agency in Alexandria, Virginia, on B2B clients including Autodesk and Accenture; before that, digital account director at Designory leading US digital marketing for Nissan and Infiniti (national brand marketing, plus materials and guidance for dealer sales events), Lincoln Mercury at Young & Rubicam, and in-house at Bacardi Global Brands, where he supported local-market digital promotions and built bar.tv, a global drinks website (since decommissioned). His whole career has been agency-side or in-house on brand clients; at the AIA he ran the team as an in-house agency. He is a business leader in digital: he builds teams and the processes they run on, and the strategies and marketing plans that connect campaigns to the business. Earlier in his career he wrote code, building CD-ROM games, presentations, and kiosks. He is a builder at heart. For the past two years he has been building with Claude Code, and more recently Codex, as well as other automation tools: a campaign engine, still in development, in which agents run a marketing campaign through phases with a person approving the key pieces between each one, BrandBuilder (the codification and checking engine, in testing on demo brands) and the brand's own MCP server, review panels, and tests on demo brands. He also has a few AI products of his own in the works. The campaign engine and BrandBuilder have been tested on fictional organizations and demo brands; none of it has been used with a client.
+**Principal: Greg Appler.** More than two decades leading brand marketing strategy, operations, and teams, most recently a decade running national marketing at The American Institute of Architects as Managing Director of Brand & Strategic Marketing, where he led record-breaking membership and conference campaigns and marketing for continuing education, built a 12-person multidisciplinary team, modernized marketing operations, designed the product and led the technology project for AIAU, the organization's on-demand continuing education platform, and was business owner for a rebrand adopted across the national organization and chapter network (messaging strategy by marketing staff; visual identity by Pentagram). Earlier, six years as VP of Digital Marketing at GRAFIK, an agency in Alexandria, Virginia, on B2B clients including Autodesk and Accenture; before that, digital account director at Designory leading US digital marketing for Nissan and Infiniti (national brand marketing, plus materials and guidance for dealer sales events), Lincoln Mercury at Young & Rubicam, and in-house at Bacardi Global Brands, where he supported local-market digital promotions and built bar.tv, a global drinks website (since decommissioned). His whole career has been agency-side or in-house on brand clients; at the AIA he ran the team as an in-house agency. He is a business leader in digital: he builds teams and the processes they run on, and the strategies and marketing plans that connect campaigns to the business. Earlier in his career he wrote code, building CD-ROM games, presentations, and kiosks. He is a builder at heart. For the past two years he has been building with Claude Code, and more recently Codex, as well as other automation tools: Agency State's Brand OS, the codified Agency State brand and its MCP server, review panels, and tests on demo brands. He has also been building a campaign engine, in which agents run a marketing campaign through phases with a person approving the key pieces between each one; it is still in development and has been tested on fictional organizations. He also has a few AI products of his own in the works. None of this work has been used with a client.
 
-**Proof posture.** Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on. The Brand OS parts are built and tested on Agency State's own work and on demo brands. No Brand OS has yet been built or run end to end for anyone, including Agency State itself, and none has run at a client. Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.
+**Proof posture.** Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on.
 
-Site articles name their evidence plainly: a test is called a test, and a demo brand is named as one. They do not state that no Brand OS has been built or run end to end or at a client. Greg discloses that directly with prospective clients. No copy claims or implies client results.
+Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published. Agency State's own codified brand is reviewed and served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. The campaign engine is separate work with its own status (above).
+
+Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.
+
+Site articles name their evidence plainly: a test is called a test, and a demo brand is named as one. They do not state that no Brand OS has run at a client; Greg discloses that directly with prospective clients. No copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone. Agency State's own codified brand being served to Greg's AI tools can be described as it is.
 
 ---
 
@@ -249,13 +252,13 @@ Site articles name their evidence plainly: a test is called a test, and a demo b
 
 *These are internal boundaries for scoping the work, not lines for public copy.*
 
-- **Not a marketing agency for hire.** Agency State builds the Brand OS with the team and works with its Brand OS lead as the system grows. It does not run the brand's marketing in the team's place.
+- **Not a marketing agency for hire.** Agency State builds with the team (the brand source, automations and agents, checks and review) and works with its Brand OS lead as the work grows. It does not run the brand's marketing in the team's place.
 - **Not enterprise consulting.** The work fits a single marketing function with a clear owner, not a multi-thousand-person transformation with dedicated AI teams and complex procurement.
 - **Not a tutorial or course.** The work builds workflows and artifacts with the team. The work uses Claude Code and Codex.
 - **Not a single-discipline specialty.** Greg is a generalist with the tools to execute across disciplines. SEO, paid-media, and analytics specialists exist; he is not one of them.
-- **Not a vendor of AI tools or technology.** Agency State's work is assessing the brand, organizing it for codification, and building and improving the team's Brand OS.
+- **Not a vendor of AI tools or technology.** Agency State's work is assessing the brand, recommending where AI fits, preparing the brand source, building automations, agents, checks, and review with the team, and improving what was built. Agency State currently offers Brand OS through Greg's consulting and building work with teams.
 - **Not a branding engagement.** Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
-- **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review paths established through that work.
+- **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. Setting up or working within a team's existing project files, repositories, and instructions is part of the work; taking on maintenance of automations, agents, or systems built elsewhere is not. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review paths established through that work.
 
 ---
 
