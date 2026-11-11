@@ -1,9 +1,9 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.4
+version: 5.5
 status: Canonical
 date: 2026-10-25
-last_updated: 2026-10-29
+last_updated: 2026-11-11
 source: Approved by Greg 2026-10-25. Derived from the redesigned homepage (agency-state/index.html) and the shared stylesheet every page links (agency-state/site.css), October 2026. Replaces v4.1 in full; earlier guidance on faces, sizes, color, and accent use no longer applies.
 ---
 
@@ -37,7 +37,7 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 ### Lockups
 
 1. **Header:** orange mark immediately left of the wordmark, at the header's small scale.
-2. **Social preview card:** orange mark and wordmark with the tagline, "On brand, at the speed of AI," plus the descriptor where a reader may not yet know Agency State (brand platform §1).
+2. **Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1). The tagline does not appear on the card.
 3. **Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.
 
 ### Lines
