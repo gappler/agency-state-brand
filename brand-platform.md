@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Platform
-version: 3.10
+version: 3.11
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-11-11
@@ -58,7 +58,9 @@ Agency State takes on projects from a first automation or agent to a full Brand 
 
 ## 3. Positioning
 
-For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg helps them give AI the brand guidance it needs, build automations and agents, and set up checks and human review, bringing Agency State's Brand OS as the approach: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review every draft, make the judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+For brand marketing leaders and the builders on their teams who need to know whether the work they make with AI represents their brand and is ready to ship, Agency State helps them give AI the brand guidance it needs, build automations and agents in Claude Code and Codex, and set up checks and human review, so they can stand behind the work. Greg brings Agency State's Brand OS as the approach and draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+
+The point of view: AI drafts can sound right and still get important things wrong, and the model can't tell when it has missed. So the work pairs checks against one approved brand source with a person who reviews every draft, and approved corrections improve the source over time.
 
 ---
 
