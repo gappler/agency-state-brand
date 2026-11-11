@@ -1,17 +1,17 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.7
+version: 5.8
 status: Canonical
 date: 2026-10-25
 last_updated: 2026-11-11
-source: Approved by Greg 2026-10-25. Derived from the redesigned homepage (agency-state/index.html) and the shared stylesheet every page links (agency-state/site.css), October 2026. Replaces v4.1 in full; earlier guidance on faces, sizes, color, and accent use no longer applies.
+source: Approved by Greg 2026-10-25; later changes recorded in agency-state-practice/projects/brand/brand-platform-decisions.md. Derived from the redesigned homepage (agency-state/index.html) and the shared stylesheet the site's pages link (agency-state/site.css), October 2026. Replaces v4.1 in full; earlier guidance on faces, sizes, color, and accent use no longer applies.
 ---
 
 # Agency State Brand Guidelines
 
 **URL:** agencystate.ai
 
-The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and the orange mark as the only color. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.
+The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and orange confined to the Agency State mark. Tool icons retain their official colors where their brands require it. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). These guidelines apply to every page except the guide landing page (claude-code-for-marketing/index.html), an older page kept in its own styles by decision (website DECISIONS.md, 2026-10-25). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.
 
 These are the brand-level rules. `site.css` in the agency-state repo holds the exact implementation values (spacing, widths, breakpoints, timings) and is the file to change when they change.
 
@@ -39,10 +39,6 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 1. **Header:** orange mark immediately left of the wordmark, at the header's small scale.
 2. **Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1).
 3. **Document cover:** orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.
-
-### Lines
-
-The descriptor is set in the brand platform (§1).
 
 ### Do not
 
@@ -81,11 +77,11 @@ Three faces, at regular weight unless noted.
 | Face | Role | Main size |
 |---|---|---|
 | **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
-| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
-| **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+| **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |
+| **DM Mono** | The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code | 11 to 13px |
 
 - **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.
-- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
+- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
 
 ## Layout
 
@@ -98,8 +94,8 @@ Three faces, at regular weight unless noted.
 
 Each visual form has one job. Use the form that matches what the content is.
 
-- **Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
-- **Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.
+- **Link cards** (boxed, rounded, with a gray number badge; they shade to gray-50 on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
+- **Numbered sections:** for an explanation in ordered parts, such as the five parts of Brand OS, each part is its own section with a numbered Schibsted label ("01. Source").
 - **Spec panels** (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system's own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration.
 - **Pull quotes** (a short quotation set off by a thin gray rule at its left, set like body text, with a small gray source line beneath that links to the source): for a line from a cited source that the surrounding prose relies on, placed after the paragraph that relies on it. Not for Greg's own words, emphasis, or decoration.
 - **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.
@@ -115,7 +111,8 @@ Each visual form has one job. Use the form that matches what the content is.
 
 - Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.
 - Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).
-- Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.
+- Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png predates it and uses orange type; replace it if that page is revised. og-codifying-your-brand-for-ai.png and anthropic.svg are unused.
+- Touch icon: apple-touch-icon.png (orange mark).
 
 ## Voice, tone, and copy
 

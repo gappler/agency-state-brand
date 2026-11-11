@@ -1,6 +1,7 @@
 ---
 title: Agency State Brand Platform
-version: 3.12
+version: 3.13
+decisions: agency-state-practice/projects/brand/brand-platform-decisions.md
 status: Canonical
 date: 2026-05-28
 last_updated: 2026-11-11
@@ -54,6 +55,8 @@ Once the source is approved and being served, Greg and the team choose and build
 
 Agency State takes on projects from a first automation or agent to a full Brand OS.
 
+These describe the method. For what has been built, tested, and run, and on what basis, use §8; no copy implies client engagements or results. Public copy, meaning the site, social, and first-touch outreach, keeps the offer quiet (§5). Pricing and pilot terms belong in proposals and conversations, and live outside this platform.
+
 ---
 
 ## 3. Positioning
@@ -80,12 +83,12 @@ Agency State's brand voice is one practitioner talking to another about real wor
 
 **The voice rule.** Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
 
-**Point of view.** Default to first person: I built, I help, I embed. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
+**Point of view.** Default to first person: I built, I help, I work with. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
 
 **Principles, with examples:**
 
 - **Concrete over abstract.** Name the thing, the number, the work.
-  - ✓ "Built a twelve-member team."
+  - ✓ "Built a 12-person team."
   - ✗ "Drove transformative growth across the marketing organization."
   - ✓ "Paid media program over $1M a year."
   - ✗ "Significant paid media investment."
@@ -101,7 +104,7 @@ Agency State's brand voice is one practitioner talking to another about real wor
   - ✗ "I help brand marketing teams and their agencies use AI in Claude Code and Codex."
 
 - **Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?
-  - ✓ "I help brand marketing teams and their agencies give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce."
+  - ✓ "I help them give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce."
   - ✗ "It turns a brand into one source AI can read, serves that source to the team's automations and agents, and helps the team make better calls about which AI work represents its brand and is ready to ship."
 
 - **Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg's status?
@@ -111,11 +114,11 @@ Agency State's brand voice is one practitioner talking to another about real wor
 - **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
   - ✓ "The source is the team's existing brand, written so a machine can read it."
   - ✗ "Our game-changing artifacts will revolutionize your workflow!"
-  - ✓ "The work uses Claude Code; other agents work too."
+  - ✓ "The work uses Claude Code and Codex."
   - ✗ "We leverage best-in-class, cutting-edge AI to unlock your full potential."
 
 - **Honest over polished.** A line that is slightly rough but true beats one that is smooth but performing.
-  - ✓ "I'm a generalist with the tools to execute across disciplines, not a paid-media specialist."
+  - ✓ "I'm a generalist with the tools to execute across disciplines: strategy, operations, production, and the build."
   - ✗ "Our full-service team delivers best-in-class results across every channel."
 
 - **Cut what's already implied.** If a clause restates what the words before it already entail, delete it and keep the single strongest version. Same for intent language ("designed to," "built to") where the active verb says it plainly.
@@ -131,15 +134,15 @@ Agency State's brand voice is one practitioner talking to another about real wor
 - **Sentence case for titles and labels.** Use sentence case for page titles,
   section labels, cards, notes, buttons, and article titles. Preserve proper
   nouns and fixed terms: Agency State, Brand OS, Claude Code.
-  Short 11px monospace labels on the site (row numbers, card meta) may be set
-  in all caps as a small-label style (brand guidelines, Typography).
+  Short monospace labels on the site may be set in all caps as a small-label
+  style; the brand guidelines (Typography) say which.
   - ✓ "What is Brand OS?"
   - ✓ "Make the brand usable"
   - ✗ "Make The Brand Usable"
 
 - **No em dashes.** Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
 
-- **Define positively.** The broader rule behind the antithesis ban: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity. A contrast survives only when the contrast itself is the point.
+- **Define positively.** The broader rule behind the antithesis default below: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity.
 
 - **"X, not Y" antithesis is off by default.** The comma-pivot reversal ("a repo you own, not a tool you rent," "encoded, not carried in memory") is a tic once it recurs. State the point positively instead. Allowed only where the contrast itself is the point and earns its place; if there's no clear cause, cut the "not Y" half.
 
@@ -158,7 +161,7 @@ The core rules above, with the §7 never-say list applied strictly.
 - **Name the thing.** When "it," "this," or "them" could point at more than one thing, repeat the noun.
 - **Say what the work does.** Avoid stacking "needs to" and "should" into a list of requirements; describe what happens and who does it.
 - **Keep material limits with the claim,** close enough that the reader can't miss them: "none of the checks in this test," not "no check."
-- **Personal pieces.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.
+- **Personal asides.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.
 - **Paragraphs connect.** Let paragraphs run a few sentences that build; avoid stacks of one-sentence paragraphs unless a line has earned its isolation.
 - **Keep the offer quiet.** Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly.
 - **An objection is about one passage.** Rejecting a word in one sentence is evidence about that sentence; it does not ban the word everywhere.
@@ -196,17 +199,17 @@ The core rules above, with the §7 never-say list applied strictly.
 **Terms with fixed meaning:**
 
 - **Artifacts.** The reusable units an engagement produces: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
-- **Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.
+- **Workflow.** The process the team runs, of which automations and agents are parts. Use it for the process; say "automations and agents" for what gets built.
 - **Codified brand.** The existing brand expressed as structured source a machine can read and a team can govern: positioning, audiences, voice, vocabulary, claims, products, proof, visual rules, and brand decisions. It is built from the team's written material and approved work, then compiled into the files a model reads and the checks use. Each entry records where it came from and whether it was stated or inferred. Inferences, conflicts, and gaps go to the people who decide them for review. The codified brand is Source, one of the five parts of Brand OS; it does not replace the team's brand development work.
 - **Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.
-- **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
-- **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say "automations and agents" for Production as a whole.
+- **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and making sure approved changes reach the source. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
+- **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents can read a draft and flag what is off-brand before a person reviews it; a review panel is several review agents reading the same draft, each on a different lens. Say "automations and agents" for Production as a whole.
 - **Automations.** In Production, the steps that run on their own when something triggers them, with no choices along the way: updating a changed fact everywhere it appears, running the checks, sending each version for review. Agents make the choices within a brief; automations carry the set steps around them. Say "automations and agents" for Production as a whole; use one word alone only when the sentence describes that kind of work.
 - **Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build.
-- **Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.
-- **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
+- **Provenance.** The record of where a codified entry came from, whether it was stated or inferred, and who reviewed it. A provenance check verifies that the source labels are accurate, for example that material marked verbatim appears in the cited source. It checks the codified brand and its source labels. A source check tests claims in generated work.
+- **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, and required product-name spelling or formatting. Whether a named product exists is a source-check question. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
 - **Source check.** A check of whether a claim points to something real, for example whether a named product exists in the catalog. It is triage: it flags where to look, it does not declare a flagged item false.
-- **Serving layer (MCP).** The client-run server that serves the codified brand into the tools where the work happens, exposing it as context and checks. Say "serving layer" in prose; "a client-run MCP server" when naming the mechanism.
+- **Serving layer (MCP).** The server that serves the codified brand into the tools where the work happens, exposing it as context and checks. For a client, the client runs it. Say "serving layer" in prose; "an MCP server" when naming the mechanism.
 - **Demo brand.** A practice brand built to exercise the system, shaped like a real one, with a brand book, product facts, voice, and visual rules. Name it plainly when it is shown (Yowie, a demo outdoor-gear brand); never imply a demo brand is a client.
 - **Recurring work.** The marketing work that comes around regularly (formats, adaptations, channel versions), which Production takes on so the team spends its time on higher-impact work. "Recurring" means it happens regularly, not that it is done identically.
 
@@ -241,7 +244,7 @@ The core rules above, with the §7 never-say list applied strictly.
 
 **Proof posture.** Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on.
 
-Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published. Agency State's own codified brand is reviewed and served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. The campaign engine is separate work with its own status (above).
+Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The Brand OS process ran its release check and created a release record in simulated mode; nothing was published. Agency State's own codified brand was reviewed by Greg on 2026-10-27, with later updates checked by AI agents under his delegation, and is served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. The campaign engine is separate work with its own status (above).
 
 Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.
 
@@ -260,9 +263,3 @@ Site articles name their evidence plainly: a test is called a test, and a demo b
 - **Not a vendor of AI tools or technology.** Agency State's work is assessing the brand, recommending where AI fits, preparing the brand source, building automations, agents, checks, and review with the team, and improving what was built. Agency State currently offers Brand OS through Greg's consulting and building work with teams.
 - **Not a branding engagement.** Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
 - **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. Setting up or working within a team's existing project files, repositories, and instructions is part of the work; taking on maintenance of automations, agents, or systems built elsewhere is not. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review paths established through that work.
-
----
-
-## Decisions & rationale
-
-*Human reference only. Not served via MCP.* The decision record for this platform lives in the agency-state-practice repo at projects/brand/brand-platform-decisions.md.
