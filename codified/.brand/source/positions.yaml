@@ -1,9 +1,20 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 positions:
+  - id: ai-drafts-need-checks-and-review
+    stance: "The point of view: AI drafts can sound right and still get important things wrong, and the model can't tell when it has missed. So the work pairs checks against one approved brand source with a person who reviews every draft, and approved corrections improve the source over time."
+    prov:
+      src: brand-book, Agency State Brand Platform, 3. Positioning
+      conf: high
+      basis: verbatim
+    owner: Greg Appler
+    field_prov:
+      owner: { src: 'decision by Greg Appler, 2026-11-11', conf: high, basis: authored }
+      date: { src: 'decision by Greg Appler, 2026-11-11', conf: high, basis: authored }
+    date: '2026-11-11'
   - id: checks-have-scope
     stance: "**Control** separates what a machine can check from what a person should decide. Automated checks use the same approved source to flag potential errors, and passing a check establishes only what it tested. A person on the team reviews every draft. The reviewer receives the draft with the check results, any limits the checks report, and the questions that need human judgment, such as whether the work emphasizes the right benefits, fits the campaign, and sounds like the brand. Decision owners get the questions the reviewer cannot settle."
     prov:

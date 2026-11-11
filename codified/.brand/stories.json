@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-07T01:59:11Z",
+  "compiled_at": "2026-11-11T13:04:48Z",
   "revisions": {
-    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
-    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
+    "source": "sha256:83b7b5a555545506281feef4edbe6303bfd49a11bd273c994a2f9b2229b11894",
+    "review": "sha256:c3574aa6066afcd8583ec344333b7a02fba4137fd43ef6ed117ecfaa2277d690"
   },
   "stories": [
     {
@@ -18,7 +18,7 @@
         ],
         "length": "medium"
       },
-      "text": "Most recently, I served as Managing Director of Brand & Strategic Marketing at The American Institute of Architects. I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I designed the product and led the technology project for AIAU, the organization’s on-demand continuing education platform. I was also the business owner for a rebrand adopted across the national organization and chapter network, with visual identity by Pentagram.\n\nBefore the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.",
+      "text": "Most recently, I served as Managing Director of Brand & Strategic Marketing at The American Institute of Architects. There, I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I designed the product and led the technology project for AIAU, the organization’s on-demand continuing education platform. I was also the business owner for a rebrand adopted across the national organization and chapter network, with visual identity by Pentagram.\n\nBefore the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.",
       "file": "source/stories/greg-practice-background.md"
     },
     {

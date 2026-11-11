@@ -1,6 +1,6 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 attributes:
@@ -43,21 +43,21 @@ register:
         conf: high
         basis: inferred
     - channel: proposals
-      delta: Same voice; no channel-specific guidance recorded yet.
+      delta: Same voice. Pricing and pilot terms belong in proposals and conversations; they are not set in the brand platform.
       prov:
-        src: brand-book, Agency State Brand Platform, 5. Voice
+        src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, 2. What Agency State delivers
         conf: high
         basis: inferred
     - channel: outreach
-      delta: Same voice; keep the offer quiet.
+      delta: Same voice; first-touch outreach keeps the offer quiet.
       prov:
-        src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State
+        src: brand-book, Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State + Agency State Brand Platform, 2. What Agency State delivers
         conf: high
         basis: inferred
     - channel: social
-      delta: Same voice; keep the offer quiet. The tagline goes with the mark and wordmark on social cards. Page and social descriptions use the preview line, "Helping brand marketing teams put AI to work."
+      delta: 'Same voice; keep the offer quiet. On social cards, the descriptor, "Helping brand marketing teams put AI to work.", goes with the mark and wordmark; page and social descriptions use the same line.'
       prov:
-        src: brand-book, Agency State Brand Platform, 1. Identity + Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State
+        src: brand-book, Agency State Brand Platform, 1. Identity + Agency State Brand Guidelines, Lockups + Agency State Brand Platform, 5. Voice + Agency State Brand Platform, Writing for Agency State
         conf: high
         basis: inferred
     - channel: deliverables
@@ -113,7 +113,7 @@ guidelines:
       basis: verbatim
   - id: define-positively
     kind: do
-    text: '**Define positively.** The broader rule behind the antithesis ban: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader''s gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity. A contrast survives only when the contrast itself is the point.'
+    text: '**Define positively.** The broader rule behind the antithesis default below: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader''s gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity.'
     prov:
       src: brand-book, Agency State Brand Platform, Core rules
       conf: high
@@ -141,7 +141,7 @@ guidelines:
       basis: verbatim
   - id: point-of-view
     kind: do
-    text: 'Default to first person: I built, I help, I embed. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.'
+    text: 'Default to first person: I built, I help, I work with. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.'
     prov:
       src: brand-book, Agency State Brand Platform, Core rules
       conf: high
@@ -183,7 +183,7 @@ guidelines:
       basis: verbatim
   - id: personal-pieces
     kind: do
-    text: '**Personal pieces.** On the homepage and other introductions, Greg''s own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.'
+    text: '**Personal asides.** On the homepage and other introductions, Greg''s own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.'
     prov:
       src: brand-book, Agency State Brand Platform, Writing for Agency State
       conf: high
@@ -421,8 +421,8 @@ data_points:
     - No em dashes. Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
     - No emphasis-by-italics, no exclamation, no transformation language.
   formatting:
-    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
-    - 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which."
+    - 'Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
   prov:
     src: brand-book, Agency State Brand Platform, Core rules
     conf: high

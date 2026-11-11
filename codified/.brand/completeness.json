@@ -1,11 +1,11 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-07T01:59:11Z",
+  "compiled_at": "2026-11-11T13:04:48Z",
   "summary": {
     "required": {
-      "filled": 29,
-      "partial": 1,
+      "filled": 28,
+      "partial": 2,
       "empty": 1,
       "n/a": 3
     },
@@ -39,7 +39,10 @@
       "slot": "brand.canonical_lines",
       "tier": "R",
       "path": "brand.canonical_lines",
-      "status": "filled"
+      "status": "partial",
+      "reasons": [
+        "1 entry without tagline"
+      ]
     },
     {
       "slot": "brand.values",
@@ -315,8 +318,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
-    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
+    "source": "sha256:83b7b5a555545506281feef4edbe6303bfd49a11bd273c994a2f9b2229b11894",
+    "review": "sha256:c3574aa6066afcd8583ec344333b7a02fba4137fd43ef6ed117ecfaa2277d690"
   },
   "unknown_fields": [],
   "ledger": {
@@ -584,8 +587,6 @@
       "rules.visual_rules[layout-3].severity",
       "rules.visual_rules[layout-4].route_to",
       "rules.visual_rules[layout-4].severity",
-      "rules.visual_rules[lines-1].route_to",
-      "rules.visual_rules[lines-1].severity",
       "rules.visual_rules[lockups-1].route_to",
       "rules.visual_rules[lockups-1].severity",
       "rules.visual_rules[lockups-2].route_to",
@@ -781,10 +782,10 @@
     ],
     "flagged": [],
     "attribution": {
-      "human_decisions": 340,
-      "agent_decisions": 32,
+      "human_decisions": 331,
+      "agent_decisions": 41,
       "agent_record_ids": [
-        "approved-language-blocks-5",
+        "approved-language-blocks-6",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -798,10 +799,10 @@
         "approved-language-blocks-published-context-is-no-2",
         "approved-language-boilerplate-3",
         "positioning-sells-against-refuses-1",
-        "products-claims-2",
+        "products-claims-3",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
-        "review-2026-11-06-10",
+        "review-2026-11-11-11",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
@@ -812,10 +813,19 @@
         "rules-formatting-brandbuilder-name-severity-2",
         "rules-formatting-no-em-dashes-mark-route-to-1",
         "rules-formatting-no-em-dashes-mark-severity-1",
+        "rules-visual-rules-lines-1-route-to-2",
+        "rules-visual-rules-lines-1-severity-2",
         "stories-2",
-        "voice-channel-variations-5",
+        "visual-colors-orange-role-1",
+        "visual-imagery-2",
+        "visual-imagery-specs-social-preview-assets-1",
+        "visual-logo-usage-1",
+        "visual-spacing-2",
+        "visual-type-1-character-1",
+        "visual-type-2-character-1",
+        "voice-channel-variations-6",
         "voice-exemplars-homepage-introduction-3",
-        "voice-register-channels-4"
+        "voice-register-channels-5"
       ],
       "delegated_by": [
         "Greg Appler"
@@ -825,8 +835,8 @@
   "approval": {
     "status": "agent_reviewed",
     "revisions": {
-      "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
-      "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
+      "source": "sha256:83b7b5a555545506281feef4edbe6303bfd49a11bd273c994a2f9b2229b11894",
+      "review": "sha256:c3574aa6066afcd8583ec344333b7a02fba4137fd43ef6ed117ecfaa2277d690"
     },
     "checks": {
       "ledger_valid": true,
@@ -835,15 +845,15 @@
       "uncovered_values": 0,
       "values_without_review_evidence": 0,
       "deferred": 9,
-      "agent_decisions": 32
+      "agent_decisions": 41
     },
     "blocking": [],
     "unbacked": [],
     "attribution": {
-      "human_decisions": 340,
-      "agent_decisions": 32,
+      "human_decisions": 331,
+      "agent_decisions": 41,
       "agent_record_ids": [
-        "approved-language-blocks-5",
+        "approved-language-blocks-6",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -857,10 +867,10 @@
         "approved-language-blocks-published-context-is-no-2",
         "approved-language-boilerplate-3",
         "positioning-sells-against-refuses-1",
-        "products-claims-2",
+        "products-claims-3",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
-        "review-2026-11-06-10",
+        "review-2026-11-11-11",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
@@ -871,10 +881,19 @@
         "rules-formatting-brandbuilder-name-severity-2",
         "rules-formatting-no-em-dashes-mark-route-to-1",
         "rules-formatting-no-em-dashes-mark-severity-1",
+        "rules-visual-rules-lines-1-route-to-2",
+        "rules-visual-rules-lines-1-severity-2",
         "stories-2",
-        "voice-channel-variations-5",
+        "visual-colors-orange-role-1",
+        "visual-imagery-2",
+        "visual-imagery-specs-social-preview-assets-1",
+        "visual-logo-usage-1",
+        "visual-spacing-2",
+        "visual-type-1-character-1",
+        "visual-type-2-character-1",
+        "voice-channel-variations-6",
         "voice-exemplars-homepage-introduction-3",
-        "voice-register-channels-4"
+        "voice-register-channels-5"
       ],
       "delegated_by": [
         "Greg Appler"

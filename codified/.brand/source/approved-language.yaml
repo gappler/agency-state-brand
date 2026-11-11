@@ -1,6 +1,6 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 blocks:
@@ -16,7 +16,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-workflow
     kind: passage
-    text: '**Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.'
+    text: '**Workflow.** The process the team runs, of which automations and agents are parts. Use it for the process; say "automations and agents" for what gets built.'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -36,7 +36,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-brand-os
     kind: passage
-    text: "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
+    text: "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -46,7 +46,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-brand-os-lead
     kind: passage
-    text: '**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.'
+    text: '**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and making sure approved changes reach the source. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -56,7 +56,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-agents
     kind: passage
-    text: '**Agents.** In Production, the agents that make the team''s work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say "automations and agents" for Production as a whole.'
+    text: '**Agents.** In Production, the agents that make the team''s work from a brief, with the codified brand supplying the brand side. In Control, review agents can read a draft and flag what is off-brand before a person reviews it; a review panel is several review agents reading the same draft, each on a different lens. Say "automations and agents" for Production as a whole.'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -86,7 +86,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-11-02', conf: high, basis: authored }
   - id: definition-provenance
     kind: passage
-    text: '**Provenance.** Whether the codified brand''s own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.'
+    text: '**Provenance.** The record of where a codified entry came from, whether it was stated or inferred, and who reviewed it. A provenance check verifies that the source labels are accurate, for example that material marked verbatim appears in the cited source. It checks the codified brand and its source labels. A source check tests claims in generated work.'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -96,7 +96,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-rule-check
     kind: passage
-    text: '**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."'
+    text: '**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, and required product-name spelling or formatting. Whether a named product exists is a source-check question. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary
@@ -116,7 +116,7 @@ blocks:
       remix: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
   - id: definition-serving-layer-mcp
     kind: passage
-    text: '**Serving layer (MCP).** The client-run server that serves the codified brand into the tools where the work happens, exposing it as context and checks. Say "serving layer" in prose; "a client-run MCP server" when naming the mechanism.'
+    text: '**Serving layer (MCP).** The server that serves the codified brand into the tools where the work happens, exposing it as context and checks. For a client, the client runs it. Say "serving layer" in prose; "an MCP server" when naming the mechanism.'
     remix: true
     prov:
       src: brand-book, Agency State Brand Platform, 6. Vocabulary

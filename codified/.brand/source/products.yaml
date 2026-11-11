@@ -1,6 +1,6 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 products: []
@@ -20,21 +20,21 @@ claims:
       basis: confirmed
     conditions: "Approved changes to checks and review routing are specified but not yet implemented.\n\nBuilt and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work.\n\nNo copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone."
   - id: brand-os-local-demonstrations
-    claim: "The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published."
+    claim: "The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The Brand OS process ran its release check and created a release record in simulated mode; nothing was published."
     prov:
       src: brand-book, Agency State Brand Platform, 8. Proof
       conf: high
       basis: verbatim
     conditions: "Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work.\n\nNo copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone."
   - id: agency-state-codified-brand-served
-    claim: "Agency State's own codified brand is reviewed and served to Greg's AI tools."
+    claim: "Agency State's own codified brand was reviewed by Greg on 2026-10-27, with later updates checked by AI agents under his delegation, and is served to Greg's AI tools."
     prov:
       src: brand-book, Agency State Brand Platform, 8. Proof
       conf: high
       basis: verbatim
     conditions: "No copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone."
   - id: brand-os-practice-method
-    claim: "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it."
+    claim: "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS."
     prov:
       src: brand-book, Agency State Brand Platform, 2. What Agency State delivers
       conf: high

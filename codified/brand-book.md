@@ -1,7 +1,7 @@
 ---
 title: Agency State combined brand source
 version: 2.5
-last_updated: 2026-11-06
+last_updated: 2026-11-11
 ---
 
 # Agency State brand book
@@ -27,15 +27,14 @@ The name reads "agency" as the capacity to act, not agency as a marketing shop.
 
 **Lines:**
 
-- **Tagline.** "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
-- **Descriptor and positioning line.** "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
+- **Descriptor and positioning line.** "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, on social cards, and as a short opening statement of the work.
 - **Value lines.** What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "This gives teams a basis for deciding and helps them stand behind the work they produce." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.
 
 ---
 
 ### Agency State Brand Platform, 2. What Agency State delivers
 
-Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it.
+Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS.
 
 **Source** is the codified brand, structured material a machine can read and a team can govern. Each entry records where it came from and whether it was stated or inferred, and interpretations, conflicts, and gaps go to the team to decide. Each client brand has its own source. Once approved, the relevant parts of the source are served into the tools where the work happens.
 
@@ -55,11 +54,15 @@ Once the source is approved and being served, Greg and the team choose and build
 
 Agency State takes on projects from a first automation or agent to a full Brand OS.
 
+These describe the method. For what has been built, tested, and run, and on what basis, use §8; no copy implies client engagements or results. Public copy, meaning the site, social, and first-touch outreach, keeps the offer quiet (§5). Pricing and pilot terms belong in proposals and conversations, and live outside this platform.
+
 ---
 
 ### Agency State Brand Platform, 3. Positioning
 
-For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg helps them give AI the brand guidance it needs, build automations and agents, and set up checks and human review, bringing Agency State's Brand OS as the approach: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review every draft, make the judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+For brand marketing leaders and the builders on their teams who need to know whether the work they make with AI represents their brand and is ready to ship, Agency State helps them give AI the brand guidance it needs, build automations and agents in Claude Code and Codex, and set up checks and human review, so they can stand behind the work. Greg brings Agency State's Brand OS as the approach and draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.
+
+The point of view: AI drafts can sound right and still get important things wrong, and the model can't tell when it has missed. So the work pairs checks against one approved brand source with a person who reviews every draft, and approved corrections improve the source over time.
 
 ---
 
@@ -79,12 +82,12 @@ Agency State's brand voice is one practitioner talking to another about real wor
 
 **The voice rule.** Would this read like one practitioner talking to another about work they both take seriously? If yes, on-brand. If it reads like a vendor pitching or a consultant performing, off-brand.
 
-**Point of view.** Default to first person: I built, I help, I embed. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
+**Point of view.** Default to first person: I built, I help, I work with. "Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate "we believe" is forbidden. Action-statement "we" is allowed when client and Greg are doing something together.
 
 **Principles, with examples:**
 
 - **Concrete over abstract.** Name the thing, the number, the work.
-  - ✓ "Built a twelve-member team."
+  - ✓ "Built a 12-person team."
   - ✗ "Drove transformative growth across the marketing organization."
   - ✓ "Paid media program over $1M a year."
   - ✗ "Significant paid media investment."
@@ -100,7 +103,7 @@ Agency State's brand voice is one practitioner talking to another about real wor
   - ✗ "I help brand marketing teams and their agencies use AI in Claude Code and Codex."
 
 - **Give the result its own sentence.** When copy explains both how something works and what the reader gets, separate them. Check: is the result buried at the end of a list of what the system does?
-  - ✓ "I help brand marketing teams and their agencies give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce."
+  - ✓ "I help them give AI the brand guidance it needs, build automations and agents, and set up checks and human review. This gives teams a basis for deciding and helps them stand behind the work they produce."
   - ✗ "It turns a brand into one source AI can read, serves that source to the team's automations and agents, and helps the team make better calls about which AI work represents its brand and is ready to ship."
 
 - **Close with a next step the reader can take.** End an introduction with something the reader and Greg can start together. A statement of what Greg is available for describes his status and reads like a resume. Check: does the close describe a next step or Greg's status?
@@ -110,11 +113,11 @@ Agency State's brand voice is one practitioner talking to another about real wor
 - **Confident without performing.** State a position and move on. No emphasis-by-italics, no exclamation, no transformation language. If a sentence is doing performative work, sounding tidy, clever, or branded, cut it.
   - ✓ "The source is the team's existing brand, written so a machine can read it."
   - ✗ "Our game-changing artifacts will revolutionize your workflow!"
-  - ✓ "The work uses Claude Code; other agents work too."
+  - ✓ "The work uses Claude Code and Codex."
   - ✗ "We leverage best-in-class, cutting-edge AI to unlock your full potential."
 
 - **Honest over polished.** A line that is slightly rough but true beats one that is smooth but performing.
-  - ✓ "I'm a generalist with the tools to execute across disciplines, not a paid-media specialist."
+  - ✓ "I'm a generalist with the tools to execute across disciplines: strategy, operations, production, and the build."
   - ✗ "Our full-service team delivers best-in-class results across every channel."
 
 - **Cut what's already implied.** If a clause restates what the words before it already entail, delete it and keep the single strongest version. Same for intent language ("designed to," "built to") where the active verb says it plainly.
@@ -130,15 +133,15 @@ Agency State's brand voice is one practitioner talking to another about real wor
 - **Sentence case for titles and labels.** Use sentence case for page titles,
   section labels, cards, notes, buttons, and article titles. Preserve proper
   nouns and fixed terms: Agency State, Brand OS, Claude Code.
-  Short 11px monospace labels on the site (row numbers, card meta) may be set
-  in all caps as a small-label style (brand guidelines, Typography).
+  Short monospace labels on the site may be set in all caps as a small-label
+  style; the brand guidelines (Typography) say which.
   - ✓ "What is Brand OS?"
   - ✓ "Make the brand usable"
   - ✗ "Make The Brand Usable"
 
 - **No em dashes.** Recast with a comma, parentheses, or two sentences. Do not swap in a colon for the same break. Verbatim quotes keep their source punctuation.
 
-- **Define positively.** The broader rule behind the antithesis ban: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity. A contrast survives only when the contrast itself is the point.
+- **Define positively.** The broader rule behind the antithesis default below: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil ("less like documentation and more like infrastructure," "wiring is the easy part," a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity.
 
 - **"X, not Y" antithesis is off by default.** The comma-pivot reversal ("a repo you own, not a tool you rent," "encoded, not carried in memory") is a tic once it recurs. State the point positively instead. Allowed only where the contrast itself is the point and earns its place; if there's no clear cause, cut the "not Y" half.
 
@@ -157,7 +160,7 @@ The core rules above, with the §7 never-say list applied strictly.
 - **Name the thing.** When "it," "this," or "them" could point at more than one thing, repeat the noun.
 - **Say what the work does.** Avoid stacking "needs to" and "should" into a list of requirements; describe what happens and who does it.
 - **Keep material limits with the claim,** close enough that the reader can't miss them: "none of the checks in this test," not "no check."
-- **Personal pieces.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.
+- **Personal asides.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on.
 - **Paragraphs connect.** Let paragraphs run a few sentences that build; avoid stacks of one-sentence paragraphs unless a line has earned its isolation.
 - **Keep the offer quiet.** Describe the work and what it has shown. No pricing, packages, or hard offers in public copy; an assessment as the first step can be mentioned plainly.
 - **An objection is about one passage.** Rejecting a word in one sentence is evidence about that sentence; it does not ban the word everywhere.
@@ -195,17 +198,17 @@ The core rules above, with the §7 never-say list applied strictly.
 **Terms with fixed meaning:**
 
 - **Artifacts.** The reusable units an engagement produces: prompts, skills, agents, workflows, integrations, documentation. Team-portable.
-- **Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.
+- **Workflow.** The process the team runs, of which automations and agents are parts. Use it for the process; say "automations and agents" for what gets built.
 - **Codified brand.** The existing brand expressed as structured source a machine can read and a team can govern: positioning, audiences, voice, vocabulary, claims, products, proof, visual rules, and brand decisions. It is built from the team's written material and approved work, then compiled into the files a model reads and the checks use. Each entry records where it came from and whether it was stated or inferred. Inferences, conflicts, and gaps go to the people who decide them for review. The codified brand is Source, one of the five parts of Brand OS; it does not replace the team's brand development work.
-- **Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.
-- **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
-- **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say "automations and agents" for Production as a whole.
+- **Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.
+- **Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and making sure approved changes reach the source. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.
+- **Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents can read a draft and flag what is off-brand before a person reviews it; a review panel is several review agents reading the same draft, each on a different lens. Say "automations and agents" for Production as a whole.
 - **Automations.** In Production, the steps that run on their own when something triggers them, with no choices along the way: updating a changed fact everywhere it appears, running the checks, sending each version for review. Agents make the choices within a brief; automations carry the set steps around them. Say "automations and agents" for Production as a whole; use one word alone only when the sentence describes that kind of work.
 - **Brand-readiness assessment.** The public name for the first step with a team. It establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build.
-- **Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.
-- **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
+- **Provenance.** The record of where a codified entry came from, whether it was stated or inferred, and who reviewed it. A provenance check verifies that the source labels are accurate, for example that material marked verbatim appears in the cited source. It checks the codified brand and its source labels. A source check tests claims in generated work.
+- **Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, and required product-name spelling or formatting. Whether a named product exists is a source-check question. It has a right answer and does not wait for a person. Say "rule check" in client copy, not "the linter."
 - **Source check.** A check of whether a claim points to something real, for example whether a named product exists in the catalog. It is triage: it flags where to look, it does not declare a flagged item false.
-- **Serving layer (MCP).** The client-run server that serves the codified brand into the tools where the work happens, exposing it as context and checks. Say "serving layer" in prose; "a client-run MCP server" when naming the mechanism.
+- **Serving layer (MCP).** The server that serves the codified brand into the tools where the work happens, exposing it as context and checks. For a client, the client runs it. Say "serving layer" in prose; "an MCP server" when naming the mechanism.
 - **Demo brand.** A practice brand built to exercise the system, shaped like a real one, with a brand book, product facts, voice, and visual rules. Name it plainly when it is shown (Yowie, a demo outdoor-gear brand); never imply a demo brand is a client.
 - **Recurring work.** The marketing work that comes around regularly (formats, adaptations, channel versions), which Production takes on so the team spends its time on higher-impact work. "Recurring" means it happens regularly, not that it is done identically.
 
@@ -240,7 +243,7 @@ The core rules above, with the §7 never-say list applied strictly.
 
 **Proof posture.** Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on.
 
-Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published. Agency State's own codified brand is reviewed and served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. The campaign engine is separate work with its own status (above).
+Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The Brand OS process ran its release check and created a release record in simulated mode; nothing was published. Agency State's own codified brand was reviewed by Greg on 2026-10-27, with later updates checked by AI agents under his delegation, and is served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. The campaign engine is separate work with its own status (above).
 
 Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method ("Automations run the checks and send the draft for review"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.
 
@@ -260,14 +263,12 @@ Site articles name their evidence plainly: a test is called a test, and a demo b
 - **Not a branding engagement.** Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
 - **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. Setting up or working within a team's existing project files, repositories, and instructions is part of the work; taking on maintenance of automations, agents, or systems built elsewhere is not. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review paths established through that work.
 
----
-
 
 ## Agency State Brand Guidelines
 
 **URL:** agencystate.ai
 
-The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and the orange mark as the only color. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.
+The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and orange confined to the Agency State mark. Tool icons retain their official colors where their brands require it. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). These guidelines apply to every page except the guide landing page (claude-code-for-marketing/index.html), an older page kept in its own styles by decision (website DECISIONS.md, 2026-10-25). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.
 
 These are the brand-level rules. `site.css` in the agency-state repo holds the exact implementation values (spacing, widths, breakpoints, timings) and is the file to change when they change.
 
@@ -293,12 +294,8 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 ### Agency State Brand Guidelines, Lockups
 
 1. **Header:** orange mark immediately left of the wordmark, at the header's small scale.
-2. **Social preview card:** orange mark and wordmark with the tagline, "On brand, at the speed of AI," plus the descriptor where a reader may not yet know Agency State (brand platform §1).
-3. **Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.
-
-### Agency State Brand Guidelines, Lines
-
-The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
+2. **Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1).
+3. **Document cover:** orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.
 
 ### Agency State Brand Guidelines, Do not
 
@@ -337,11 +334,11 @@ Three faces, at regular weight unless noted.
 | Face | Role | Main size |
 |---|---|---|
 | **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
-| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
-| **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+| **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |
+| **DM Mono** | The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code | 11 to 13px |
 
 - **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.
-- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
+- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
 
 ### Agency State Brand Guidelines, Layout
 
@@ -354,8 +351,8 @@ Three faces, at regular weight unless noted.
 
 Each visual form has one job. Use the form that matches what the content is.
 
-- **Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
-- **Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.
+- **Link cards** (boxed, rounded, with a gray number badge; they shade to gray-50 on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.
+- **Numbered sections:** for an explanation in ordered parts, such as the five parts of Brand OS, each part is its own section with a numbered Schibsted label ("01. Source").
 - **Spec panels** (a light gray rounded panel in DM Mono, line breaks kept as written): for structured summaries in a system's own format (labeled breakdowns, file trees, tool calls, check results) and for copy specimens being inspected. They follow the prose they summarize. Not for ordinary prose, quotes, or decoration.
 - **Pull quotes** (a short quotation set off by a thin gray rule at its left, set like body text, with a small gray source line beneath that links to the source): for a line from a cited source that the surrounding prose relies on, placed after the paragraph that relies on it. Not for Greg's own words, emphasis, or decoration.
 - **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.
@@ -371,7 +368,8 @@ Each visual form has one job. Use the form that matches what the content is.
 
 - Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.
 - Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).
-- Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.
+- Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png predates it and uses orange type; replace it if that page is revised. og-codifying-your-brand-for-ai.png and anthropic.svg are unused.
+- Touch icon: apple-touch-icon.png (orange mark).
 
 ### Agency State Brand Guidelines, Voice, tone, and copy
 
@@ -847,21 +845,13 @@ send me an email
 
 Brand OS
 
-I’ve built Agency State’s Brand OS to connect brand guidance with the marketing work a team makes and reviews. It gives the team a shared process it can manage and extend as its use of AI grows.
-
-I prepare the brand for use with AI, drawing on its existing written and visual material to build a source that records where the guidance came from. I bring gaps, interpretations, and conflicts to the team to decide. Once approved, the source supplies AI tools with the brand guidance they need for each task.
-
-I can also help set up how the team works in Claude Code and Codex, organizing project files and repositories and configuring how agents receive brand guidance and project instructions. The setup gives people a consistent way to work together and maintain what they build.
-
-I build automations and agents for work such as preparing briefs, updating product pages, or adapting campaign material for different channels. Automated checks use the same approved source to flag potential errors. Each draft goes to a person on the team with the check results, any limits the checks report, and questions that need human judgment, such as whether the work emphasizes the right benefits, fits the campaign, and sounds like the brand.
-
-A correction can fix one draft or reveal a need to update the source, the checks, or the review process. The team approves those changes before future work uses them, so an edit to one draft does not automatically become a rule for later work. We use approved updates to improve how the system represents the brand and keep it current as the brand changes.
+Agency State’s Brand OS is how I connect a team’s brand with the marketing work it makes with AI. It gives the team a shared process it can manage and extend, with people reviewing the work and making the brand decisions.
 
 Read how Brand OS works
 
 Background
 
-Most recently, I served as Managing Director of Brand & Strategic Marketing at The American Institute of Architects. I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I designed the product and led the technology project for AIAU, the organization’s on-demand continuing education platform. I was also the business owner for a rebrand adopted across the national organization and chapter network, with visual identity by Pentagram.
+Most recently, I served as Managing Director of Brand & Strategic Marketing at The American Institute of Architects. There, I built a 12-person team, modernized marketing operations, and led record-breaking membership and conference campaigns. I designed the product and led the technology project for AIAU, the organization’s on-demand continuing education platform. I was also the business owner for a rebrand adopted across the national organization and chapter network, with visual identity by Pentagram.
 
 Before the AIA, I spent six years as VP of Digital Marketing at GRAFIK in Alexandria, Virginia, working with B2B clients including Autodesk and Accenture. Earlier work took me to Designory on Nissan and Infiniti, Young & Rubicam on Lincoln Mercury, and an in-house role at Bacardi Global Brands.
 

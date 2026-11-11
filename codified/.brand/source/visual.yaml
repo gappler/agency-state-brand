@@ -1,6 +1,6 @@
 ---
-version: 1.1
-last_updated: 2026-11-02
+version: 1.2
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 colors:
@@ -49,8 +49,10 @@ colors:
       basis: verbatim
     field_prov:
       role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
-  - name: gray-400
-    hex: '#a0a0a0'
+  - name: gray-500
+    # Listed before gray-400 on purpose: the first color with role text gets the bare
+    # `text` token key, and body text is gray-500 (2026-11-11 re-codify, finding C1).
+    hex: '#707070'
     role: text
     prov:
       src: brand-book, Agency State Brand Guidelines, Color
@@ -58,8 +60,8 @@ colors:
       basis: verbatim
     field_prov:
       role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
-  - name: gray-500
-    hex: '#707070'
+  - name: gray-400
+    hex: '#a0a0a0'
     role: text
     prov:
       src: brand-book, Agency State Brand Guidelines, Color
@@ -96,13 +98,13 @@ colors:
       role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
   - name: orange
     hex: '#D4602A'
-    role: signal
+    role: mark
     prov:
       src: brand-book, Agency State Brand Guidelines, Color
       conf: high
       basis: verbatim
     field_prov:
-      role: { src: 'brand-book, Agency State Brand Guidelines, Color', conf: high, basis: confirmed }
+      role: { src: 'review by Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11), 2026-11-11', conf: high, basis: authored }
   - name: Black mark
     hex: '#111111'
     role: neutral
@@ -138,14 +140,14 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
+      | **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |
 
-      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+      | **DM Mono** | The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code | 11 to 13px |
 
 
       - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
 
-      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
     prov:
       src: brand-book, Agency State Brand Guidelines, Typography
       conf: high
@@ -165,7 +167,7 @@ type:
     weights:
       - regular
       - medium
-    character: Body text, article subtitles, card and row titles and descriptions, the footer
+    character: Body text, article subtitles, card titles and descriptions, the footer
     usage: 'Three faces, at regular weight unless noted.
 
 
@@ -175,14 +177,14 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
+      | **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |
 
-      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+      | **DM Mono** | The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code | 11 to 13px |
 
 
       - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
 
-      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.'
     prov:
       src: brand-book, Agency State Brand Guidelines, Typography
       conf: high
@@ -202,7 +204,7 @@ type:
       - spec
     weights:
       - regular
-    character: The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code
+    character: The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code
     usage: 'Three faces, at regular weight unless noted.
 
 
@@ -212,14 +214,14 @@ type:
 
       | **Schibsted Grotesk** | Greg''s name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |
 
-      | **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |
+      | **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |
 
-      | **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |
+      | **DM Mono** | The header meta line, article eyebrows, card number badges, the "More" label, spec panels, inline code | 11 to 13px |
 
 
       - **Hierarchy comes mainly from face and gray.** Greg''s name and section labels are the same size; nothing on a page is set large.
 
-      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the "More" label) may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
+      - **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the "More" label in the article footer, may be set in all caps as a small-label style. The links in the header''s meta line are set in lowercase ("copy email," "linkedin"). Never set Schibsted or Libre Franklin text in all caps.
 
 
       **Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font.'
@@ -252,14 +254,14 @@ logo:
     - '**Black mark** (`#111111` square, `agency-state-mark-black.svg`): for one-color contexts, such as print, embossing, or a place where orange would clash.'
     - 'The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once per page as a fixed background element near the lower right, at very low opacity. It is texture, never a logo: no other use of the star without its square.'
     - '**Header:** orange mark immediately left of the wordmark, at the header''s small scale.'
-    - '**Social preview card:** orange mark and wordmark with the tagline, "On brand, at the speed of AI," plus the descriptor where a reader may not yet know Agency State (brand platform §1).'
-    - '**Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.'
-    - The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
+    - '**Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1).'
+    - '**Document cover:** orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.'
     - 'Do not: Add space between "agency" and "state," set the wordmark in capitals, or give both words the same weight.'
     - 'Do not: Recolor the mark beyond the orange and black versions, or add gradients or effects.'
     - 'Do not: Round the square, rotate or distort the mark, or put the mark to the right of the wordmark.'
     - 'Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.'
     - 'Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).'
+    - 'Touch icon: apple-touch-icon.png (orange mark).'
   files:
     - wordmark-black-on-white.svg
     - wordmark-white-on-black.svg
@@ -267,7 +269,7 @@ logo:
     - agency-state-mark-black.svg
     - agency-state-watermark.svg
   prov:
-    src: brand-book, Agency State Brand Guidelines, Wordmark; brand-book, Agency State Brand Guidelines, Mark; brand-book, Agency State Brand Guidelines, Star watermark; brand-book, Agency State Brand Guidelines, Lockups; brand-book, Agency State Brand Guidelines, Lines; brand-book, Agency State Brand Guidelines, Do not; brand-book, Agency State Brand Guidelines, Assets
+    src: brand-book, Agency State Brand Guidelines, Wordmark; brand-book, Agency State Brand Guidelines, Mark; brand-book, Agency State Brand Guidelines, Star watermark; brand-book, Agency State Brand Guidelines, Lockups; brand-book, Agency State Brand Guidelines, Do not; brand-book, Agency State Brand Guidelines, Assets
     conf: high
     basis: verbatim
   field_prov:
@@ -281,11 +283,11 @@ logo:
       basis: verbatim
     usage: { src: 'brand-book, Agency State Brand Guidelines, Do not', conf: high, basis: confirmed }
 imagery:
-  stance: 'The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and the orange mark as the only color. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.'
+  stance: 'The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and orange confined to the Agency State mark. Tool icons retain their official colors where their brands require it. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). These guidelines apply to every page except the guide landing page (claude-code-for-marketing/index.html), an older page kept in its own styles by decision (website DECISIONS.md, 2026-10-25). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.'
   specs:
     - id: social-preview-assets
       medium: Social preview images
-      spec: 'Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.'
+      spec: 'Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png predates it and uses orange type; replace it if that page is revised. og-codifying-your-brand-for-ai.png and anthropic.svg are unused.'
       prov:
         src: brand-book, Agency State Brand Guidelines, Assets
         conf: high
@@ -299,7 +301,7 @@ imagery:
   prov:
     src: review by Greg Appler, 2026-10-27
     conf: high
-    basis: authored
+    basis: confirmed
   policy: No stock photography. Images are limited to the mark, screenshots of real work, and simple diagrams. Social preview images follow the social card lockup.
   portrait: No portrait for now; revisit the imagery policy if one is added.
 spacing:
@@ -334,13 +336,13 @@ spacing:
       conf: high
       basis: verbatim
   - id: link-cards-boxed-rounded-with-a-gray
-    rule: '**Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.'
+    rule: '**Link cards** (boxed, rounded, with a gray number badge; they shade to gray-50 on hover): only for items that link to another page, such as articles in "More reading." A box signals that it opens something.'
     prov:
       src: brand-book, Agency State Brand Guidelines, Components
       conf: high
       basis: verbatim
-  - id: rows-lines-separated-by-thin-gray-rules
-    rule: '**Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.'
+  - id: numbered-sections
+    rule: '**Numbered sections:** for an explanation in ordered parts, such as the five parts of Brand OS, each part is its own section with a numbered Schibsted label ("01. Source").'
     prov:
       src: brand-book, Agency State Brand Guidelines, Components
       conf: high

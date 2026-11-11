@@ -4645,6 +4645,148 @@ items:
     value_hash: sha256:f0999e44ddf2687dc44cd768ff02caba9c985de8a225772087de76d612c0bd75
     id: approved-language-blocks-5
     supersedes: approved-language-blocks-4
+  - kind: inference
+    path: rules.visual_rules[lines-1].severity
+    status: removed
+    decision: "Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): rule removed; the guidelines' Lines section is gone (v5.7, tagline retired)."
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-visual-rules-lines-1-severity-2
+    supersedes: rules-visual-rules-lines-1-severity-1
+  - kind: inference
+    path: rules.visual_rules[lines-1].route_to
+    status: removed
+    decision: "Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): rule removed; the guidelines' Lines section is gone (v5.7, tagline retired)."
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    id: rules-visual-rules-lines-1-route-to-2
+    supersedes: rules-visual-rules-lines-1-route-to-1
+  - kind: inference
+    path: visual.type[#1].character
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from guidelines v5.8 Typography (card titles and descriptions).'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:ebb419cb4ed47b360adeb4006466d68b9aa83653150ad4c5e4c724c85595b2ef
+    id: visual-type-1-character-1
+    supersedes: visual-visual-type-libre-franklin-character
+  - kind: inference
+    path: visual.type[#2].character
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from guidelines v5.8 Typography (card number badges, the More label).'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:5a68122dae08f869149c1ad7418a72b2e1d122bb3f073605eacce0605f2f5e9e
+    id: visual-type-2-character-1
+    supersedes: visual-visual-type-dm-mono-character
+  - kind: inference
+    path: visual.logo.usage
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from guidelines v5.8 Lockups and Assets: descriptor on the social card and document cover, Lines item removed, touch icon added.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:d7f8c1816105a7e15f505107016bd9e034f42bab128cf30044d581b2470843c9
+    id: visual-logo-usage-1
+    supersedes: visual-visual-logo-usage
+  - kind: inference
+    path: visual.imagery.specs[social-preview-assets]
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from guidelines v5.8 Assets.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:62d3fb15143aaf0d516f8ef6861449cd7b2613a515edec52193fdd4adc177e75
+    id: visual-imagery-specs-social-preview-assets-1
+    supersedes: visual-visual-imagery-specs-social-preview-assets
+  - kind: inference
+    path: visual.imagery
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from the guidelines v5.8 opening: orange confined to the mark, official icon colors, guide landing page exception.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:6eeb8bbcb97f82c060c94b07a3f7b158003270dfb1c29b439e9b90000457e032
+    id: visual-imagery-2
+    supersedes: visual-imagery-1
+  - kind: inference
+    path: visual.spacing
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from guidelines v5.8 Components: link cards shade to gray-50 on hover; Rows replaced by numbered sections.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f1f3234fd125c7e28731934bbf8708e6ece122be021fc71a4f05b889452bcf97
+    id: visual-spacing-2
+    supersedes: visual-spacing-1
+  - kind: inference
+    path: products.claims
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): re-quoted from platform v3.13 §2 and §8 (engagements build on the approved source; review status stated accurately).'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:0efcffd07dd7bfbdc2438eb46ac1dbee9acd9707f1d53285c78a78d5b38badc1
+    id: products-claims-3
+    supersedes: products-claims-2
+  - kind: inference
+    path: voice.register.channels
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): channel deltas follow platform v3.13 §1 and §2 and guidelines v5.8: descriptor on social cards, quiet first-touch outreach, pricing and pilot terms in proposals.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:59dc59e2010a30dab820952ce88cb446db991c32b9b508d164bb59398f1c47c3
+    id: voice-register-channels-5
+    supersedes: voice-register-channels-4
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): §6 definitions re-quoted from platform v3.13 (Workflow, Brand OS, Brand OS lead, Agents, Provenance, Rule check, Serving layer).'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:344e6ab7711a44507bad0a1ff5007ea53973144de55fd93a2f655cfd0241d891
+    id: approved-language-blocks-6
+    supersedes: approved-language-blocks-5
+  - kind: inference
+    path: visual.colors[orange].role
+    status: revised
+    decision: "Greg approved finding C1 (brand vs site check, 2026-11-11): orange is 'The mark only' (guidelines Color), so its role is mark, not signal, so tools do not read it as an accent. gray-500 is listed before gray-400 so the bare text token is body text."
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:839ad40585f204ddb942826a0147efd032b63e1fa24c131e3b463e53e7a56448
+    id: visual-colors-orange-role-1
+    supersedes: visual-visual-colors-orange-role
+  - kind: gap
+    path: voice.channel_variations
+    status: filled
+    decision: 'Fidelity check against book v2.5 (platform v3.13, guidelines v5.8, site e19c483): channel variations re-filled by the renewed channel decision.'
+    decided_by: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    decided_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    evidence:
+      - voice-register-channels-5
+    id: voice-channel-variations-6
+    supersedes: voice-channel-variations-5
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -4999,3 +5141,40 @@ reviews:
       source/visual.yaml: sha256:7fce6f14274ba29e0a36b6a7e1c290c93517b4f95817fb3b36f4e045b69ef4d4
       source/voice.yaml: sha256:c9aee9f8f923ea7fe261a90666d740cf45bd6e473fd1f12f307ef9126c56cd4e
     supersedes: review-2026-11-06-9
+  - id: review-2026-11-11-11
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Claude Code (Codex fidelity check; platform v3.13 and guidelines v5.8 text approved by Greg Appler 2026-11-11)
+    reviewed_at: '2026-11-11'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    files:
+      source/approved-language.yaml: sha256:1f5e9e1f40c1bf5f0d823117fc54935707440f6514f2baf1e4f119d168af7a3a
+      source/architecture.yaml: sha256:b471cf35176e5d7cece6b58853e442c81380ee277ce0797cd4bff3431e354fe7
+      source/brand.yaml: sha256:f0141f3a5af9f6293b5c2028ac1609a7b78146a29fc51eee7e265ab58efeceb0
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:b944d25ecb1be65a2f5bb79dca62c27d8f1df33e8a24d584cef7c875aa57d9b6
+      source/positions.yaml: sha256:f38abaefc9d170a4888a340080ce06bb50ae1b1c9c611e61a21b1297ed3af0cf
+      source/products.yaml: sha256:8a42b6658c3458a9d57e6147e2fbbf5ebd62805ed58651d3f02415ec101a8bfb
+      source/rules.yaml: sha256:8e454d5266c1c8a1e0b26d9ad90098286d66e8bfdf5be8c2c19c4929dbee7789
+      source/stories/greg-practice-background.md: sha256:18825fd9e48df3fa2cd2221237106409cf567945fdc59add4ccb8156448af1fe
+      source/stories/yowie-fabrication-test.md: sha256:c29be11b3af5a46e60ea1222496129d3f2116ef8859ffec9952ad5fb5dd71172
+      source/stories/yowie-warranty-gap.md: sha256:6bdd19513ff9f3a3ecf071d9d346c535b3a9c591c9edf08a8f8339a66f06c7e0
+      source/visual.yaml: sha256:77e87718a6f974987918a211cf5bcc7c45a78d8ec355a58754a2d873586178c9
+      source/voice.yaml: sha256:b1f70eb3bc6ac395f01e73d4b46aa1a63ea23bd687815c48ca17bb07584d03a9
+    supersedes: review-2026-11-06-10

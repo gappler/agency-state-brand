@@ -1,6 +1,6 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 client_name: Agency State
@@ -19,8 +19,7 @@ name:
     items:
       - Agency State
       - '"Agency State" appears where it does structural work (the brand mark, the legal entity, positioning lines).'
-      - Tagline. "On brand, at the speed of AI." With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.
-      - Descriptor and positioning line. "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.
+      - Descriptor and positioning line. "Helping brand marketing teams put AI to work." The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, on social cards, and as a short opening statement of the work.
       - 'Value lines. What the reader gets from the work. For Agency State: "marketing work they can stand behind." For Brand OS: it "gives the team a basis for deciding whether its AI work represents its brand and is ready to ship." Example, the homepage introduction: "This gives teams a basis for deciding and helps them stand behind the work they produce." The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above.'
   meaning:
     means: the capacity to act
@@ -30,12 +29,6 @@ name:
       conf: high
       basis: verbatim
 canonical_lines:
-  tagline:
-    text: On brand, at the speed of AI.
-    prov:
-      src: brand-book, Agency State Brand Platform, 1. Identity
-      conf: high
-      basis: verbatim
   positioning_line:
     text: Helping brand marketing teams put AI to work.
     prov:

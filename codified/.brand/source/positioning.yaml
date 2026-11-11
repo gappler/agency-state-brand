@@ -1,11 +1,11 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 what_it_is:
-  statement: 'For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg helps them give AI the brand guidance it needs, build automations and agents, and set up checks and human review, bringing Agency State''s Brand OS as the approach: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review every draft, make the judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.'
-  premise: 'Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it.'
+  statement: 'For brand marketing leaders and the builders on their teams who need to know whether the work they make with AI represents their brand and is ready to ship, Agency State helps them give AI the brand guidance it needs, build automations and agents in Claude Code and Codex, and set up checks and human review, so they can stand behind the work. Greg brings Agency State''s Brand OS as the approach and draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.'
+  premise: 'Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS.'
   prov:
     src: brand-book, Agency State Brand Platform, 3. Positioning
     conf: high

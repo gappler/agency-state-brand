@@ -1,6 +1,6 @@
 ---
-version: 1.2
-last_updated: 2026-11-06
+version: 1.3
+last_updated: 2026-11-11
 ---
 schema_version: 0.2.0
 lines: []
@@ -12,7 +12,7 @@ naming:
     - Brand OS lead
     - brand-readiness assessment
   capitalization:
-    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+    - "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which."
   prov:
     src: brand-book, Agency State Brand Platform, 6. Vocabulary
     conf: high

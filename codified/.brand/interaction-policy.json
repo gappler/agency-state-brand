@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-07T01:59:11Z",
+  "compiled_at": "2026-11-11T13:04:48Z",
   "revisions": {
-    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
-    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
+    "source": "sha256:83b7b5a555545506281feef4edbe6303bfd49a11bd273c994a2f9b2229b11894",
+    "review": "sha256:c3574aa6066afcd8583ec344333b7a02fba4137fd43ef6ed117ecfaa2277d690"
   },
   "voice_rules": {
     "never_say": [
@@ -1427,7 +1427,7 @@
     },
     {
       "id": "definition-workflow",
-      "text": "**Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built."
+      "text": "**Workflow.** The process the team runs, of which automations and agents are parts. Use it for the process; say \"automations and agents\" for what gets built."
     },
     {
       "id": "definition-codified-brand",
@@ -1435,15 +1435,15 @@
     },
     {
       "id": "definition-brand-os",
-      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
+      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
     },
     {
       "id": "definition-brand-os-lead",
-      "text": "**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles."
+      "text": "**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and making sure approved changes reach the source. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles."
     },
     {
       "id": "definition-agents",
-      "text": "**Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say \"automations and agents\" for Production as a whole."
+      "text": "**Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents can read a draft and flag what is off-brand before a person reviews it; a review panel is several review agents reading the same draft, each on a different lens. Say \"automations and agents\" for Production as a whole."
     },
     {
       "id": "definition-automations",
@@ -1455,11 +1455,11 @@
     },
     {
       "id": "definition-provenance",
-      "text": "**Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check."
+      "text": "**Provenance.** The record of where a codified entry came from, whether it was stated or inferred, and who reviewed it. A provenance check verifies that the source labels are accurate, for example that material marked verbatim appears in the cited source. It checks the codified brand and its source labels. A source check tests claims in generated work."
     },
     {
       "id": "definition-rule-check",
-      "text": "**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say \"rule check\" in client copy, not \"the linter.\""
+      "text": "**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, and required product-name spelling or formatting. Whether a named product exists is a source-check question. It has a right answer and does not wait for a person. Say \"rule check\" in client copy, not \"the linter.\""
     },
     {
       "id": "definition-source-check",
@@ -1467,7 +1467,7 @@
     },
     {
       "id": "definition-serving-layer-mcp",
-      "text": "**Serving layer (MCP).** The client-run server that serves the codified brand into the tools where the work happens, exposing it as context and checks. Say \"serving layer\" in prose; \"a client-run MCP server\" when naming the mechanism."
+      "text": "**Serving layer (MCP).** The server that serves the codified brand into the tools where the work happens, exposing it as context and checks. For a client, the client runs it. Say \"serving layer\" in prose; \"an MCP server\" when naming the mechanism."
     },
     {
       "id": "definition-demo-brand",
@@ -1677,7 +1677,7 @@
     },
     {
       "id": "sentence-case",
-      "rule": "**Sentence case for titles and labels.** Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography).",
+      "rule": "**Sentence case for titles and labels.** Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which.",
       "severity": "hard",
       "source": "brand-book, Agency State Brand Platform, Core rules",
       "conf": "high",
@@ -1809,7 +1809,7 @@
     },
     {
       "id": "serving-layer-term",
-      "rule": "Say \"serving layer\" in prose; \"a client-run MCP server\" when naming the mechanism.",
+      "rule": "Say \"serving layer\" in prose; \"an MCP server\" when naming the mechanism.",
       "severity": "hard",
       "source": "brand-book, Agency State Brand Platform, 6. Vocabulary",
       "conf": "high",
@@ -1831,7 +1831,7 @@
     },
     {
       "id": "handover-visual-19",
-      "rule": "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.",
+      "rule": "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.",
       "severity": "hard",
       "source": "brand-book, Agency State Brand Guidelines, Typography",
       "conf": "high",
@@ -1853,7 +1853,7 @@
     },
     {
       "id": "handover-voice-70",
-      "rule": "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography).",
+      "rule": "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which.",
       "severity": "hard",
       "source": "brand-book, Agency State Brand Platform, Core rules",
       "conf": "high",
@@ -1985,7 +1985,7 @@
     },
     {
       "id": "proof-posture",
-      "rule": "Proof posture. Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on. Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published. Agency State's own codified brand is reviewed and served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method (\"Automations run the checks and send the draft for review\"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.",
+      "rule": "Proof posture. Agency State makes claims from the right basis. Built artifacts can be described as built. Tests on Agency State and demo brands can be described as tests on Agency State and demo brands. Recommendations can be stated as recommendations when they follow from Greg's brand, marketing operations, and AI implementation work. Name the basis, then move on. Brand OS's process is built: the steps that run the checks, send each draft to a reviewer with the check results and reported limits, record decisions and corrections, and record and activate approved source changes are implemented and covered by automated tests. Approved changes to checks and review routing are specified but not yet implemented. The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The Brand OS process ran its release check and created a release record in simulated mode; nothing was published. Agency State's own codified brand was reviewed by Greg on 2026-10-27, with later updates checked by AI agents under his delegation, and is served to Greg's AI tools. Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work. Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method (\"Automations run the checks and send the draft for review\"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured.",
       "severity": "hard",
       "source": "brand-book, Agency State Brand Platform, 8. Proof",
       "conf": "high",
@@ -2361,7 +2361,7 @@
     },
     {
       "id": "lockups-2",
-      "rule": "Social preview card: orange mark and wordmark with the tagline, \"On brand, at the speed of AI,\" plus the descriptor where a reader may not yet know Agency State (brand platform §1).",
+      "rule": "Social preview card: orange mark and wordmark with the descriptor, \"Helping brand marketing teams put AI to work.\" (brand platform §1).",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Lockups",
       "conf": "high",
@@ -2383,31 +2383,9 @@
     },
     {
       "id": "lockups-3",
-      "rule": "Document cover: orange mark and wordmark, with the same tagline and descriptor rule.",
+      "rule": "Document cover: orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Lockups",
-      "conf": "high",
-      "basis": "verbatim",
-      "provisional": false,
-      "route_to": "visual",
-      "field_sources": {
-        "severity": {
-          "source": "review by Greg Appler, 2026-10-27",
-          "conf": "high",
-          "basis": "authored"
-        },
-        "route_to": {
-          "source": "review by Greg Appler, 2026-10-27",
-          "conf": "high",
-          "basis": "authored"
-        }
-      }
-    },
-    {
-      "id": "lines-1",
-      "rule": "The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.",
-      "severity": "soft",
-      "source": "brand-book, Agency State Brand Guidelines, Lines",
       "conf": "high",
       "basis": "verbatim",
       "provisional": false,
@@ -2596,7 +2574,7 @@
     },
     {
       "id": "typography-3",
-      "rule": "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.",
+      "rule": "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Typography",
       "conf": "high",
@@ -2728,7 +2706,7 @@
     },
     {
       "id": "components-2",
-      "rule": "Link cards (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in \"More reading.\" A box signals that it opens something.",
+      "rule": "Link cards (boxed, rounded, with a gray number badge; they shade to gray-50 on hover): only for items that link to another page, such as articles in \"More reading.\" A box signals that it opens something.",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Components",
       "conf": "high",
@@ -2750,7 +2728,7 @@
     },
     {
       "id": "components-3",
-      "rule": "Rows (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS.",
+      "rule": "Numbered sections: for an explanation in ordered parts, such as the five parts of Brand OS, each part is its own section with a numbered Schibsted label (\"01. Source\").",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Components",
       "conf": "high",
@@ -2926,7 +2904,7 @@
     },
     {
       "id": "assets-1",
-      "rule": "Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.",
+      "rule": "Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png predates it and uses orange type; replace it if that page is revised. og-codifying-your-brand-for-ai.png and anthropic.svg are unused.",
       "severity": "soft",
       "source": "brand-book, Agency State Brand Guidelines, Assets",
       "conf": "high",

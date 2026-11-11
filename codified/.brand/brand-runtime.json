@@ -2,16 +2,16 @@
   "schema_version": "0.2.0",
   "source_schema_version": "0.2.0",
   "client_name": "Agency State",
-  "compiled_at": "2026-11-07T01:59:11Z",
+  "compiled_at": "2026-11-11T13:04:48Z",
   "revisions": {
-    "source": "sha256:c294c8fa209ec4cf17008c061e3390c531bb51ad41951eea2a837f47e143ecc3",
-    "review": "sha256:ace09942e4a75b5bd1f8eb3c731e2fbcba72651b3b56d55a4a3f91efa8b16ceb"
+    "source": "sha256:83b7b5a555545506281feef4edbe6303bfd49a11bd273c994a2f9b2229b11894",
+    "review": "sha256:c3574aa6066afcd8583ec344333b7a02fba4137fd43ef6ed117ecfaa2277d690"
   },
   "approval": "agent_reviewed",
   "completeness": {
     "required": {
-      "filled": 29,
-      "partial": 1,
+      "filled": 28,
+      "partial": 2,
       "empty": 1,
       "n/a": 3
     },
@@ -114,12 +114,12 @@
       "base-gray-100": "#f4f4f4",
       "neutral": "#ededed",
       "neutral-gray-300": "#dddddd",
-      "text": "#a0a0a0",
-      "text-gray-500": "#707070",
+      "text": "#707070",
+      "text-gray-400": "#a0a0a0",
       "text-gray-600": "#505050",
       "text-gray-700": "#343434",
       "text-gray-800": "#2e2e2e",
-      "signal": "#D4602A",
+      "mark": "#D4602A",
       "neutral-black-mark": "#111111",
       "text-black-wordmark": "#000000"
     },
@@ -138,8 +138,7 @@
         "items": [
           "Agency State",
           "\"Agency State\" appears where it does structural work (the brand mark, the legal entity, positioning lines).",
-          "Tagline. \"On brand, at the speed of AI.\" With the mark and wordmark, on social cards, decks, and formal contexts. Pair it with the descriptor wherever a reader may not yet know Agency State.",
-          "Descriptor and positioning line. \"Helping brand marketing teams put AI to work.\" The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, beside the tagline when it needs context, and as a short opening statement of the work.",
+          "Descriptor and positioning line. \"Helping brand marketing teams put AI to work.\" The plain statement of what Agency State does, and the short form of the homepage introduction. Use it in page and social descriptions, on social cards, and as a short opening statement of the work.",
           "Value lines. What the reader gets from the work. For Agency State: \"marketing work they can stand behind.\" For Brand OS: it \"gives the team a basis for deciding whether its AI work represents its brand and is ready to ship.\" Example, the homepage introduction: \"This gives teams a basis for deciding and helps them stand behind the work they produce.\" The lines set the meaning; copy can reword them to fit. For how Brand OS works, use the five parts above."
         ]
       },
@@ -149,19 +148,18 @@
       }
     },
     "canonical_lines": {
-      "tagline": "On brand, at the speed of AI.",
       "positioning_line": "Helping brand marketing teams put AI to work.",
       "preview_line": "Helping brand marketing teams put AI to work."
     },
     "values": [],
     "mission": null,
     "imagery": {
-      "stance": "The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and the orange mark as the only color. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.",
+      "stance": "The look is quiet, text-first, and personal: one reading column, a gray scale on white, three typefaces, and orange confined to the Agency State mark. Tool icons retain their official colors where their brands require it. Hierarchy comes mainly from typeface and gray value; the size range is narrow (11 to 19px). These guidelines apply to every page except the guide landing page (claude-code-for-marketing/index.html), an older page kept in its own styles by decision (website DECISIONS.md, 2026-10-25). The homepage is the reference for shared elements, and the article pages (for example brand-os.html) for article-only elements; site.css holds the exact values for both.",
       "specs": [
         {
           "id": "social-preview-assets",
           "medium": "Social preview images",
-          "spec": "Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png and og-codifying-your-brand-for-ai.png predate it and use orange type; replace them when those pages are next revised.",
+          "spec": "Social preview images: og-image.png follows the social card lockup. og-claude-code-for-marketing.png predates it and uses orange type; replace it if that page is revised. og-codifying-your-brand-for-ai.png and anthropic.svg are unused.",
           "implementation_reference": "site.css in the agency-state repo is the source of exact social preview implementation values."
         }
       ],
@@ -191,11 +189,11 @@
       },
       {
         "id": "link-cards-boxed-rounded-with-a-gray",
-        "rule": "**Link cards** (boxed, rounded, with a gray number badge; they lighten on hover): only for items that link to another page, such as articles in \"More reading.\" A box signals that it opens something."
+        "rule": "**Link cards** (boxed, rounded, with a gray number badge; they shade to gray-50 on hover): only for items that link to another page, such as articles in \"More reading.\" A box signals that it opens something."
       },
       {
-        "id": "rows-lines-separated-by-thin-gray-rules",
-        "rule": "**Rows** (lines separated by thin gray rules, no box, no hover unless the row is a link): for lists that explain rather than link, such as the five parts of Brand OS."
+        "id": "numbered-sections",
+        "rule": "**Numbered sections:** for an explanation in ordered parts, such as the five parts of Brand OS, each part is its own section with a numbered Schibsted label (\"01. Source\")."
       },
       {
         "id": "spec-panels-a-light-gray-rounded-panel",
@@ -222,14 +220,14 @@
       "**Black mark** (`#111111` square, `agency-state-mark-black.svg`): for one-color contexts, such as print, embossing, or a place where orange would clash.",
       "The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once per page as a fixed background element near the lower right, at very low opacity. It is texture, never a logo: no other use of the star without its square.",
       "**Header:** orange mark immediately left of the wordmark, at the header's small scale.",
-      "**Social preview card:** orange mark and wordmark with the tagline, \"On brand, at the speed of AI,\" plus the descriptor where a reader may not yet know Agency State (brand platform §1).",
-      "**Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.",
-      "The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.",
+      "**Social preview card:** orange mark and wordmark with the descriptor, \"Helping brand marketing teams put AI to work.\" (brand platform §1).",
+      "**Document cover:** orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.",
       "Do not: Add space between \"agency\" and \"state,\" set the wordmark in capitals, or give both words the same weight.",
       "Do not: Recolor the mark beyond the orange and black versions, or add gradients or effects.",
       "Do not: Round the square, rotate or distort the mark, or put the mark to the right of the wordmark.",
       "Marks: agency-state-mark-orange.svg, agency-state-mark-black.svg, agency-state-watermark.svg.",
-      "Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000)."
+      "Wordmarks: wordmark-black-on-white.svg and wordmark-white-on-black.svg (both on transparent grounds; the black wordmark is #000000).",
+      "Touch icon: apple-touch-icon.png (orange mark)."
     ],
     "type_detail": [
       {
@@ -242,7 +240,7 @@
           "regular"
         ],
         "character": "Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names",
-        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
+        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, card number badges, the \"More\" label, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
       },
       {
         "family": "Libre Franklin",
@@ -254,8 +252,8 @@
           "regular",
           "medium"
         ],
-        "character": "Body text, article subtitles, card and row titles and descriptions, the footer",
-        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
+        "character": "Body text, article subtitles, card titles and descriptions, the footer",
+        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, card number badges, the \"More\" label, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
       },
       {
         "family": "DM Mono",
@@ -267,8 +265,8 @@
         "weights": [
           "regular"
         ],
-        "character": "The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code",
-        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card and row titles and descriptions, the footer | 15px body; 14px in cards and rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, row numbers and card meta, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.\n\n**Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font."
+        "character": "The header meta line, article eyebrows, card number badges, the \"More\" label, spec panels, inline code",
+        "usage": "Three faces, at regular weight unless noted.\n\n| Face | Role | Main size |\n|---|---|---|\n| **Schibsted Grotesk** | Greg's name and article titles, section labels, in-text headings; nav and article-footer links; tool names | 19px for names, titles, and labels; 12 to 13px for links and tool names |\n| **Libre Franklin** | Body text, article subtitles, card titles and descriptions, the footer | 15px body; 14px in cards and stack rows (titles at medium weight) and for pull-quote source lines |\n| **DM Mono** | The header meta line, article eyebrows, card number badges, the \"More\" label, spec panels, inline code | 11 to 13px |\n\n- **Hierarchy comes mainly from face and gray.** Greg's name and section labels are the same size; nothing on a page is set large.\n- **Sentence case** for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps.\n\n**Inline code:** tool and file names inside a sentence use DM Mono. Nothing on a page falls back to a system font."
       }
     ],
     "logo_detail": {
@@ -309,13 +307,13 @@
         "role": "neutral"
       },
       {
-        "name": "gray-400",
-        "hex": "#a0a0a0",
+        "name": "gray-500",
+        "hex": "#707070",
         "role": "text"
       },
       {
-        "name": "gray-500",
-        "hex": "#707070",
+        "name": "gray-400",
+        "hex": "#a0a0a0",
         "role": "text"
       },
       {
@@ -336,7 +334,7 @@
       {
         "name": "orange",
         "hex": "#D4602A",
-        "role": "signal"
+        "role": "mark"
       },
       {
         "name": "Black mark",
@@ -407,15 +405,15 @@
         },
         {
           "channel": "proposals",
-          "delta": "Same voice; no channel-specific guidance recorded yet."
+          "delta": "Same voice. Pricing and pilot terms belong in proposals and conversations; they are not set in the brand platform."
         },
         {
           "channel": "outreach",
-          "delta": "Same voice; keep the offer quiet."
+          "delta": "Same voice; first-touch outreach keeps the offer quiet."
         },
         {
           "channel": "social",
-          "delta": "Same voice; keep the offer quiet. The tagline goes with the mark and wordmark on social cards. Page and social descriptions use the preview line, \"Helping brand marketing teams put AI to work.\""
+          "delta": "Same voice; keep the offer quiet. On social cards, the descriptor, \"Helping brand marketing teams put AI to work.\", goes with the mark and wordmark; page and social descriptions use the same line."
         },
         {
           "channel": "deliverables",
@@ -431,8 +429,8 @@
         "No emphasis-by-italics, no exclamation, no transformation language."
       ],
       "formatting": [
-        "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography).",
-        "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels (row numbers, card meta, the \"More\" label) may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
+        "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which.",
+        "Sentence case for names, labels, titles, and buttons. The one exception: short monospace labels, currently the \"More\" label in the article footer, may be set in all caps as a small-label style. The links in the header's meta line are set in lowercase (\"copy email,\" \"linkedin\"). Never set Schibsted or Libre Franklin text in all caps."
       ],
       "reading_level": "About grade 9, plain.",
       "style_guide": {
@@ -684,7 +682,7 @@
       {
         "id": "define-positively",
         "kind": "do",
-        "text": "**Define positively.** The broader rule behind the antithesis ban: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil (\"less like documentation and more like infrastructure,\" \"wiring is the easy part,\" a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity. A contrast survives only when the contrast itself is the point."
+        "text": "**Define positively.** The broader rule behind the antithesis default below: say what a thing is, and describe the work by what it produces. Avoid defining by negation or by diminishing a foil (\"less like documentation and more like infrastructure,\" \"wiring is the easy part,\" a catalog of the reader's gaps). Deficiency framing also mis-fits the audience: these are intentional brands, and the gap is form, never their maturity."
       },
       {
         "id": "x-not-y-antithesis-is-off-by-default",
@@ -704,7 +702,7 @@
       {
         "id": "point-of-view",
         "kind": "do",
-        "text": "Default to first person: I built, I help, I embed. \"Agency State\" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate \"we believe\" is forbidden. Action-statement \"we\" is allowed when client and Greg are doing something together."
+        "text": "Default to first person: I built, I help, I work with. \"Agency State\" appears where it does structural work (the brand mark, the legal entity, positioning lines). Corporate \"we believe\" is forbidden. Action-statement \"we\" is allowed when client and Greg are doing something together."
       },
       {
         "id": "relaxed-professional-explanation-is-the-default",
@@ -734,7 +732,7 @@
       {
         "id": "personal-pieces",
         "kind": "do",
-        "text": "**Personal pieces.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on."
+        "text": "**Personal asides.** On the homepage and other introductions, Greg's own experience, opinions, and asides are welcome when a real fact or idea sits under them. Cut any that cannot point to what they rest on."
       },
       {
         "id": "paragraphs-connect",
@@ -794,7 +792,7 @@
     ]
   },
   "positioning": {
-    "what_it_is": "For brand marketing leaders and the builders on their teams, in-house and at agencies, Agency State helps teams use AI in Claude Code and Codex to produce marketing work they can stand behind. Greg helps them give AI the brand guidance it needs, build automations and agents, and set up checks and human review, bringing Agency State's Brand OS as the approach: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and people who review every draft, make the judgment calls, and approve updates. He draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.",
+    "what_it_is": "For brand marketing leaders and the builders on their teams who need to know whether the work they make with AI represents their brand and is ready to ship, Agency State helps them give AI the brand guidance it needs, build automations and agents in Claude Code and Codex, and set up checks and human review, so they can stand behind the work. Greg brings Agency State's Brand OS as the approach and draws on more than twenty years of brand marketing leadership and hands-on building with the same tools.",
     "personas": [
       "brand marketing leaders, and the builders on their teams",
       "Stakeholders, not buyers"
@@ -814,7 +812,7 @@
         "how_to_talk": "Use a referral tone for these non-buyers."
       }
     ],
-    "premise": "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it.",
+    "premise": "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS.",
     "principles": [],
     "sells_against": {
       "competes_on": "The assessment establishes whether the brand is ready to codify, what needs deciding first, and what is worth building, and it is where the team and Greg discuss where AI fits before choosing a build. Agency State takes on projects from a first automation or agent to a full Brand OS.",
@@ -843,7 +841,7 @@
         "brand-readiness assessment"
       ],
       "capitalization": [
-        "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short 11px monospace labels on the site (row numbers, card meta) may be set\n  in all caps as a small-label style (brand guidelines, Typography)."
+        "Use sentence case for page titles,\n  section labels, cards, notes, buttons, and article titles. Preserve proper\n  nouns and fixed terms: Agency State, Brand OS, Claude Code.\n  Short monospace labels on the site may be set in all caps as a small-label\n  style; the brand guidelines (Typography) say which."
       ],
       "never_abbreviate": [
         "Agency State",
@@ -869,17 +867,17 @@
     },
     {
       "id": "brand-os-local-demonstrations",
-      "claim": "The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The controller ran its release gate and created a release record in simulated mode; nothing was published.",
+      "claim": "The process has been run in recorded local demonstrations on a demo brand. Those demonstrations used supplied drafts, scripted human actions, simulated Linear, and stand-ins for parts of the decision process. The Brand OS process ran its release check and created a release record in simulated mode; nothing was published.",
       "conditions": "Built and tested is a different basis from live acceptance, measured accuracy, or client operation: the live acceptance tests have not been run, check accuracy has not been measured against human-labelled examples, and no Brand OS has run at a client or on live production work.\n\nNo copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone."
     },
     {
       "id": "agency-state-codified-brand-served",
-      "claim": "Agency State's own codified brand is reviewed and served to Greg's AI tools.",
+      "claim": "Agency State's own codified brand was reviewed by Greg on 2026-10-27, with later updates checked by AI agents under his delegation, and is served to Greg's AI tools.",
       "conditions": "No copy claims or implies client results, measured accuracy, or a full Brand OS running in production for anyone."
     },
     {
       "id": "brand-os-practice-method",
-      "claim": "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can cover one part of that work or all of it.",
+      "claim": "Agency State works with a brand marketing team and its agencies on the brand guidance AI receives, the automations and agents that use it, and the checks and human review around them. Brand OS organizes that work in five parts: Source, Production, Control, Feedback, and Operators. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS.",
       "conditions": "Describe how the work is done, including parts still being built, when Greg can deliver them on a short turnaround; present tense is fine for the method (\"Automations run the checks and send the draft for review\"). Evidence is different: never state a result, a test, a client engagement, or a number that hasn't happened or been measured."
     },
     {
@@ -914,6 +912,12 @@
     }
   ],
   "positions": [
+    {
+      "id": "ai-drafts-need-checks-and-review",
+      "stance": "The point of view: AI drafts can sound right and still get important things wrong, and the model can't tell when it has missed. So the work pairs checks against one approved brand source with a person who reviews every draft, and approved corrections improve the source over time.",
+      "owner": "Greg Appler",
+      "date": "2026-11-11"
+    },
     {
       "id": "checks-have-scope",
       "stance": "**Control** separates what a machine can check from what a person should decide. Automated checks use the same approved source to flag potential errors, and passing a check establishes only what it tested. A person on the team reviews every draft. The reviewer receives the draft with the check results, any limits the checks report, and the questions that need human judgment, such as whether the work emphasizes the right benefits, fits the campaign, and sounds like the brand. Decision owners get the questions the reviewer cannot settle.",
@@ -955,7 +959,7 @@
     {
       "id": "definition-workflow",
       "kind": "passage",
-      "text": "**Workflow.** The process itself, what the team actually runs. Active vocabulary for what gets built.",
+      "text": "**Workflow.** The process the team runs, of which automations and agents are parts. Use it for the process; say \"automations and agents\" for what gets built.",
       "remix": true
     },
     {
@@ -967,19 +971,19 @@
     {
       "id": "definition-brand-os",
       "kind": "passage",
-      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement may build one part or the whole. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.",
+      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name.",
       "remix": true
     },
     {
       "id": "definition-brand-os-lead",
       "kind": "passage",
-      "text": "**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and keeping the source current. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.",
+      "text": "**Brand OS lead.** The person on the team who looks after the process that keeps its AI work on brand, including adoption, team communications, and making sure approved changes reach the source. The lead works with the people responsible for brand, product, claims, and design decisions. On a small team, one person may fill several roles.",
       "remix": true
     },
     {
       "id": "definition-agents",
       "kind": "passage",
-      "text": "**Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents read what the team ships and flag what is off-brand before it goes out; a review panel is several review agents reading the same work, each on a different lens. Say \"automations and agents\" for Production as a whole.",
+      "text": "**Agents.** In Production, the agents that make the team's work from a brief, with the codified brand supplying the brand side. In Control, review agents can read a draft and flag what is off-brand before a person reviews it; a review panel is several review agents reading the same draft, each on a different lens. Say \"automations and agents\" for Production as a whole.",
       "remix": true
     },
     {
@@ -997,13 +1001,13 @@
     {
       "id": "definition-provenance",
       "kind": "passage",
-      "text": "**Provenance.** Whether the codified brand's own source labels are honest: did a rule marked as verbatim actually appear in the source, does a cited section exist. A check on the codified brand and its source labels, not on generated copy. Distinct from a source check.",
+      "text": "**Provenance.** The record of where a codified entry came from, whether it was stated or inferred, and who reviewed it. A provenance check verifies that the source labels are accurate, for example that material marked verbatim appears in the cited source. It checks the codified brand and its source labels. A source check tests claims in generated work.",
       "remix": true
     },
     {
       "id": "definition-rule-check",
       "kind": "passage",
-      "text": "**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, product names. It has a right answer and does not wait for a person. Say \"rule check\" in client copy, not \"the linter.\"",
+      "text": "**Rule check.** A deterministic check that tests finished copy or markup against rules the brand has already settled: banned words, required claim conditions, approved colors, fonts, and required product-name spelling or formatting. Whether a named product exists is a source-check question. It has a right answer and does not wait for a person. Say \"rule check\" in client copy, not \"the linter.\"",
       "remix": true
     },
     {
@@ -1015,7 +1019,7 @@
     {
       "id": "definition-serving-layer-mcp",
       "kind": "passage",
-      "text": "**Serving layer (MCP).** The client-run server that serves the codified brand into the tools where the work happens, exposing it as context and checks. Say \"serving layer\" in prose; \"a client-run MCP server\" when naming the mechanism.",
+      "text": "**Serving layer (MCP).** The server that serves the codified brand into the tools where the work happens, exposing it as context and checks. For a client, the client runs it. Say \"serving layer\" in prose; \"an MCP server\" when naming the mechanism.",
       "remix": true
     },
     {
