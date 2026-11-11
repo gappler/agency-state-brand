@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.5
+version: 5.6
 status: Canonical
 date: 2026-10-25
 last_updated: 2026-11-11
@@ -42,7 +42,7 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 
 ### Lines
 
-The tagline and the descriptor are set in the brand platform (§1). The tagline appears with the mark and wordmark on social cards and covers; the descriptor goes beside it where a reader may not yet know Agency State.
+The tagline and the descriptor are set in the brand platform (§1). They never appear together. The tagline appears with the mark and wordmark on document covers; social cards carry the descriptor.
 
 ### Do not
 
