@@ -1,6 +1,6 @@
 ---
 title: Agency State Brand Guidelines
-version: 5.6
+version: 5.7
 status: Canonical
 date: 2026-10-25
 last_updated: 2026-11-11
@@ -37,12 +37,12 @@ The star alone (`agency-state-watermark.svg`, `#111111`, rotated) appears once p
 ### Lockups
 
 1. **Header:** orange mark immediately left of the wordmark, at the header's small scale.
-2. **Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1). The tagline does not appear on the card.
-3. **Document cover:** orange mark and wordmark, with the same tagline and descriptor rule.
+2. **Social preview card:** orange mark and wordmark with the descriptor, "Helping brand marketing teams put AI to work." (brand platform §1).
+3. **Document cover:** orange mark and wordmark, with the descriptor where a reader may not yet know Agency State.
 
 ### Lines
 
-The tagline and the descriptor are set in the brand platform (§1). They never appear together. The tagline appears with the mark and wordmark on document covers; social cards carry the descriptor.
+The descriptor is set in the brand platform (§1).
 
 ### Do not
 
