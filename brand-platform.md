@@ -1,10 +1,10 @@
 ---
 title: Agency State Brand Platform
-version: 3.13
+version: 3.14
 decisions: agency-state-practice/projects/brand/brand-platform-decisions.md
 status: Canonical
 date: 2026-05-28
-last_updated: 2026-11-11
+last_updated: 2026-11-17
 purpose: AI-facing brand intelligence for Agency State. The canonical source for producing on-brand Agency State work. Sliced and served via MCP to Claude Code, Codex, and AI workflows.
 ---
 
@@ -180,7 +180,7 @@ The core rules above, with the §7 never-say list applied strictly.
 
 *A close that names the work:*
 
-> The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. With Agency State's Brand OS, I build those checks and human review into the team's automations and agents, using the same approved brand source for production and checking.
+> The brand source gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. With Agency State's Brand OS, I build those checks and human review into the team's automations and agents, using the same approved brand source for production and checking.
 
 ---
 
