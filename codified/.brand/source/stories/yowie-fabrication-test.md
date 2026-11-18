@@ -16,7 +16,7 @@ prov:
   basis: verbatim
 ---
 
-In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
 I ran two kinds of automated checks on every draft. Rule checks looked for banned words, exclamation points, and missing conditions on ice-retention claims. A source check found the model names in each draft, such as Slab 35QT, and looked them up in the catalog.
 
@@ -33,4 +33,4 @@ The catalog had a Slab 35QT, and Claude built the fake cooler out of it. The rea
 
 All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
 
-The brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
+The brand source gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand source shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.

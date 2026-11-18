@@ -475,7 +475,7 @@ exemplars:
       basis: verbatim
   - id: context-close
     label: Context is not control, close
-    text: The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking.
+    text: The brand source gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking.
     prov:
       src: brand-book, Context is not control, Where the corrections go
       conf: high

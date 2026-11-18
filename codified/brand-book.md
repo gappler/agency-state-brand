@@ -1,7 +1,7 @@
 ---
 title: Agency State combined brand source
-version: 2.5
-last_updated: 2026-11-11
+version: 2.6
+last_updated: 2026-11-17
 ---
 
 # Agency State brand book
@@ -179,7 +179,7 @@ The core rules above, with the §7 never-say list applied strictly.
 
 *A close that names the work:*
 
-> The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. With Agency State's Brand OS, I build those checks and human review into the team's automations and agents, using the same approved brand source for production and checking.
+> The brand source gives AI context. Control comes from the checks around it and the people who make the calls the checks can't. With Agency State's Brand OS, I build those checks and human review into the team's automations and agents, using the same approved brand source for production and checking.
 
 ---
 
@@ -391,13 +391,13 @@ Brand OS:
   source:      the codified brand
   production:  automations and agents that make the work
   control:     checks against the source and the brand's rules
-  feedback:    approved updates to source, checks, and review paths
+  feedback:    approved updates to source, checks, and review process
   operators:   people who make the judgment calls and keep the source current
 ```
 
 ### What is Brand OS?, 01. Source
 
-The source brings the team’s brand decisions together as shared guidance for production and review. It records who the brand is for, what it can claim, and how it looks and sounds, with the facts and evidence behind those decisions. Each entry records where it came from and whether it was stated or inferred. Interpretations and unresolved questions go to the team for review.
+The source brings the team’s brand decisions together as shared guidance for production and review. It records who the brand is for, what it can claim, and how it looks and sounds, with the facts and evidence behind those decisions. Each entry records where it came from and whether it was stated or inferred. Interpretations and unresolved questions go to the team for review. The [codified brand template](what-goes-into-a-codified-brand.html) lists the 46 entries I start from.
 
 For a product launch, the source records the team's decisions about the facts and rules used in the product page, sales email, paid search copy, social posts, and internal review notes.
 
@@ -411,7 +411,7 @@ launch source:
   open questions:    gaps, conflicts, inferred items, decisions needed
 ```
 
-Each automation or agent is served the parts of the source its task needs through MCP, an open standard for connecting AI tools to outside data. For agencies serving multiple clients, each client brand has its own source.
+Each automation or agent is served the parts of the source its task needs [through MCP](brand-mcp.html), an open standard for connecting AI tools to outside data. For agencies serving multiple clients, each client brand has its own source.
 
 ### What is Brand OS?, 02. Production
 
@@ -432,7 +432,7 @@ production flow:
 
 Control separates what a machine can check from what a person should decide. Some questions have a right answer: whether a banned word appears, whether a claim includes its required condition, whether a product is in the catalog, and whether a color is in the approved palette.
 
-A check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, Claude was asked for a cooler Yowie doesn't make and wrote a full product page for it. The page passed every rule check; only a check against the product list caught it. In the same test, a customer reply promised free repair or replacement, with shipping both ways. Yowie's brand source says nothing about warranties, so no check in that test could catch those promises.
+A check answers the question it was built to ask, and passing it establishes only what it tested. In [a test I ran with Yowie](context-is-not-control.html), a demo outdoor-gear brand, 36 requests asked for a product Yowie doesn't make. Claude went along with three of them, including a full product page for a cooler. That page passed every rule check; only a check against the catalog flagged it. In the same test, a customer reply promised free repair or replacement, with shipping both ways. Yowie's brand source says nothing about warranties, so no check in that test could catch those promises.
 
 ```text
 check result (Yowie demo-brand test):
@@ -461,7 +461,7 @@ for the reviewer:
 
 A correction to a draft shouldn't automatically become a change to the brand. The problem may be an error in the draft, a case that calls for an exception, stale source material, or a rule that's too loose, too strict, or missing.
 
-Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it’s applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change. We use approved updates to improve how the system represents the brand and keep it current as the brand changes.
+Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it’s applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change. The same process keeps the source current as the brand changes.
 
 ```text
 feedback outcomes:
@@ -476,13 +476,14 @@ feedback outcomes:
 
 People make the brand decisions. They decide which exceptions are allowed, which rules should be enforced, and when source material needs updating.
 
-Roles like the brand owner, product owner, claims owner, design owner, and Brand OS lead each take the decisions in their area. On a small team, one person may hold several roles. A reviewer sees every draft, and decision owners settle the questions the reviewer can't answer. Decision owners also keep the source current as changes are approved.
+Roles like the brand owner, product owner, claims owner, legal owner, design owner, and Brand OS lead each take the decisions in their area. On a small team, one person may hold several roles. A reviewer sees every draft, and decision owners settle the questions the reviewer can't answer. The Brand OS lead keeps the source current as decision owners approve changes.
 
 ```text
 operators (example roles):
   brand owner:       voice, positioning, boundaries
   product owner:     facts, specifications, availability
   claims owner:      approved claims, evidence, conditions
+  legal owner:       disclosures, legal review, exceptions
   design owner:      visual rules and exceptions
   Brand OS lead:     adoption, team communications, keeping the source current
 ```
@@ -502,13 +503,13 @@ To request a brand-readiness assessment, send me an email.
 More:
 
 - [Context is not control](context-is-not-control.html)
-- [Serving your brand to AI tools](brand-mcp.html)
 - [A codified brand template](what-goes-into-a-codified-brand.html)
+- [Serving your brand to AI tools](brand-mcp.html)
 
 
 ## Context is not control
 
-*Brand documents shaped how Claude's copy sounded. They didn't stop it from inventing a cooler.*
+*The brand source shaped how Claude's copy sounded. It didn't keep Claude from inventing a cooler.*
 
 ### Context is not control, The problem
 
@@ -518,7 +519,7 @@ But a draft it writes can sound right while getting important things wrong. It c
 
 ### Context is not control, The test
 
-In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
 I ran two kinds of automated checks on every draft. Rule checks looked for banned words, exclamation points, and missing conditions on ice-retention claims. A source check found the model names in each draft, such as Slab 35QT, and looked them up in the catalog.
 
@@ -535,13 +536,13 @@ The catalog had a Slab 35QT, and Claude built the fake cooler out of it. The rea
 
 All three fake drafts passed the rule checks, and the source check flagged all three. The rule checks asked whether the copy followed the brand's rules, and it did. The source check asked whether the product existed, and it didn't. This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.
 
-The brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
+The brand source gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand source shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
 
 ### Context is not control, What a check can tell you
 
 Some brand requirements are straightforward to check, such as whether a banned word appears or a color matches an approved value. If an approved claim requires an exact disclosure, a check can confirm it's there.
 
-Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand information has no warranty terms, so none of the checks in this test could catch those promises.
+Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand source has no warranty terms, so none of the checks in this test could catch those promises.
 
 Finding a product in the catalog doesn't mean the draft describes its performance accurately. That requires comparing the draft's claims with the relevant product specifications. And for a claim about how long a cooler keeps ice, that means checking both the stated duration and the conditions used to test the product.
 
@@ -549,13 +550,15 @@ Some decisions need a person's judgment even when the facts are correct. A campa
 
 ### Context is not control, Where the corrections go
 
-A person on the team reviews each draft. Corrections to that draft can reveal problems in the brand information the AI is working from.
+A person on the team reviews each draft. Corrections to that draft can reveal problems in the brand source the AI is working from.
 
-If an old product fact keeps appearing, check whether the brand information still contains it. If the team keeps making the same edit, decide where the fix belongs. A phrase that should never appear belongs in the rules. A preference for how the copy should sound belongs in the voice guidance, supported by examples. Exact wording the team wants reused belongs in approved material. A mistake that should be caught on every draft belongs in a check.
+If an old product fact keeps appearing, check whether the brand source still contains it. If the team keeps making the same edit, decide where the fix belongs. A phrase that should never appear belongs in the rules. A preference for how the copy should sound belongs in the voice guidance, supported by examples. Exact wording the team wants reused belongs in approved material. A mistake that should be caught on every draft belongs in a check.
 
-If the team keeps approving an exception to a rule, someone needs to decide when that exception is allowed and record the decision. The team approves changes to the source, checks, or review process before future work uses them.
+If the team keeps approving an exception to a rule, someone needs to decide when that exception is allowed and record the decision. The owner of that decision approves changes to the source, checks, or review process before future work uses them.
 
-The brand information gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking.
+The brand source gives AI context. Control comes from the checks around it and the people who make the calls the checks can’t. With Agency State’s Brand OS, I build those checks and human review into the team’s automations and agents, using the same approved brand source for production and checking.
+
+To talk about working together, send me an email.
 
 
 ## A codified brand template
@@ -721,6 +724,8 @@ This is the baseline I start from when preparing a brand for AI tools: 46 entrie
                      interpretations, conflicts, gaps, proposed decisions, and
                      decisions recorded during review
 
+To talk about working together, send me an email.
+
 
 ## Serving your brand to AI tools
 
@@ -739,11 +744,11 @@ MCP is an open standard for connecting AI tools to outside data. For a brand, MC
 
 ### Serving your brand to AI tools, Source and server
 
-The source and the server are different things.
+The source and the serving layer are different things.
 
-The source is approved brand material, including structured files, provenance, rules, decisions, and review notes. The server reads it and answers requests from tools.
+The source is approved brand material, including structured files, provenance, rules, decisions, and review notes. The serving layer reads it and answers requests from tools.
 
-The team governs the brand material. The server handles access, caching, tool names, response formats, and connections.
+The team governs the brand material. The serving layer handles access, caching, tool names, response formats, and connections.
 
     pattern:
       brand source:
@@ -771,7 +776,7 @@ Connecting a server makes its tools available, but an agent still needs instruct
 
 ### Serving your brand to AI tools, Serving Agency State's brand
 
-My brand is codified as structured brand files, reviewed by me on October 27, 2026, with later updates checked by AI agents, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.
+My brand is codified as structured brand files, reviewed by me on October 27, 2026, with later updates checked by AI agents under my delegation, and served through an MCP server. A writing tool can request the phrases I rule out and how strictly each is treated.
 
     request:
       get_never_say()
@@ -797,23 +802,15 @@ A request for the claims decision owner returns my name, along with the brand's 
       brand_status:
         approval:     agent_reviewed
 
-    the pattern:
-      assess:   score the brand inventory
-      codify:   build the reviewed source
-      serve:    expose the source to agents and workflows
-      produce:  draft and adapt from the source
-      check:    compare output to the source
-      review:   a person reviews each draft
-      route:    send questions the reviewer cannot settle to the decision owner
-      update:   return approved corrections to the source
-
 ### Serving your brand to AI tools, Why it matters
 
 Brand copies in prompts, custom assistants, and agency decks can age differently.
 
 Serving one source lets people update the brand material that automations and agents use for both drafting and checking.
 
-MCP handles the connection. The brand work is deciding what the source contains, how to serve it, and who answers questions the source leaves open.
+MCP handles the connection. The brand work is deciding what the source contains, how to serve it, and who answers questions the source leaves open. [What is Brand OS?](brand-os.html) covers the checks and review that use the same source.
+
+To talk about working together, send me an email.
 
 ## Agency State homepage
 
@@ -867,13 +864,13 @@ More reading
 
 What is Brand OS?
 
-How a brand source, automations and agents, checks, and the people reviewing the work fit together.
+How a brand source, automations and agents, checks, and the people who review work and approve updates fit together.
 
 02
 
 Context is not control
 
-What one of my tests showed about giving AI brand information and checking what it writes.
+What one of my tests showed about giving AI a brand source and checking what it writes.
 
 03
 

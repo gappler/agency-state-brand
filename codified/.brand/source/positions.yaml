@@ -60,7 +60,7 @@ positions:
       date: { src: 'review by Greg Appler, 2026-10-27', conf: high, basis: authored }
     date: '2026-10-27'
   - id: feedback-needs-owner-approval
-    stance: "Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it's applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change. We use approved updates to improve how the system represents the brand and keep it current as the brand changes."
+    stance: "Each correction is recorded with what was decided and why. If that decision calls for a change to the source, checks, or review process, the owner of that decision approves the change before it's applied. Accepted changes go back into the source, checks, or review process, and the next draft uses the change. The same process keeps the source current as the brand changes."
     prov:
       src: brand-book, What is Brand OS?, 04. Feedback
       conf: high

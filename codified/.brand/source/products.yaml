@@ -51,7 +51,7 @@ claims:
       src: brand-book, Context is not control, The test
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-three-fabricated-drafts
@@ -60,7 +60,7 @@ claims:
       src: brand-book, Context is not control, The test
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-fake-cooler-composition
@@ -69,7 +69,7 @@ claims:
       src: brand-book, Context is not control, The test
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-rule-source-check-result
@@ -78,25 +78,25 @@ claims:
       src: brand-book, Context is not control, The test
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-context-result
-    claim: The brand information gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand information shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
+    claim: The brand source gave Claude context, and that context did most of the work. Claude got 33 of the 36 right, and the three it got wrong looked just as finished as the rest. The brand source shaped how the page sounded, but it didn't control everything the page claimed. To know what's been checked, you have to know what each check asked.
     prov:
       src: brand-book, Context is not control, The test
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
   - id: yowie-warranty-fabrication
-    claim: Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand information has no warranty terms, so none of the checks in this test could catch those promises.
+    claim: Other errors have nothing to be checked against. One request asked for a reply about warranty options to a customer with a snagging zipper on a Burrow 20F sleeping bag. Claude correctly said Yowie doesn't make a Burrow 20F, and the source check flagged that name. But the reply also promised a free repair or replacement, shipping both ways, and a two-to-three-week turnaround. Yowie's brand source has no warranty terms, so none of the checks in this test could catch those promises.
     prov:
       src: brand-book, Context is not control, What a check can tell you
       conf: high
       basis: confirmed
-    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand information and product catalog, then sent it marketing requests that included misleading product details.
+    conditions: 'In a test with Yowie, a demo outdoor-gear brand, I gave Claude Opus 5 the brand source, including the product catalog, then sent it marketing requests that included misleading product details.
 
       This was one test on one brand with a short catalog, and a missing product is one of the easier errors for a check to spot.'
     field_prov:

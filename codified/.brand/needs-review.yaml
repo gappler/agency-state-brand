@@ -4787,6 +4787,94 @@ items:
       - voice-register-channels-5
     id: voice-channel-variations-6
     supersedes: voice-channel-variations-5
+  - kind: inference
+    path: products.claims[yowie-fake-cooler-composition]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f6a83c63126f9e660ec1fc8f94e5d4f6c1bf085796865e64e3bd18e21cccd8bd
+    id: products-claims-yowie-fake-cooler-composition-2
+    supersedes: products-claims-yowie-fake-cooler-composition-1
+  - kind: inference
+    path: products.claims[yowie-missing-product-requests]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:b2a59b1080f94aff49ea2c0dca27ff72b6b336f747e8d0ac4b4bff6758735769
+    id: products-claims-yowie-missing-product-requests-3
+    supersedes: products-claims-yowie-missing-product-requests-2
+  - kind: inference
+    path: products.claims[yowie-three-fabricated-drafts]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:10de84db08f784f84669c54e7277bb3681ddf869bdbaa24ec87614cd7860c645
+    id: products-claims-yowie-three-fabricated-drafts-3
+    supersedes: products-claims-yowie-three-fabricated-drafts-2
+  - kind: inference
+    path: products.claims[yowie-rule-source-check-result]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:121be98e0eb12195c489d97aa1280cdfac4dcf5eb82600146b91be2839d54275
+    id: products-claims-yowie-rule-source-check-result-3
+    supersedes: products-claims-yowie-rule-source-check-result-2
+  - kind: inference
+    path: products.claims[yowie-context-result]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:de356f0aac235989745b81f30b0c4232c093da66af72c364427e66fc134440ee
+    id: products-claims-yowie-context-result-3
+    supersedes: products-claims-yowie-context-result-2
+  - kind: inference
+    path: products.claims[yowie-warranty-fabrication]
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:11042901196cdd4e7705bb695ea38e90bc8c750151a15e6f9d292bd802e0caa2
+    id: products-claims-yowie-warranty-fabrication-3
+    supersedes: products-claims-yowie-warranty-fabrication-2
+  - kind: inference
+    path: products.claims
+    status: confirmed
+    decision: "Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): the codified brand is 'brand source' (was 'brand information'), Greg 2026-11-17."
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:184c7a6093072c0ffd519ca3c4e5fbc42be71f9be5b45d5feb37b1dfad3fce67
+    id: products-claims-4
+    supersedes: products-claims-3
+  - kind: inference
+    path: approved_language.blocks
+    status: confirmed
+    decision: 'Re-quoted against book v2.6 (platform v3.14; site agency-state de369c6): published passages re-quoted from the live site after the 2026-11-17 set review (brand source, catalog, review process, serving layer, legal owner, delegation wording, pattern panel removed).'
+    decided_by: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    decided_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    value_hash: sha256:f57ddc78998a60a30b70670f56846dd6d6a9a93f8340803c201c0a3c1046ceab
+    id: approved-language-blocks-7
+    supersedes: approved-language-blocks-6
 reviews:
   - id: review-2026-10-27-1
     scope:
@@ -5178,3 +5266,40 @@ reviews:
       source/visual.yaml: sha256:77e87718a6f974987918a211cf5bcc7c45a78d8ec355a58754a2d873586178c9
       source/voice.yaml: sha256:b1f70eb3bc6ac395f01e73d4b46aa1a63ea23bd687815c48ca17bb07584d03a9
     supersedes: review-2026-11-06-10
+  - id: review-2026-11-17-12
+    scope:
+      - source/approved-language.yaml
+      - source/architecture.yaml
+      - source/brand.yaml
+      - source/decision-rights.yaml
+      - source/positioning.yaml
+      - source/positions.yaml
+      - source/products.yaml
+      - source/rules.yaml
+      - source/stories/greg-practice-background.md
+      - source/stories/yowie-fabrication-test.md
+      - source/stories/yowie-warranty-gap.md
+      - source/visual.yaml
+      - source/voice.yaml
+    confirms:
+      - verbatim
+      - authored
+    reviewer: Claude Code (platform v3.14 and 2026-11-17 site wording approved by Greg Appler)
+    reviewed_at: '2026-11-17'
+    reviewer_kind: agent
+    delegated_by: Greg Appler
+    files:
+      source/approved-language.yaml: sha256:e26157f3e0df827cd67296d781bfacf104c3b79371d5fd24932b038949e3d400
+      source/architecture.yaml: sha256:b471cf35176e5d7cece6b58853e442c81380ee277ce0797cd4bff3431e354fe7
+      source/brand.yaml: sha256:f0141f3a5af9f6293b5c2028ac1609a7b78146a29fc51eee7e265ab58efeceb0
+      source/decision-rights.yaml: sha256:32daf7d543230f7103e858e8cd93fd3a2e06ed16bc256dba1653935db214fffb
+      source/positioning.yaml: sha256:b944d25ecb1be65a2f5bb79dca62c27d8f1df33e8a24d584cef7c875aa57d9b6
+      source/positions.yaml: sha256:bdfd337fa653217bbe7a05ad1610bb88a05727151df986a1e2c0aa9e928ba1c7
+      source/products.yaml: sha256:fde51ee46a28e5d3ddc264d8ec11f070c8788a8189964f46b28bbd52883a2c39
+      source/rules.yaml: sha256:8e454d5266c1c8a1e0b26d9ad90098286d66e8bfdf5be8c2c19c4929dbee7789
+      source/stories/greg-practice-background.md: sha256:18825fd9e48df3fa2cd2221237106409cf567945fdc59add4ccb8156448af1fe
+      source/stories/yowie-fabrication-test.md: sha256:89e6d19fc2ad838635234afb0516e92857318381b0333cb8809bc2c3e0fa7bf8
+      source/stories/yowie-warranty-gap.md: sha256:a41a3d228f1f38e90c5c09c0656dd48998c2d3d7378b486f1f533842210039ea
+      source/visual.yaml: sha256:77e87718a6f974987918a211cf5bcc7c45a78d8ec355a58754a2d873586178c9
+      source/voice.yaml: sha256:a8188045c15f3eeb294b33e4626727caa8002a1e0cecd4d37f827c5386f55364
+    supersedes: review-2026-11-11-11
