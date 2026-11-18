@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
-  "compiled_at": "2026-11-18T01:37:17Z",
+  "compiled_at": "2026-11-18T01:51:37Z",
   "revisions": {
-    "source": "sha256:980fb7ff4eda81c50c92cb3c511d77174cf8ac104ed7db62a9e281c42d5ef9e5",
-    "review": "sha256:4992f2713846f3d7fd29a711f16073c4f40ad1e43723ab8ab39885134ab29d1b"
+    "source": "sha256:0208fbf551fc7b03b0ad25c9ccc5a57e5e1b826e46c5e250117394c6af0893ac",
+    "review": "sha256:60052dd613c480da1a2217092b4052648bfa2d05c21e19ebf04fd60a6c36e1be"
   },
   "voice_rules": {
     "never_say": [
@@ -1435,7 +1435,7 @@
     },
     {
       "id": "definition-brand-os",
-      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review paths), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
+      "text": "**Brand OS.** Agency State's approach to putting AI to work on a brand: one approved brand source AI can read, the automations and agents that source is served to, checks on their work, and the people who review the work and make the judgment calls. In five parts: Source (the codified brand), Production (the automations and agents that make the team's work), Control (checks against the source and the brand's rules, with every draft reviewed by a person and questions sent to decision owners), Feedback (approved updates to source, checks, and review process), and Operators (the people who make the decisions and keep the system current). Use **Agency State's Brand OS** on first reference and **Brand OS** after that. An engagement can be as small as a first automation or agent on the approved source, or a full Brand OS. Agency State builds it with the team, then works closely with its Brand OS lead to track where the AI work misses the brand, make approved updates to the source and checks, and extend the system. Internal tools, repositories, and commands retain their technical names. Public copy uses Brand OS in place of the former BrandBuilder name."
     },
     {
       "id": "definition-brand-os-lead",

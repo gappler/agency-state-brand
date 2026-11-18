@@ -72,7 +72,7 @@ sells_against:
 
     - **Not a branding engagement.** Agency State codifies an established brand. The team and its agencies make the brand decisions, including resolving conflicts and gaps Greg identifies. Positioning development, naming, and identity design are separate work; the assessment identifies when they are needed.
 
-    - **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. Setting up or working within a team''s existing project files, repositories, and instructions is part of the work; taking on maintenance of automations, agents, or systems built elsewhere is not. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review paths established through that work.'
+    - **Not a caretaker of systems built elsewhere.** The ongoing work (advising and handling what comes up) attaches to builds Agency State was part of. Setting up or working within a team''s existing project files, repositories, and instructions is part of the work; taking on maintenance of automations, agents, or systems built elsewhere is not. A team arriving with an existing setup is welcome; the path is an assessment and a rebuild on this method, not maintenance of the setup as it stands. The ongoing work measures and improves the system built with the team; it depends on the source, checks, and review process established through that work.'
   prov:
     src: brand-book, Agency State Brand Platform, 9. What Agency State is not
     conf: high

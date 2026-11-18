@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "baseline_version": "1.1",
-  "compiled_at": "2026-11-18T01:37:17Z",
+  "compiled_at": "2026-11-18T01:51:37Z",
   "summary": {
     "required": {
       "filled": 28,
@@ -318,8 +318,8 @@
   ],
   "coverage_gaps": [],
   "revisions": {
-    "source": "sha256:980fb7ff4eda81c50c92cb3c511d77174cf8ac104ed7db62a9e281c42d5ef9e5",
-    "review": "sha256:4992f2713846f3d7fd29a711f16073c4f40ad1e43723ab8ab39885134ab29d1b"
+    "source": "sha256:0208fbf551fc7b03b0ad25c9ccc5a57e5e1b826e46c5e250117394c6af0893ac",
+    "review": "sha256:60052dd613c480da1a2217092b4052648bfa2d05c21e19ebf04fd60a6c36e1be"
   },
   "unknown_fields": [],
   "ledger": {
@@ -785,7 +785,7 @@
       "human_decisions": 325,
       "agent_decisions": 47,
       "agent_record_ids": [
-        "approved-language-blocks-7",
+        "approved-language-blocks-8",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -798,7 +798,7 @@
         "approved-language-blocks-published-context-is-no-1",
         "approved-language-blocks-published-context-is-no-2",
         "approved-language-boilerplate-3",
-        "positioning-sells-against-refuses-1",
+        "positioning-sells-against-refuses-2",
         "products-claims-4",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
@@ -808,7 +808,7 @@
         "products-claims-yowie-rule-source-check-result-3",
         "products-claims-yowie-three-fabricated-drafts-3",
         "products-claims-yowie-warranty-fabrication-3",
-        "review-2026-11-17-12",
+        "review-2026-11-17-13",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
@@ -841,8 +841,8 @@
   "approval": {
     "status": "agent_reviewed",
     "revisions": {
-      "source": "sha256:980fb7ff4eda81c50c92cb3c511d77174cf8ac104ed7db62a9e281c42d5ef9e5",
-      "review": "sha256:4992f2713846f3d7fd29a711f16073c4f40ad1e43723ab8ab39885134ab29d1b"
+      "source": "sha256:0208fbf551fc7b03b0ad25c9ccc5a57e5e1b826e46c5e250117394c6af0893ac",
+      "review": "sha256:60052dd613c480da1a2217092b4052648bfa2d05c21e19ebf04fd60a6c36e1be"
     },
     "checks": {
       "ledger_valid": true,
@@ -859,7 +859,7 @@
       "human_decisions": 325,
       "agent_decisions": 47,
       "agent_record_ids": [
-        "approved-language-blocks-7",
+        "approved-language-blocks-8",
         "approved-language-blocks-company-description-100-8",
         "approved-language-blocks-company-description-100-9",
         "approved-language-blocks-company-description-25--4",
@@ -872,7 +872,7 @@
         "approved-language-blocks-published-context-is-no-1",
         "approved-language-blocks-published-context-is-no-2",
         "approved-language-boilerplate-3",
-        "positioning-sells-against-refuses-1",
+        "positioning-sells-against-refuses-2",
         "products-claims-4",
         "products-claims-brand-os-built-parts-1",
         "products-claims-principal-experience-2",
@@ -882,7 +882,7 @@
         "products-claims-yowie-rule-source-check-result-3",
         "products-claims-yowie-three-fabricated-drafts-3",
         "products-claims-yowie-warranty-fabrication-3",
-        "review-2026-11-17-12",
+        "review-2026-11-17-13",
         "rules-formatting-brand-os-name-route-to-1",
         "rules-formatting-brand-os-name-severity-1",
         "rules-formatting-brand-os-replaces-brandbuilder--1",
